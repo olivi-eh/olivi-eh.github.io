@@ -40,6 +40,28 @@ h4 {
 }
 
 
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3498db #262b2f;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #262b2f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 20px;
+  border: 3px solid #262b2f;
+}
+
+
 
 #particles-js {
   width: 100%;
@@ -224,12 +246,6 @@ a.blue-link:hover {
   max-width: 225px;
   max-height: 50px;
   height: auto;
-
-  image-rendering: -moz-crisp-edges;         /* Firefox */
-  image-rendering:   -o-crisp-edges;         /* Opera */
-  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
-  image-rendering: crisp-edges;
-  -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
 
 
@@ -242,13 +258,16 @@ a.blue-link:hover {
     text-align: left;
   }
   .clouds {
-    margin-left: calc(-1700px + 100vw);
+    margin-left: calc(-1650px + 100vw);
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   h3 {
     text-align: left;
+  }
+  h4 {
+    font-size: 1.5rem;
   }
   #resume h1 {
     text-align: left;
@@ -258,11 +277,11 @@ a.blue-link:hover {
     word-break: keep-all;
   }
   #buttons {
-    display: none;
+    display: inline-flex;
   }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 600px) {
   #header {
     height: calc(100vh - 100px);
   }

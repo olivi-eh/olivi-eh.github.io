@@ -29,8 +29,7 @@ body {
 }
 
 .resume-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
+  padding: 30px 0 30px 20px;
   border-left: 2px solid #1F78C6;
   position: relative;
   line-height: 1.6;
@@ -43,7 +42,7 @@ body {
   height: 16px;
   border-radius: 50px;
   left: -9px;
-  top: 7px;
+  top: 37px;
   background: #fff;
   border: 2px solid #1F78C6;
 }
@@ -67,9 +66,18 @@ h2 {
 }
 
 h3 {
+  color: #1F78C6;
   font-weight: 700;
   font-variant-caps: all-petite-caps;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #1F78C6, 
+      rgba(0, 0, 0, 0)
+    ) 0 1 100%;
 }
 
 h4 {
@@ -85,7 +93,6 @@ h4 {
 
 #header a:hover {
   color: white;
-  /* font-weight: bolder; */
   text-shadow:0px 0px 1px white;
 }
 

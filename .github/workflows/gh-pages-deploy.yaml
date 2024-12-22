@@ -28,6 +28,7 @@ jobs:
       - name: Build and deploy to gh-pages
         run: |
           git checkout --orphan gh-pages-test
+          chmod +x make.sh md2html.py
           ./make.sh
           git --work-tree out add --all
           git --work-tree out commit -m "Automated out build"

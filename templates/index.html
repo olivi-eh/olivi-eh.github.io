@@ -1,0 +1,11 @@
+{% include "!prefix.html" %}
+<main>
+  <div id="main-content">
+    {{ md_html }}
+
+    {% with posts = blog_pages_meta[:5] %}
+      {% include "!blog-list.html" %}
+    {% endwith %}
+  </div>
+</main>
+{% include "!suffix.html" %}

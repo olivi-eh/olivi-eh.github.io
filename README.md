@@ -1,12 +1,17 @@
-# Outline
+# Personal website
 
-Outline is my online one-page resume. It uses Material Design specifications as well as
-the particles.js library.
+This repository contains my personal website, which is hosted on [olivi-eh.dev](https://olivi-eh.dev/).
 
-## How to Run
+## How to run
 
-It's just plain old HTML, any browser will do!
+The following command will generate the HTML files from MD input:
 
-## Development State
+```sh
+./make.sh
+```
 
-Outline is not currently being actively worked on as it fulfils all of my current needs.
+And then you can use a simple Python server to serve the assets:
+
+```sh
+python3 -m http.server -d out/ 8080
+```

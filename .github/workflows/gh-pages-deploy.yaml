@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  gh-pages-deploy:
+    name: Deploying to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+         uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      # - name: Install packages
+      #   run: |
+      #     python3 install 
+
+      - name: Build and deploy to gh-pages
+        run: |
+          git checkout --orphan gh-pages-test
+          ./make.sh
+          git --work-tree out add --all
+          git --work-tree out commit -m "Automated out build"
+          git push origin HEAD:gh-pages --force

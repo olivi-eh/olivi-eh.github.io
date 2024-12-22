@@ -1,0 +1,29 @@
+{% include "!prefix.html" %}
+<main>
+  <div id="main-header">
+    <h2>{{ title_raw }}</h2>
+    
+    <p>
+      <i class="fa-duotone fa-light fa-message-lines" style="color: #770606"></i>
+      <b>Description</b>: “{{ description }}”
+    </p>
+    
+    <p>
+      <i class="fa-duotone fa-light fa-tags" style="color: #1f1fbd"></i>
+      <b>Tags</b>:
+      {% for tag in tags %}
+        #{{ tag }}{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    </p>
+    
+    <p>
+      <i class="fa-duotone fa-light fa-calendar-lines-pen" style="color: #0a600a"></i>
+      <b>Published</b>: {{ published_formatted }}
+    </p>
+  </div>
+
+  <div id="main-content">
+    {{ md_html }}
+  </div>
+</main>
+{% include "!suffix.html" %}

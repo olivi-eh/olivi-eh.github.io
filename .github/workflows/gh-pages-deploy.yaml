@@ -21,9 +21,9 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
 
-      # - name: Install packages
-      #   run: |
-      #     python3 install 
+      - name: Install packages
+        run: |
+          pip3 install markdown
 
       - name: Build and deploy to gh-pages
         run: |

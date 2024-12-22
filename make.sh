@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 rm -Rf out/
 
 python3 md2html.py

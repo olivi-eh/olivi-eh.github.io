@@ -23,7 +23,7 @@ jobs:
 
       - name: Install packages
         run: |
-          pip3 install markdown jinja2
+          pip3 install -r requirements.txt
 
       - name: Build and deploy to gh-pages
         run: |

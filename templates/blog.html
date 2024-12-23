@@ -5,10 +5,10 @@
 
     <p>“{{ description }}”</p>
 
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen" style="color: #0a600a"></i>
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
     {{ published_formatted }}</span>
 
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags" style="color: #1f1fbd"></i>
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-blue"></i>
     {% for tag in tags %}
       #{{ tag }}{% if not loop.last %}, {% endif %}
     {% endfor %}

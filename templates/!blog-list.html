@@ -7,15 +7,15 @@
           <div>
             <b style="font-size: 1.2em">{{ post.title_raw }}</b><br />
 
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-book-open" style="color: #770606"></i>
-              <a href="{{ post.url_absolute }}">Read the post</a>
+            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-book-open color-red"></i>
+              <a href="{{ post.url_absolute }}">Read this post</a>
             </span>
 
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen" style="color: #0a600a"></i>
+            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
               {{ post.published_formatted }}
             </span>
 
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags" style="color: #1f1fbd"></i>
+            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-blue"></i>
               {% for tag in post.tags %}
                 #{{ tag }}{% if not loop.last %}, {% endif %}
               {% endfor %}

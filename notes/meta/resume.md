@@ -15,8 +15,8 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
     <div class="resume-card-header">
       <div>
         <b>Senior Software Developer</b> at <b>Google</b><br>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2020 — Now</span>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Kitchener, ON</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2020 — Now</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Kitchener, ON</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-google.png" alt="Logo for Google">
     </div>
@@ -35,8 +35,8 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
     <div class="resume-card-header">
       <div>
         <b>Senior Software Developer</b> at <b>Google</b><br>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2018 — 2020</span>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2018 — 2020</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Moncton, NB</span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-dell-emc.png" alt="Logo for Dell EMC">
     </div>
@@ -68,8 +68,8 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
     <div class="resume-card-header">
       <div>
         <b>Creator</b> of <b>XIV ToDo</b><br>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2021 — Now</span>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-link me-1"></i><a href="https://xivtodo.com" target="_blank">Website</a></span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2021 — Now</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-globe-pointer me-1 color-aqua"></i><a href="https://xivtodo.com" target="_blank">Website</a></span>
         <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/bourgeoisor/xivtodo" target="_blank">Source</a></span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-xivtodo.png" alt="Logo for XIV ToDo">
@@ -98,8 +98,8 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
     <div class="resume-card-header">
       <div>
         <b>B.Sc. Computer Science</b> at <b>Mount Allison University</b><br>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2014 — 2018</span>
-        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2014 — 2018</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Sackville, NB</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-mount-allison.png" alt="Logo for Mount Allison University">
     </div>

@@ -4,29 +4,29 @@ modified: 2024-12-21
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i> About
 
-If you're here, you're likely curious about me. Why this page? Life is short, and if it helps
-someone connect over shared interests, that's a win. This page also serves as a sort of ever-evolving
-auto-biography. See something interesting? Have questions? I'd love to [here from you](/contact/)!
+If you're here, you're likely curious about me. Why this page? **Life is short**, and if it helps
+someone connect over shared interests, that's a win. This page also serves as a sort of **ever-evolving
+auto-biography**. See something interesting? Have questions? I'd love to [here from you](/contact/)!
 
 ### Hobbies & interests
 
 Some things that inspire me. In no particular order.
 
-- <i class="fa-duotone fa-light fa-microchip" style="color: #320c86"></i>
+- <i class="fa-duotone fa-light fa-microchip color-purple"></i>
 Technology
-- <i class="fa-duotone fa-light fa-house-tree" style="color: #1b860c"></i>
+- <i class="fa-duotone fa-light fa-house-tree color-green"></i>
 Urbanism (with a focus on liveability, walkability, and transit)
-- <i class="fa-duotone fa-light fa-radio" style="color: #0c8686"></i>
+- <i class="fa-duotone fa-light fa-radio color-aqua"></i>
 Listening to music (all genre, but tend towards progressive rock and metal)
-- <i class="fa-duotone fa-light fa-guitars" style="color: #860c0c"></i>
+- <i class="fa-duotone fa-light fa-guitars color-red"></i>
 Playing music (drums, guitar)
-- <i class="fa-duotone fa-light fa-passport" style="color: #0c1486"></i>
+- <i class="fa-duotone fa-light fa-passport color-blue"></i>
 Travelling (visited 16+ countries, 60+ flights)
-- <i class="fa-duotone fa-light fa-camera-retro" style="color: #860c6d"></i>
+- <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
 Photography (usually a Pentax K-50 with a 35mm lens)
-- <i class="fa-duotone fa-light fa-books" style="color: #0c6986"></i>
+- <i class="fa-duotone fa-light fa-books color-aqua"></i>
 Learning about new topics
-- <i class="fa-duotone fa-light fa-person-hiking" style="color: #86510c"></i>
+- <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
 Hiking and spending time in nature (or in botanical gardens)
 
 ### Assorted fun facts
@@ -48,7 +48,7 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 
 Everything listed below, I could re-listen / re-read / re-play / re-watch over and over again!
 
-<i class="fa-duotone fa-light fa-radio" style="color: #0c8686"></i>
+<i class="fa-duotone fa-light fa-radio color-aqua"></i>
 **Music**
 
 - Ayreon
@@ -62,7 +62,7 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - Tool
 - Yes
 
-<i class="fa-duotone fa-light fa-book" style="color: #8418dd"></i>
+<i class="fa-duotone fa-light fa-book color-purple"></i>
 **Books**
 
 - 1984
@@ -72,7 +72,7 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - The Little Prince (in French)
 - The Lord of the Rings (series)
 
-<i class="fa-duotone fa-light fa-game-console-handheld" style="color: #b35c10"></i>
+<i class="fa-duotone fa-light fa-game-console-handheld color-orange"></i>
 **Video games**
 
 - Age of Empires II
@@ -84,7 +84,7 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - Stardew Valley
 - Trials of Mana
 
-<i class="fa-duotone fa-light fa-camera-movie" style="color: #b90e76"></i>
+<i class="fa-duotone fa-light fa-camera-movie color-pink"></i>
 **Films**
 
 - Airplane!
@@ -96,7 +96,7 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - The Dark Knight (series)
 - The Lord of the Rings (series)
 
-<i class="fa-duotone fa-light fa-tv" style="color: #b90e76"></i>
+<i class="fa-duotone fa-light fa-tv color-pink"></i>
 **Series**
 
 - Adventure Time
@@ -104,7 +104,7 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - Futurama
 - Game of Thrones
 
-<i class="fa-duotone fa-light fa-tv-retro" style="color: #b90e76"></i>
+<i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
 **Anime**
 
 - Angel Beats!

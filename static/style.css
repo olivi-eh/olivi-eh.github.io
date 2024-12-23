@@ -8,33 +8,37 @@
 
   --text-color: #282829;
   --text-muted-color: #6a6c72;
-  --header-color: #1466bd;
+  --header-color: #2a7dd5;
+  --link-color: #2a7dd5;
 
-  --link-color: #086cff;
-  --link-background-color-hover: #97bfff24;
-  --link-shadow-color: #b9c4da;
-  --link-nav-background-color-hover: #5994f324;
-
-  --pre-background-color: #eaf1fb;
-  --pre-border-color: #c9dfff;
+  --color-red: #860c0c;
+  --color-green: #1b860c;
+  --color-blue: #1e50c6;
+  --color-aqua: #068074;
+  --color-pink: #860c6d;
+  --color-orange: #86510c;
+  --color-purple: #8418dd;
 }
 
 :root[data-theme="dark"] {
   /* TODO: WIP */
-  --background-color: #1f1f1f;
-  --main-background-color: #262626;
-  --off-main-background-color: #eaeaea;
+  --background-color: #1a1a1a;
+  --background-off-color: #171818;
+  --main-background-color: #111111;
+  --borders-color: #5b6069;
 
-  --text-color: #e3e3f9;
-  --header-color: #3c8ee6;
+  --text-color: #f2f2f2;
+  --text-muted-color: #969aa7;
+  --header-color: #2e8cf0;
+  --link-color: #5299ff;
 
-  --link-color: #86b2f1;
-  --link-background-color-hover: #97bfff24;
-  --link-shadow-color: #070c16;
-  --link-nav-background-color-hover: #5994f324;
-
-  --pre-background-color: #173560;
-  --pre-border-color: #c9dfff;
+  --color-red: #d14a4a;
+  --color-green: #2fd12f;
+  --color-blue: #7298f0;
+  --color-aqua: #45d9cb;
+  --color-pink: #dd64c4;
+  --color-orange: #dba053;
+  --color-purple: #c186f2;
 }
 
 ::selection {
@@ -76,7 +80,6 @@ main {
   background-color: var(--main-background-color);
   border-radius: 20px;
   border: 1px solid var(--borders-color);
-  box-shadow: 0.3em 0.3em 1em rgb(229, 233, 243);
 }
 
 #main-header {
@@ -109,7 +112,8 @@ header {
   float: left;
   margin-right: 20px;
   border: 1px solid var(--borders-color);
-  box-shadow: 0.3em 0.3em 1em rgb(229, 233, 243);
+  background-color: var(--main-background-color);
+  padding: 3px;
 }
 
 #header-card {
@@ -135,7 +139,6 @@ header > nav {
   height: 35px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0.3em 0.3em 1em rgb(229, 233, 243);
 }
 
 header > nav > ul {
@@ -160,7 +163,7 @@ header > nav > ul > li > a {
 }
 
 header > nav > ul > li > a:hover {
-  background-color: var(--link-nav-background-color-hover);
+  background-color: var(--background-off-color);
 }
 
 /* Footer */
@@ -240,16 +243,16 @@ main a[target="_blank"]:after {
 }
 
 p > code {
-  background-color: var(--pre-background-color);
-  border: 1px solid var(--pre-border-color);
+  background-color: var(--background-off-color);
+  border: 1px solid var(--borders-color);
   border-radius: 3px;
   padding: 0 3px;
   margin: 0 3px;
 }
 
 pre code {
-  background-color: var(--pre-background-color);
-  border: 1px solid var(--pre-border-color);
+  background-color: var(--background-off-color);
+  border: 1px solid var(--borders-color);
   border-radius: 10px;
   padding: 15px;
   padding-left: 20px;
@@ -295,6 +298,34 @@ pre code {
 
 .no-wrap {
   white-space: nowrap;
+}
+
+.color-red {
+  color: var(--color-red);
+}
+
+.color-green {
+  color: var(--color-green);
+}
+
+.color-blue {
+  color: var(--color-blue);
+}
+
+.color-aqua {
+  color: var(--color-aqua);
+}
+
+.color-pink {
+  color: var(--color-pink);
+}
+
+.color-orange {
+  color: var(--color-orange);
+}
+
+.color-purple {
+  color: var(--color-purple);
 }
 
 /* Resume cards */

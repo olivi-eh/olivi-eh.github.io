@@ -2,10 +2,12 @@
 
 :root {
   --background-color: #f6f8fc;
+  --background-off-color: #f4f6fb80;
   --main-background-color: #ffffff;
-  --off-main-background-color: #eaeaea;
+  --borders-color: #d1d7e4;
 
   --text-color: #282829;
+  --text-muted-color: #6a6c72;
   --header-color: #1466bd;
 
   --link-color: #086cff;
@@ -73,7 +75,7 @@ body {
 main {
   background-color: var(--main-background-color);
   border-radius: 20px;
-  border: 1px solid #d1d7e4;
+  border: 1px solid var(--borders-color);
   box-shadow: 0.3em 0.3em 1em rgb(229, 233, 243);
 }
 
@@ -84,8 +86,8 @@ main {
   padding-bottom: 15px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-color: #f4f6fb80;
-  border-bottom: 1px solid #d1d7e4;
+  background-color: var(--background-off-color);
+  border-bottom: 1px solid var(--borders-color);
 }
 
 #main-content {
@@ -106,7 +108,7 @@ header {
   border-radius: 3em;
   float: left;
   margin-right: 20px;
-  border: 1px solid #d1d7e4;
+  border: 1px solid var(--borders-color);
   box-shadow: 0.3em 0.3em 1em rgb(229, 233, 243);
 }
 
@@ -129,7 +131,7 @@ header > nav {
   padding: 0 20px;
   background-color: var(--main-background-color);
   border-radius: 20px;
-  border: 1px solid #d1d7e4;
+  border: 1px solid var(--borders-color);
   height: 35px;
   display: flex;
   justify-content: space-between;
@@ -167,7 +169,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 30px 30px;
-  color: #6a6c72;
+  color: var(--text-muted-color);
 }
 
 /* Tags */
@@ -183,7 +185,8 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Delius", sans-serif;
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
   color: var(--header-color);
   margin-bottom: 0px;
 }
@@ -208,7 +211,7 @@ h4 {
 hr {
   margin-top: 30px;
   border: 0;
-  border-top: 1px solid var(--off-main-background-color);
+  border-top: 1px solid var(--borders-color);
 }
 
 strong, b {
@@ -290,6 +293,10 @@ pre code {
   margin-right: 0.4em;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 /* Resume cards */
 
 .resume-cards-group {
@@ -321,15 +328,19 @@ pre code {
 }
 
 .resume-card {
-  border: 1px solid var(--pre-border-color);
+  border: 1px solid var(--borders-color);
 }
 
 .resume-card-header {
-  background-color: var(--pre-background-color);
+  background-color: var(--background-off-color);
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.resume-card-content {
+  border-top: 1px solid var(--borders-color);
 }
 
 .resume-card-content > ul {
@@ -342,7 +353,15 @@ pre code {
 
 #blog-list > .blog-list-item:not(:last-child) {
   padding-bottom: 20px;
-  border-bottom: 1px solid var(--off-main-background-color);
+  border-bottom: 1px solid var(--borders-color);
+}
+
+#blog-list > .resume-cards-group:first-child {
+  margin-top: 20px;
+}
+
+#blog-list > .resume-cards-group:not(:first-child) {
+  margin-top: 30px;
 }
 
 /* Responsiveness */
@@ -371,6 +390,10 @@ pre code {
   #header-card {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  #blog-list > .resume-cards-group:not(:first-child) {
+    margin-top: 15px;
   }
 
   footer {

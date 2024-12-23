@@ -11,8 +11,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Senior Software Developer</b> at <b>Google</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2020 — Now</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Kitchener, ON</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2020 — Now</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Kitchener, ON</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-google.png" alt="Logo for Google">
     </div>
@@ -31,8 +31,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Senior Software Developer</b> at <b>Google</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2018 — 2020</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2018 — 2020</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-dell-emc.png" alt="Logo for Dell EMC">
     </div>
@@ -52,8 +52,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Research Assistant</b> at <b>Mount Allison University</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2018</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2018</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-mount-allison.png" alt="Logo for Mount Allison University">
     </div>
@@ -70,8 +70,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Software Developer</b> at <b>Canada Moto Guide</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2016 — 2017</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2016 — 2017</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
       </div>
       <img class="no-radius h-35 d-sm-none" src="/static/assets/logo-canada-moto-guide.png" alt="Logo for Canada Moto Guide">
     </div>
@@ -88,8 +88,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Software Development Intern</b> at <b>Dell EMC</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2017</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2017</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-dell-emc.png" alt="Logo for Dell EMC">
     </div>
@@ -106,8 +106,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>IT Technician</b> at <b>Mount Allison University</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2015 — 2017</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2015 — 2017</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-mount-allison.png" alt="Logo for Mount Allison University">
     </div>
@@ -124,8 +124,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Teaching Assistant</b> at <b>Mount Allison University</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2015 — 2017</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2015 — 2017</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Sackville, NB</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-mount-allison.png" alt="Logo for Mount Allison University">
     </div>
@@ -142,8 +142,8 @@ modified: 2024-12-21
     <div class="resume-card-header">
       <div>
         <b>Software Development Intern</b> at <b>EMC Corporation</b><br>
-        <span class="me-2"><i class="fa-regular fa-calendar me-1"></i>2016</span>
-        <span class="me-2"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-calendar me-1"></i>2016</span>
+        <span class="me-2 no-wrap"><i class="fa-regular fa-location-dot me-1"></i>Moncton, NB</span>
       </div>
       <img class="no-radius h-35 d-sm-none" src="/static/assets/logo-emc-corporation.png" alt="Logo for EMC Corporation">
     </div>

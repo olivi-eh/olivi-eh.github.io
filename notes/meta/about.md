@@ -4,14 +4,9 @@ modified: 2024-12-21
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i> About
 
-If you're here, you're likely interested in learning more about me. Why did I build this page? 
-Firstly, because life is short, and if this fast-tracks someone realizing we like the same weird
-musical act through here and reaches out, that's a win. Secondly, because life is short (bis),
-and were I be abducted by some extra-terrestrial creatures, I'd like this page to be a
-sort of ever-living biography.
-
-Do you see something here that sparks interest? Have any questions at all?
-I'd love to hear it! [Let me know](/contact/) and let's chat about it!
+If you're here, you're likely curious about me. Why this page? Life is short, and if it helps
+someone connect over shared interests, that's a win. This page also serves as a sort of ever-evolving
+auto-biography. See something interesting? Have questions? I'd love to [here from you](/contact/)!
 
 ### Hobbies & interests
 

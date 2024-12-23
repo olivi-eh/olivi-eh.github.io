@@ -36,6 +36,7 @@ This page contains a non-exhaustive list of my active projects. [View my resume]
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-globe-pointer me-1 color-aqua"></i><a href="https://olivi-eh.dev" target="_blank">Website</a></span>
         <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/bourgeoisor/bourgeoisor.github.io" target="_blank">Source</a></span>
       </div>
+      <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-olivi-eh.png" alt="Logo for olivi-eh/">
     </div>
     <div class="resume-card-content">
       <ul>

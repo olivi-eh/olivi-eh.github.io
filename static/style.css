@@ -42,7 +42,7 @@
 }
 
 ::selection {
-  background: var(--pre-border-color);
+  background: var(--borders-color);
 }
 
 @font-face {

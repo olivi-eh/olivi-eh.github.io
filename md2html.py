@@ -4,7 +4,7 @@ import os
 from datetime import date, datetime
 
 default_title = 'Olivier Bourgeois: Cloud and backend software developer'
-default_description = 'Cloud and backend software developer based in Canada. Specializes in Golang, Java, and Kubernetes. Thrives on great developer experiences.'
+default_description = 'Cloud and backend software developer based in Canada. Specializes in Golang, Kubernetes, and fostering delightful developer experiences.'
 author = 'Olivier Bourgeois'
 domain = 'https://olivi-eh.dev/'
 j2env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))

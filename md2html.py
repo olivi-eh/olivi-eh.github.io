@@ -23,7 +23,7 @@ def format_date_str(date_str):
     except ValueError:
         return None
 
-def process_note(input_filename, output_filename, blog_pages_meta=None, blog_pages_meta_append=True):
+def process_note(input_filename, output_filename, pages_meta):
     with open(input_filename, 'r', encoding='utf-8') as f:
         text = f.read()
         md = markdown.Markdown(extensions=['meta', 'extra', 'smarty'])
@@ -41,7 +41,7 @@ def process_note(input_filename, output_filename, blog_pages_meta=None, blog_pag
         'published_formatted': format_date_str(md.Meta.get('published', [''])[0]),
         'url': get_url_from_filepath(output_filename),
         'url_absolute': get_url_from_filepath(output_filename).replace(domain, "/"),
-        'blog_pages_meta': blog_pages_meta
+        'pages_meta': pages_meta
     }
 
     template_name = md.Meta.get('template', ['default'])[0]
@@ -50,31 +50,30 @@ def process_note(input_filename, output_filename, blog_pages_meta=None, blog_pag
     with open(output_filename, 'w', encoding='utf-8') as f:
         f.write(html)
 
-    if blog_pages_meta is not None and blog_pages_meta_append:
-        vars.pop('md_html')
-        blog_pages_meta.append(vars)
+    vars.pop('md_html')
+    pages_meta.append(vars)
 
 def process_notes():
     print('Rendering pages... ', end='', flush=True)
 
-    blog_pages_meta = []
+    pages_meta = []
     for dirpath, dirnames, filenames in os.walk('notes/blog/'):
         for filename in filenames:
             filepath_in = os.path.join(dirpath, filename)
             filepath_out = os.path.join(os.getcwd(), 'out', filename.replace('.md', '.html'))
             os.makedirs(os.path.dirname(filepath_out), exist_ok=True)
-            process_note(filepath_in, filepath_out, blog_pages_meta, blog_pages_meta_append=True)
-    blog_pages_meta = sorted(blog_pages_meta, key=lambda x: x["published"], reverse=True)
+            process_note(filepath_in, filepath_out, pages_meta)
+    pages_meta = sorted(pages_meta, key=lambda x: x["published"], reverse=True)
 
     for dirpath, dirnames, filenames in os.walk('notes/meta/'):
         for filename in filenames:
             filepath_in = os.path.join(dirpath, filename)
             filepath_out = os.path.join(os.getcwd(), 'out', filename.replace('.md', '.html'))
             os.makedirs(os.path.dirname(filepath_out), exist_ok=True)
-            process_note(filepath_in, filepath_out, blog_pages_meta, blog_pages_meta_append=False)
+            process_note(filepath_in, filepath_out, pages_meta)
 
     print('Done!')
-    return blog_pages_meta
+    return pages_meta
 
 def generate_sitemap(pages_meta):
     print('Generating sitemap... ', end='', flush=True)

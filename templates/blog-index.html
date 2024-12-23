@@ -3,7 +3,7 @@
   <div id="main-content">
     {{ md_html }}
 
-    {% with posts = blog_pages_meta %}
+    {% with posts = pages_meta %}
       {% include "!blog-list.html" %}
     {% endwith %}
   </div>

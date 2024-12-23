@@ -1,5 +1,6 @@
 <div id="blog-list">
   {% for post in posts %}
+    {% if post.published %}
     <div class="blog-list-item">
       <h4>{{ post.title_raw }}</h4>
 
@@ -17,5 +18,6 @@
       {% endfor %}
       </span>
     </div>
+    {% endif %}
   {% endfor %}
 </div>

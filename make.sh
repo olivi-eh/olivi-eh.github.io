@@ -19,4 +19,5 @@ do
 done
 
 cp -R static/ out/
+cp -R home/ out/
 cp 404.html CNAME robots.txt out/

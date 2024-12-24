@@ -14,20 +14,20 @@ The idea for this page was inspired by [Derek Siver's](https://sive.rs/now){:tar
 _Updated as of December 21, 2024._
 
 <i class="fa-duotone fa-light fa-location-dot color-red"></i>
-Living in **Waterloo, Canada**.
+Living in **Waterloo (ON)** in Canada.
 
 <i class="fa-duotone fa-light fa-briefcase color-blue"></i>
 Working full-time at **Google** in the **Developer Relations** team in Google Cloud. And I just passed my 4th workversary a few weeks ago!
 
 <i class="fa-duotone fa-light fa-plane-departure color-aqua"></i>
-Most recently arrived from a 3-weeks vacation in **Japan** and a 1-week trip in **Salt Lake City**. Photos incoming soon hopefully!
+Most recently arrived from a 3-weeks vacation in **Japan** and a 1-week trip in **Salt Lake City (UT)**. Photos incoming soon hopefully!
 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
 Still working on my side project **[XIV ToDo](https://xivtodo.com){:target="_blank"}** regularly, and finally
-having some time to finish up my **[personal website revamp](/personal-website/)** (you're currently looking at it!)
+having some time to finish up my **[personal website revamp](/hello-world/)** (you're currently looking at it!)
 
 <i class="fa-duotone fa-light fa-hat-santa color-red"></i>
-Spending the **winter holidays** working on side projects and visiting friends & family in Québec, Canada.
+Spending the **winter holidays** working on side projects and visiting friends & family in **Québec (QC)**.
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
 Currently **reading**...

@@ -181,10 +181,24 @@ pre {
   line-height: 1;
 }
 
-img {
-  max-width: 100%;
+p > img {
+  display: block;
+  max-width: 90%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid var(--borders-color);
   border-radius: 10px;
+}
+
+p > .img-caption {
+  display: block;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  font-size: 0.8em;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -18,6 +18,9 @@
   --color-pink: #860c6d;
   --color-orange: #86510c;
   --color-purple: #8418dd;
+
+  --header-font-family: "Overlock", sans-serif;
+  --body-font-family: "Monaspace Neon", monospace, sans-serif;
 }
 
 :root[data-theme="dark"] {
@@ -64,7 +67,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 
-  font-family: "Monaspace Neon", monospace;
+  font-family: var(--body-font-family);
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 1.5;
@@ -202,7 +205,7 @@ p > .img-caption {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Overlock", sans-serif;
+  font-family: var(--header-font-family);
   font-weight: 700;
   color: var(--header-color);
   margin-bottom: 0px;
@@ -257,6 +260,7 @@ main a[target="_blank"]:after {
 }
 
 p > code {
+  font-family: var(--body-font-family);
   background-color: var(--background-off-color);
   border: 1px solid var(--borders-color);
   border-radius: 3px;
@@ -265,6 +269,7 @@ p > code {
 }
 
 pre code {
+  font-family: var(--body-font-family);
   background-color: var(--background-off-color);
   border: 1px solid var(--borders-color);
   border-radius: 10px;

@@ -4,13 +4,18 @@
     <p><a href="/blog/">Blog</a> / <b>{{ title_raw }}</b></p>
 
     <p>{{ description }}</p>
-
+    
     <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
-    {{ published_formatted }}</span>
+      {{ published_formatted }}
+    </span>
 
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-blue"></i>
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-clock color-blue"></i>
+      {{ length }} min read
+    </span>
+
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
     {% for tag in tags %}
-      #{{ tag }}{% if not loop.last %}, {% endif %}
+      #{{ tag }}
     {% endfor %}
     </span>
   </div>

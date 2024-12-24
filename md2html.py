@@ -41,6 +41,8 @@ def process_note(input_filename, output_filename, pages_meta):
         'published_formatted': format_date_str(md.Meta.get('published', [''])[0]),
         'url': get_url_from_filepath(output_filename),
         'url_absolute': get_url_from_filepath(output_filename).replace(domain, "/"),
+        'length': md.Meta.get('length', [''])[0],
+        'related': md.Meta.get('related', []),
         'pages_meta': pages_meta
     }
 

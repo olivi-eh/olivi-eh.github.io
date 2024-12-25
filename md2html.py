@@ -7,6 +7,7 @@ default_title = 'Olivier Bourgeois: Cloud and backend software developer'
 default_description = 'Cloud and backend software developer based in Canada. Specializes in Golang, Kubernetes, and fostering delightful developer experiences.'
 author = 'Olivier Bourgeois'
 domain = 'https://olivi-eh.dev/'
+md = markdown.Markdown(extensions=['meta', 'extra', 'smarty'])
 j2env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 
 def get_url_from_filepath(filepath):
@@ -26,11 +27,10 @@ def format_date_str(date_str):
 def process_note(input_filename, output_filename, pages_meta):
     with open(input_filename, 'r', encoding='utf-8') as f:
         text = f.read()
-        md = markdown.Markdown(extensions=['meta', 'extra', 'smarty'])
-        md_html = md.convert(text)
+        html = md.convert(text)
 
     vars = {
-        'md_html': md_html,
+        'md_html': html,
         'title': f'{md.Meta["title"][0]} - {author}' if 'title' in md.Meta else default_title,
         'title_raw': md.Meta.get('title', [''])[0],
         'description': md.Meta.get('description', [default_description])[0],

@@ -315,6 +315,10 @@ pre code {
   margin-right: 0.4em;
 }
 
+.text-small {
+  font-size: 0.8em;
+}
+
 .no-wrap {
   white-space: nowrap;
 }

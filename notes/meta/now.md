@@ -1,5 +1,5 @@
 title: Now
-modified: 2024-12-21
+modified: 2024-12-24
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i> Now
@@ -25,6 +25,9 @@ Most recently arrived from a 3-weeks vacation in **Japan** and a 1-week trip in 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
 Still working on my side project **[XIV ToDo](https://xivtodo.com){:target="_blank"}** regularly, and finally
 having some time to finish up my **[personal website revamp](/hello-world/)** (you're currently looking at it!)
+
+<i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
+Still **rock climbing**! It's been just about 2 years now and I'm able to reliably top 5.10 and most 5.10+ routes. Earlier this month I topped my first 5.11!
 
 <i class="fa-duotone fa-light fa-hat-santa color-red"></i>
 Spending the **winter holidays** working on side projects and visiting friends & family in **Québec (QC)**.

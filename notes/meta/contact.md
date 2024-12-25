@@ -7,7 +7,7 @@ modified: 2024-12-21
 Do you want to chat about something I've talked about, share a new opportunity with me,
 or simply would like to say hi? I would love to hear from you!
 
-The fastest way to reach me is via email at `bourgeoisor [the fancy symbol] gmail.com`.
+The fastest way to reach me is via email at `bourgeoisor [symbol] gmail.com`.
 
 ### Socials
 

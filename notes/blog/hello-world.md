@@ -3,7 +3,7 @@ description: My personal website is reborn anew! But why a personal website? And
 tags: meta
 tags: webdev
 published: 2024-12-23
-modified: 2024-12-23
+modified: 2024-12-24
 template: blog
 length: 6
 related: this-website
@@ -21,7 +21,7 @@ Then, in the following years, there was an explosion of social media platforms: 
 
 ### Why build a personal website?
 
-Today in 2024, having a personal website (or even spending a significant amount of time browsing non-corporate platforms) is an anomaly, with virtually everyone spending much of their Internet time on the same few handful corporate web services. The result is centralization of content, depersonalization, and uniformization. Web forums are now deserted, and personal websites are few and far between. But we can change that!
+Today in 2024, having a personal website (or even spending a significant amount of time browsing non-corporate platforms) is an anomaly, with virtually everyone spending much of their Internet time on the same few handful corporate web services. The result is centralisation of content, depersonalisation, and uniformisation. Web forums are now deserted, and personal websites are few and far between. But we can change that!
 
 So what are the advantages of creating the web "the old way"?
 
@@ -29,7 +29,7 @@ So what are the advantages of creating the web "the old way"?
 
 - **Freedom to link outside of a platform**, instead of being restricted to only that one link in your bio.
 
-- **Complete creative freedom**, allowing you to customize everything from colors & typesetting to structure.
+- **Complete creative freedom**, allowing you to customize everything from colours & typesetting to structure.
 
 - **The content is owned by you**, and not sold to the highest bidder.
 
@@ -41,7 +41,7 @@ As you may have noticed already (if you decided to take a peek at the navigation
 
 - **Blog where I can publish writings.** I'm planning on periodically writing new entries around my interests, technology, urbanism, and philosophy. I'll also sprinkle in travel photos and fun new concepts I just learned.
 
-- **Online resume and list of active projects.** This is essentially a more in-depth, complete, and digitized version of my resume. It's available for anyone interested in my past experience.
+- **Online resume and list of active projects.** This is essentially a more in-depth, complete, and digitised version of my resume. It's available for anyone interested in my past experience.
 
 - **Sections about me and what I'm up to.** This is for those who don't know me well to learn a thing or two, and for those who do know me to see what I've been working on lately. I find it difficult to get a good summary of what someone has been up to based on just a social media feed, so I'm trying to solve that!
 
@@ -72,7 +72,7 @@ At its core, publishing a personal website boils down to four components:
 ![Screenshot of the previous version of my website](/static/images/hello-world/vscode-md.png)
 <span class="img-caption">This website is built with a static site generator (Markdown to HTML).</span>
 
-In the [next post](/this-website/) (which is already up!), I will do a deep dive into this very website and my process building it.
+In my [next post](/this-website/) (which is already up!), I will do a deep dive into this very website and my process building it.
 
 ---
 
@@ -80,7 +80,7 @@ In the [next post](/this-website/) (which is already up!), I will do a deep dive
 
 In the process of building this version, I decided to do a little bit of digital spelunking to fetch screenshots of previous versions of my website. Think of this section like a little bonus! The source code repository for this only goes back as far as 2015, though I'm sure I had _something_ in the years prior. Unfortunately, I wasn't able to find backups of any of it, so it's likely been lost to time.
 
-In 2015, the earliest source code I could find, my personal website looked like this. At the time, I had just discovered a color scheme called [Solarized](https://ethanschoonover.com/solarized/){:target="_blank"} and I decided that I just *had* to incorporate it into everything. So you'll spot it both in the Golang screenshot and in the site's color scheme.
+In 2015, the earliest source code I could find, my personal website looked like this. At the time, I had just discovered a colour scheme called [Solarized](https://ethanschoonover.com/solarized/){:target="_blank"} and I decided that I just *had* to incorporate it into everything. So you'll spot it both in the Golang screenshot and in the site's colour scheme.
 
 ![Screenshot of the previous version of my website](/static/images/hello-world/website-v0.png)
 <span class="img-caption">Screenshot of my personal website, circa 2015.</span>
@@ -90,7 +90,7 @@ Then in 2016, I completely revamped it for a lighter, cleaner version. For this 
 ![Screenshot of the previous version of my website](/static/images/hello-world/website-v1.png)
 <span class="img-caption">Screenshot of my personal website, circa 2016.</span>
 
-Over the following years, I slowly improved on the design and continued polishing it. I somewhat kept the same color palette (lots of blues and deep reds) but also added a large header. This is what it looked like around 2021. Despite the design changes, never at any point had it been anything more than a glorified single-page resume (as mentioned previously).
+Over the following years, I slowly improved on the design and continued polishing it. I somewhat kept the same colour palette (lots of blues and deep reds) but also added a large header. This is what it looked like around 2021. Despite the design changes, never at any point had it been anything more than a glorified single-page resume (as mentioned previously).
 
 ![Screenshot of the previous version of my website](/static/images/hello-world/website-v2.png)
 <span class="img-caption">Screenshot of my personal website, circa 2021.</span>

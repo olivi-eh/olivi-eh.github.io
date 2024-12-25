@@ -10,24 +10,24 @@ auto-biography**. See something interesting? Have questions? I'd love to [here f
 
 ### Hobbies & interests
 
-Some things that inspire me. In no particular order.
+Some things that inspire me, in no particular order!
 
 - <i class="fa-duotone fa-light fa-microchip color-purple"></i>
-Technology
+Technology (fascinated by retro systems and obsolete protocols)
 - <i class="fa-duotone fa-light fa-house-tree color-green"></i>
 Urbanism (with a focus on liveability, walkability, and transit)
 - <i class="fa-duotone fa-light fa-radio color-aqua"></i>
 Listening to music (all genre, but tend towards progressive rock and metal)
 - <i class="fa-duotone fa-light fa-guitars color-red"></i>
-Playing music (drums, guitar)
+Playing music (drums, though nowadays mostly guitar)
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
 Travelling (visited 16+ countries, 60+ flights)
 - <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
 Photography (usually a Pentax K-50 with a 35mm lens)
 - <i class="fa-duotone fa-light fa-books color-aqua"></i>
-Learning about new topics
+Learning about new topics and novel scientific findings
 - <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
-Hiking and spending time in nature (or in botanical gardens)
+Hiking, rock climbing, and spending time in nature (or in botanical gardens)
 
 ### Assorted fun facts
 
@@ -41,7 +41,7 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Slept overnight in a Walmart parking lot.
 - Hitchhiked and was picked up by a former Navy in the north of Japan.
 - Reliably traced my lineage in two direction going back to the early 1600s.
-- Organizing and tracking my life in a large notebook (3,200+ notes worth of information).
+- Organising and tracking my life in a large notebook (3,200+ notes worth of information).
 - First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
 
 ### Favorite media
@@ -141,7 +141,7 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2014** (20y): **Transferred university** to Mount Allison University in NB (for a variety of reasons) to pursue computer science. Went to the **USA for the first time**. Climbed my **first 5k+ ft mountain** (Mount Katahdin in ME, a hair short from being an ultra). **Went skydiving**. Attended my **first big convention**, PAX East in Boston, MA.
 - **2015** (21y): Took my **first ever (commercial) flights**, visiting university friends in Calgary (AB), Banff (AB), Los Angeles (CA), and Montreal (QC).
 - **2016** (22y): Hired for my **first summer tech internship**, at EMC Corporation.
-- **2017** (23y): Spent **3 weeks traveling Western Europe** as my **first truly solo trip** (and first time being outside North America). Completed a second **summer internship at EMC** (now acquired by Dell). Flew out to Mountain View (CA) for **interviews with Google**.
+- **2017** (23y): Spent **3 weeks travelling Western Europe** as my **first truly solo trip** (and first time being outside North America). Completed a second **summer internship at EMC** (now acquired by Dell). Flew out to Mountain View (CA) for **interviews with Google**.
 
 <i class="fa-duotone fa-light fa-user-astronaut"></i>
 **Starting my career**
@@ -151,5 +151,5 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2020** (26y): Accepted an offer to **work at Google** in their developer relations team. Really **got into Final Fantasy XIV** while everyone was stuck home. Did a lot of **local roadtrips** in NB.
 - **2021** (27y): Started working on and **released XIV ToDo**. **Relocated to Waterloo (ON)** to work from the Google office in-person.
 - **2022** (28y): Visited New York (NY) for the first time.
-- **2023** (29y): Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
-- **2024** (30y): Started getting back into traveling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
+- **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
+- **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)

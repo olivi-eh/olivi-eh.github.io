@@ -15,7 +15,7 @@
 
     <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
     {% for tag in tags %}
-      #{{ tag }}
+      #{{ tag }}{% if not loop.last %}, {% endif %}
     {% endfor %}
     </span>
   </div>
@@ -23,6 +23,10 @@
   <div id="main-content">
     <h2>{{ title_raw }}</h2>
     {{ md_html }}
+  </div>
+
+  <div id="main-footer">
+    <span><a href="/blog/">View all posts</a></span>
   </div>
 </main>
 {% include "_suffix.html" %}

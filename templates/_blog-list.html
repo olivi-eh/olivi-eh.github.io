@@ -21,7 +21,7 @@
 
             <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
               {% for tag in post.tags %}
-                #{{ tag }}
+                #{{ tag }}{% if not loop.last %}, {% endif %}
               {% endfor %}
             </span>
           </div>

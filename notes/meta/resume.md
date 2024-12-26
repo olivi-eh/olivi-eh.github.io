@@ -34,7 +34,7 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
   <div class="resume-card">
     <div class="resume-card-header">
       <div>
-        <b>Senior Software Developer</b> at <b>Google</b><br>
+        <b>Senior Software Developer</b> at <b>Dell EMC</b><br>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2018 — 2020</span>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Moncton, NB</span>
       </div>

@@ -9,7 +9,7 @@ length: 6
 related: my-personal-website
 ---
 
-This is officially the first post on my personal website since... Well, ever! In fact, my "personal website" had never before today been anything more than a simple glorified online resume (see the appendix section at the end of this post to see its evolution). So... Welcome to the next step in its evolution! I'm happy you're here!
+This is officially the first post on my personal website since... Well, ever! In fact, my "personal website" had never before today been anything more than a simple glorified online resume (see the appendix section at the end of this post for some screenshots). So... Welcome to the next step in its evolution! I'm happy you're here!
 
 ### A bit of historical context
 

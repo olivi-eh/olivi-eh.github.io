@@ -42,7 +42,7 @@ This page contains a non-exhaustive list of my active projects. [View my resume]
       <ul>
         <li>My personal website where I host my resume, projects, and other relevant information.</li>
         <li>Writes and publishes blog posts on various topics (tech, urbanism, philosophy).</li>
-        <li>Built from scratch using only HTML and CSS, and a Python pipeline to render jinja2 templates.</li>
+        <li>Built from scratch using only HTML and CSS, and a Python pipeline to render Jinja templates.</li>
       </ul>
     </div>
   </div>

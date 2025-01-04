@@ -67,7 +67,7 @@ At its core, publishing a personal website boils down to four components:
 
 **Host**: Okay, you have some ideas and you've got some pages written up. Next is to make those pages available for others to find and read. If you're using a website builder, this likely happens with the click of a button. Else, you'll need somewhere that can host the HTML pages you've generated or written up. There are many options, but the simplest (and cheapest) ones are to use a host with a freemium model, like [GitHub Pages](https://pages.github.com/){:target="_blank"}, [Neocities](https://neocities.org/){:target="_blank"}, or [Netlify](https://www.netlify.com/){:target="_blank"}.
 
-**Domain name (optional)**: Many hosts will provide you with a generic subdomain or similar that you can use to access your website. But if you want some added flare, you can decide to purchase your very own domain name from registrars like [Namecheap](https://www.namecheap.com/){:target="_blank"}.
+**Domain name (optional)**: Many hosts will provide you with a generic subdomain or similar that you can use to access your website. But if you want some added flair, you can decide to purchase your very own domain name from registrars like [Namecheap](https://www.namecheap.com/){:target="_blank"}.
 
 ![Screenshot of VSCode with a Markdown page open](/static/images/hello-world/vscode-md.png)
 <span class="img-caption">This website is built with a static site generator (Markdown to HTML).</span>

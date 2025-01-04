@@ -53,24 +53,24 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 
 - Ayreon
 - Between the Buried and Me
+- The Dear Hunter
 - Haken
 - Leprous
+- The Pineapple Thief
 - Porcupine Tree
 - Rush
-- The Dear Hunter
-- The Pineapple Thief
 - Tool
 - Yes
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
 **Books**
 
-- 1984
 - Dirk Gently's Holistic Detective Agency
 - Harry Potter (series)
 - The Hitchhiker's Guide to the Galaxy (series)
 - The Little Prince (in French)
 - The Lord of the Rings (series)
+- Nineteen Eighty-Four
 
 <i class="fa-duotone fa-light fa-game-console-handheld color-orange"></i>
 **Video games**
@@ -89,12 +89,12 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 
 - Airplane!
 - Back to the Future (series)
-- Monty Python and the Holy Grail
-- Soul
-- Star Wars (series)
 - The Breakfast Club
 - The Dark Knight (series)
 - The Lord of the Rings (series)
+- Monty Python and the Holy Grail
+- Soul
+- Star Wars (series)
 
 <i class="fa-duotone fa-light fa-tv color-pink"></i>
 **Series**

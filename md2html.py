@@ -107,7 +107,7 @@ def generate_rss(pages_meta):
             if vars["published"] == '':
                 continue
             f.write('    <item>\n')
-            f.write(f'      <title>{vars["title"]}</title>\n')
+            f.write(f'      <title>{vars["title_raw"]}</title>\n')
             f.write(f'      <link>{vars["url"]}</link>\n')
             f.write(f'      <description>{vars["description"]}</description>\n')
             f.write(f'      <pubDate>{datetime.strptime(vars["published"], "%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S EST")}</pubDate>\n')
@@ -134,7 +134,7 @@ def generate_atom(pages_meta):
             if vars["published"] == '':
                 continue
             f.write('    <entry>\n')
-            f.write(f'      <title>{vars["title"]}</title>\n')
+            f.write(f'      <title>{vars["title_raw"]}</title>\n')
             f.write(f'      <summary>{vars["description"]}</summary>\n')
             f.write(f'      <link rel="alternate" href="{vars["url"]}" />\n')
             f.write(f'      <updated>{vars["modified"]}T00:00:00Z</updated>\n')

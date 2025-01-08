@@ -6,7 +6,7 @@ modified: 2024-12-24
 
 If you're here, you're likely curious about me. Why this page? **Life is short**, and if it helps
 someone connect over shared interests, that's a win. This page also serves as a sort of **ever-evolving
-auto-biography**. See something interesting? Have questions? I'd love to [here from you](/contact/)!
+auto-biography**. See something interesting? Have questions? I'd love to [hear from you](/contact/)!
 
 ### Hobbies & interests
 

@@ -1,5 +1,6 @@
-modified: 2025-01-11
 title: My stance on AI
+description: Thorough understanding of how I feel about AI, as well as where I use it (or don't use it).
+modified: 2025-01-11
 ---
 
 ## <i class="fa-duotone fa-light fa-microchip-ai me-1"></i>My stance on AI

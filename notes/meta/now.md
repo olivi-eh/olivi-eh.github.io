@@ -1,4 +1,5 @@
 title: Now
+description: Summarized snapshot of what I'm up to, updated regularly.
 modified: 2024-12-24
 ---
 

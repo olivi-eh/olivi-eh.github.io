@@ -1,4 +1,5 @@
 title: Contact
+description: How to contact me and list of social media platforms I actively use.
 modified: 2024-12-21
 ---
 

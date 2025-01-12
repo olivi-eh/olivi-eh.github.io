@@ -1,4 +1,5 @@
 title: About
+description: Learn more about me, my interests, and my upbringings.
 modified: 2024-12-24
 ---
 

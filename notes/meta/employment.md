@@ -1,4 +1,5 @@
 title: Employment
+description: Complete list of my employment history.
 modified: 2024-12-21
 ---
 

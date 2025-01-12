@@ -1,4 +1,5 @@
 title: Projects
+descriptions: Non-exhaustive list of my projects.
 modified: 2024-12-21
 ---
 

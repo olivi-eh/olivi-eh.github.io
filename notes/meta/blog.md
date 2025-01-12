@@ -1,4 +1,5 @@
 title: Blog
+description: Complete archive of blog posts I've written.
 modified: 2024-12-21
 template: blog-index
 ---

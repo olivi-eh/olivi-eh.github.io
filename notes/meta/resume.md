@@ -2,7 +2,7 @@ title: Resume
 modified: 2024-12-21
 ---
 
-## <i class="fa-duotone fa-light fa-memo-circle-info me-1"></i> Resume
+## <i class="fa-duotone fa-light fa-memo-circle-info me-1"></i>Resume
 
 You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_blank"}. You can also [download this resume in a PDF format](/static/assets/OlivierBourgeois-Resume.pdf){:target="_blank"}.
 

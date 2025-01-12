@@ -2,7 +2,7 @@ title: Employment
 modified: 2024-12-21
 ---
 
-## <i class="fa-duotone fa-light fa-memo-circle-info me-1"></i> Employment
+## <i class="fa-duotone fa-light fa-memo-circle-info me-1"></i>Employment
 
 This page contains a complete list of my employment history since 2016. [View my resume](/resume/).
 

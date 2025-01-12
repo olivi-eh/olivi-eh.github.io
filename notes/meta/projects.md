@@ -2,7 +2,7 @@ title: Projects
 modified: 2024-12-21
 ---
 
-## <i class="fa-duotone fa-light fa-seedling me-1"></i> Projects
+## <i class="fa-duotone fa-light fa-seedling me-1"></i>Projects
 
 This page contains a non-exhaustive list of my active projects. [View my resume](/resume/).
 

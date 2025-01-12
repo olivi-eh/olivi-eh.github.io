@@ -2,7 +2,7 @@ title: Contact
 modified: 2024-12-21
 ---
 
-## <i class="fa-duotone fa-light fa-envelope me-1"></i> Contact
+## <i class="fa-duotone fa-light fa-envelope me-1"></i>Contact
 
 Do you want to chat about something I've talked about, share a new opportunity with me,
 or simply would like to say hi? I would love to hear from you!

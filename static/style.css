@@ -19,8 +19,10 @@
   --color-orange: #86510c;
   --color-purple: #8418dd;
 
-  --header-font-family: "Monaspace Neon", monospace, sans-serif;
+  --header-font-family: "Monaspace Radon", monospace, sans-serif;
   --body-font-family: "Monaspace Neon", monospace, sans-serif;
+  --font-size: 18px;
+  --line-height: 1.6;
 }
 
 :root[data-theme="dark"] {
@@ -49,7 +51,6 @@
 }
 
 @font-face {
-  /* TODO: figure out why font features are not working */
   font-family: "Monaspace Neon";
   font-style: normal;
   font-weight: 200 800;
@@ -57,6 +58,18 @@
   font-display: swap;
   src: url("/static/fonts/MonaspaceNeonVarVF[wght,wdth,slnt].woff2") format("woff2");
   src: url("/static/fonts/MonaspaceNeonVarVF[wght,wdth,slnt].woff2") format("woff2") tech("variations");
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
+  font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
+}
+
+@font-face {
+  font-family: "Monaspace Radon";
+  font-style: normal;
+  font-weight: 200 800;
+  font-stretch: 100 125;
+  font-display: swap;
+  src: url("/static/fonts/MonaspaceRadonVarVF[wght,wdth,slnt].woff2") format("woff2");
+  src: url("/static/fonts/MonaspaceRadonVarVF[wght,wdth,slnt].woff2") format("woff2") tech("variations");
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
   font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
 }
@@ -69,8 +82,8 @@ body {
 
   font-family: var(--body-font-family);
   font-optical-sizing: auto;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
 
   max-width: 1200px;
   padding: 0 50px;
@@ -135,7 +148,7 @@ header {
   padding-right: 30px;
 }
 
-#header-card > h1 {
+#header-card > a > h1 {
   color: var(--text-color);
   margin-bottom: 0;
 }
@@ -150,7 +163,7 @@ header > nav {
   background-color: var(--main-background-color);
   border-radius: 20px;
   border: 1px solid var(--borders-color);
-  height: 35px;
+  height: 38px;
   display: flex;
   justify-content: space-between;
 }
@@ -172,7 +185,7 @@ header > nav > ul > li > a {
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500;
   padding: 0 10px;
   display: inline-block;
-  height: 29px;
+  height: 32px;
   padding-top: 6px;
 }
 
@@ -430,6 +443,8 @@ pre code {
 @media (max-width: 576px) {
   body {
     padding: 0 0;
+    font-size: 16px;
+    line-height: 1.4;
   }
 
   main {
@@ -446,11 +461,19 @@ pre code {
 
   header > nav {
     border-radius: 0;
+    justify-content: center;
+  }
+
+  header > nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   #header-card {
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
   }
 
   #blog-list > .resume-cards-group:not(:first-child) {
@@ -460,9 +483,21 @@ pre code {
   footer {
     padding: 15px;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .d-xs-none {
+    display: none;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {  
   body {
     padding: 10px 30px;
   }

@@ -2,12 +2,11 @@ title: Now
 modified: 2024-12-24
 ---
 
-## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i> Now
+## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now
 
 Most websites have an _About_ page where you can learn about the background of the person
 or business. They have a _Contact_ page where you can reach out. In contrast, a _Now_ page
 is an up-to-date summarized snapshot of where a person is focused on, at this very moment.
-The idea for this page was inspired by [Derek Siver's](https://sive.rs/now){:target="_blank"}.
 
 ### What have I been up to, lately?
 
@@ -51,3 +50,7 @@ Currently **watching**...
 - Dandadan
 - Tonari no Seki-kun
 - The Boys
+
+---
+
+This page was inspired by [Derek Siver's](https://sive.rs/now){:target="_blank"} and is listed on [NowNowNow](https://nownownow.com/){:target="_blank"}.

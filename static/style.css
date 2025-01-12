@@ -3,6 +3,7 @@
 :root {
   --background-color: #f6f8fc;
   --background-off-color: #f4f6fb80;
+  --background-hover-color: #f3f5f9;
   --main-background-color: #ffffff;
   --borders-color: #d1d7e4;
 
@@ -29,6 +30,7 @@
   /* TODO: WIP */
   --background-color: #1a1a1a;
   --background-off-color: #171818;
+  --background-hover-color: #1e1f1f;
   --main-background-color: #111111;
   --borders-color: #5b6069;
 
@@ -399,6 +401,14 @@ pre code {
 
 .resume-cards-group > .resume-card:not(:last-child) {
   border-bottom: none;
+}
+
+a:hover > .resume-cards-group {
+  color: var(--text-color);
+  
+  .resume-card > .resume-card-header {
+    background-color: var(--background-hover-color);
+  }
 }
 
 .resume-card {

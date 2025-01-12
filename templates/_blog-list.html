@@ -1,36 +1,34 @@
 <div id="blog-list">
   {% for post in posts %}
     {% if post.published %}
-    <div class="resume-cards-group">
-      <div class="resume-card">
-        <div class="resume-card-header">
-          <div>
-            <b style="font-size: 1.2em">{{ post.title_raw }}</b><br />
+    <a href="{{ post.url_absolute }}">
+      <div class="resume-cards-group">
+        <div class="resume-card">
+          <div class="resume-card-header">
+            <div>
+              <b style="font-size: 1.2em">{{ post.title_raw }}</b><br />
 
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-book-open color-red"></i>
-              <a href="{{ post.url_absolute }}">Read this post</a>
-            </span>
+              <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
+                {{ post.published_formatted }}
+              </span>
+          
+              <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-clock color-blue"></i>
+                {{ post.length }} min read
+              </span>
 
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
-              {{ post.published_formatted }}
-            </span>
-        
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-clock color-blue"></i>
-              {{ post.length }} min read
-            </span>
-
-            <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
-              {% for tag in post.tags %}
-                #{{ tag }}{% if not loop.last %}, {% endif %}
-              {% endfor %}
-            </span>
+              <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
+                {% for tag in post.tags %}
+                  #{{ tag }}{% if not loop.last %}, {% endif %}
+                {% endfor %}
+              </span>
+            </div>
+          </div>
+          <div class="resume-card-content">
+            <p style="padding-left: 20px; padding-right: 20px">{{ post.description }}</p>
           </div>
         </div>
-        <div class="resume-card-content">
-          <p style="padding-left: 20px; padding-right: 20px">{{ post.description }}</p>
-        </div>
       </div>
-    </div>
+    </a>
     {% endif %}
   {% endfor %}
 </div>

@@ -1,5 +1,5 @@
 title: Resume
-modified: 2024-12-21
+modified: 2025-01-13
 ---
 
 ## <i class="fa-duotone fa-light fa-memo-circle-info me-1"></i>Resume
@@ -64,6 +64,23 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
 <!-- IFTTT: Update /projects too -->
 
 <div class="resume-cards-group">
+  <div class="resume-card">
+    <div class="resume-card-header">
+      <div>
+        <b>Creator</b> of <b>Kaero</b><br>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2024 — Now</span>
+        <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/bourgeoisor/kaero" target="_blank">Source</a></span>
+      </div>
+      <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-kaero.png" alt="Logo for Kaero">
+    </div>
+    <div class="resume-card-content">
+      <ul>
+        <li>Kaero is a lightweight and cozy terminal-based IRC client built in Golang.</li>
+        <li>Implements 125+ well-known IRC replies and 31+ user commands.</li>
+        <li>Supports SSL/TLS and UTF-8 with full-width characters.</li>
+      </ul>
+    </div>
+  </div>
   <div class="resume-card">
     <div class="resume-card-header">
       <div>

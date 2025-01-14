@@ -379,40 +379,50 @@ pre code {
   margin-top: 10px;
 }
 
-.resume-cards-group > .resume-card:first-child {
+.resume-cards-group > .resume-card:first-child,
+.resume-cards-group > a:first-child > .resume-card {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.resume-cards-group > .resume-card:first-child > .resume-card-header {
+.resume-cards-group > .resume-card:first-child > .resume-card-header,
+.resume-cards-group > a:first-child > .resume-card > .resume-card-header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.resume-cards-group > .resume-card:last-child {
+.resume-cards-group > .resume-card:last-child,
+.resume-cards-group > a:last-child > .resume-card {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.resume-cards-group > .resume-card:last-child > .resume-card-header:only-child {
+.resume-cards-group > .resume-card:last-child > .resume-card-header:only-child,
+.resume-cards-group > a:last-child > .resume-card > .resume-card-header:only-child {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.resume-cards-group > .resume-card:not(:last-child) {
+.resume-cards-group > .resume-card:not(:last-child),
+.resume-cards-group > a:not(:last-child) > .resume-card {
   border-bottom: none;
 }
 
-a:hover > .resume-cards-group {
+a:hover > .resume-card {
   color: var(--text-color);
   
-  .resume-card > .resume-card-header {
+  .resume-card-header {
     background-color: var(--background-hover-color);
+  }
+
+  .resume-card-header > div > b {
+    color: var(--link-color);
   }
 }
 
 .resume-card {
   border: 1px solid var(--borders-color);
+  padding-bottom: 1px;
 }
 
 .resume-card-header {

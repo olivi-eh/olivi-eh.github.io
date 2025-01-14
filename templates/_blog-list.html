@@ -1,8 +1,8 @@
 <div id="blog-list">
+  <div class="resume-cards-group">
   {% for post in posts %}
     {% if post.published %}
     <a href="{{ post.url_absolute }}">
-      <div class="resume-cards-group">
         <div class="resume-card">
           <div class="resume-card-header">
             <div>
@@ -27,8 +27,13 @@
             <p style="padding-left: 20px; padding-right: 20px">{{ post.description }}</p>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
     {% endif %}
-  {% endfor %}
+    {% endfor %}
+    <div class="resume-card">
+      <div class="resume-card-header">
+        <b><i class="fa-solid fa-angle-right me-1"></i><a href="/blog/">See all posts</a></b>
+      </div>
+    </div>
+  </div>
 </div>

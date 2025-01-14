@@ -16,6 +16,4 @@ All content on this website has been written by me personally without the use of
 
 ## <i class="fa-duotone fa-light fa-newspaper me-1"></i>What am I writing about?
 
-See the [/blog page](/blog/) for a complete list of posts I've published.
-
-### Latest posts
+See the [/blog page](/blog/) for a complete list of posts I've published, or check out my latest posts below.

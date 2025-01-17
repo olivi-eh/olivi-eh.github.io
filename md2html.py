@@ -7,7 +7,7 @@ default_title = 'Olivier Bourgeois: Cloud and backend software developer'
 default_description = 'Cloud and backend software developer based in Canada. Specializes in Golang, Kubernetes, and fostering delightful developer experiences.'
 author = 'Olivier Bourgeois'
 domain = 'https://olivi-eh.dev/'
-md = markdown.Markdown(extensions=['meta', 'extra', 'smarty'])
+md = markdown.Markdown(extensions=['meta', 'extra', 'smarty', 'admonition'])
 j2env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 
 def get_url_from_filepath(filepath):

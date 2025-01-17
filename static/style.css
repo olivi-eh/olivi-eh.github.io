@@ -17,6 +17,7 @@
   --color-blue: #1e50c6;
   --color-aqua: #068074;
   --color-pink: #860c6d;
+  --color-yellow: #e6d049;
   --color-orange: #86510c;
   --color-purple: #8418dd;
 
@@ -44,6 +45,7 @@
   --color-blue: #7298f0;
   --color-aqua: #45d9cb;
   --color-pink: #dd64c4;
+  --color-yellow: #e6d049;
   --color-orange: #dba053;
   --color-purple: #c186f2;
 }
@@ -150,7 +152,7 @@ header {
   padding-right: 30px;
 }
 
-#header-card > a > h1 {
+#header-card > h1 {
   color: var(--text-color);
   margin-bottom: 0;
 }
@@ -365,12 +367,44 @@ pre code {
   color: var(--color-pink);
 }
 
+.color-yellow {
+  color: var(--color-yellow);
+}
+
 .color-orange {
   color: var(--color-orange);
 }
 
 .color-purple {
   color: var(--color-purple);
+}
+
+.underline-yellow {
+  border-bottom: 5px solid var(--color-yellow);
+}
+
+/* Admonition */
+
+.admonition {
+  border-left: 5px solid var(--color-yellow);
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.admonition > .admonition-title {
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
+  margin-bottom: -15px;
+}
+
+.admonition > .admonition-title::after {
+  content: ":";
+}
+
+.admonition > p {
+  display: inline;
 }
 
 /* Resume cards */

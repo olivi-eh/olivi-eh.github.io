@@ -9,8 +9,8 @@
 
   --text-color: #282829;
   --text-muted-color: #6a6c72;
-  --header-color: #2a7dd5;
-  --link-color: #2a7dd5;
+  --header-color: #4c8df6;
+  --link-color: #4c8df6;
 
   --color-red: #860c0c;
   --color-green: #1b860c;
@@ -24,7 +24,7 @@
   --header-font-family: "Monaspace Radon", monospace, sans-serif;
   --body-font-family: "Monaspace Neon", monospace, sans-serif;
   --font-size: 16px;
-  --line-height: 1.5;
+  --line-height: 1.6;
 }
 
 :root[data-theme="dark"] {
@@ -505,7 +505,6 @@ a:hover > .resume-card {
     background-image: none;
     padding: 0 0;
     font-size: 16px;
-    line-height: 1.6;
   }
 
   main {

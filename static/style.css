@@ -23,8 +23,8 @@
 
   --header-font-family: "Monaspace Radon", monospace, sans-serif;
   --body-font-family: "Monaspace Neon", monospace, sans-serif;
-  --font-size: 18px;
-  --line-height: 1.6;
+  --font-size: 16px;
+  --line-height: 1.5;
 }
 
 :root[data-theme="dark"] {
@@ -81,6 +81,7 @@
 /* Main */
 
 body {
+  background-image: url("/static/assets/bg.png");
   background-color: var(--background-color);
   color: var(--text-color);
 
@@ -150,6 +151,9 @@ header {
 #header-card {
   padding-left: 30px;
   padding-right: 30px;
+  -webkit-text-stroke: 2px var(--background-color);
+  text-stroke: 2px var(--background-color);
+  paint-order: stroke fill;
 }
 
 #header-card > h1 {
@@ -167,7 +171,6 @@ header > nav {
   background-color: var(--main-background-color);
   border-radius: 20px;
   border: 1px solid var(--borders-color);
-  height: 38px;
   display: flex;
   justify-content: space-between;
 }
@@ -189,8 +192,8 @@ header > nav > ul > li > a {
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500;
   padding: 0 10px;
   display: inline-block;
-  height: 32px;
   padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 header > nav > ul > li > a:hover {
@@ -204,6 +207,9 @@ footer {
   justify-content: space-between;
   padding: 30px 30px;
   color: var(--text-muted-color);
+  -webkit-text-stroke: 2px var(--background-color);
+  text-stroke: 2px var(--background-color);
+  paint-order: stroke fill;
 }
 
 /* Tags */
@@ -496,6 +502,7 @@ a:hover > .resume-card {
 
 @media (max-width: 576px) {
   body {
+    background-image: none;
     padding: 0 0;
     font-size: 16px;
     line-height: 1.4;

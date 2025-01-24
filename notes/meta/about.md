@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2024-12-24
+modified: 2025-01-24
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -42,15 +42,15 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Slept overnight in a Walmart parking lot.
 - Hitchhiked and was picked up by a former Navy in the north of Japan.
 - Reliably traced my lineage in two direction going back to the early 1600s.
-- Organising and tracking my life in a large notebook (3,200+ notes worth of information).
+- Organising and tracking my life in a large digital notebook (3,200+ notes worth of information).
 - First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
 
-### Favorite media
+### Favourite media
 
-Everything listed below, I could re-listen / re-read / re-play / re-watch over and over again!
+Everything listed below, I consider "favourites".
 
 <i class="fa-duotone fa-light fa-radio color-aqua"></i>
-**Music**
+**Listening**
 
 - Ayreon
 - Between the Buried and Me
@@ -61,59 +61,48 @@ Everything listed below, I could re-listen / re-read / re-play / re-watch over a
 - Porcupine Tree
 - Rush
 - Tool
-- Yes
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
-**Books**
+**Reading**
 
+- Asterix series
 - Dirk Gently's Holistic Detective Agency
-- Harry Potter (series)
-- The Hitchhiker's Guide to the Galaxy (series)
-- The Little Prince (in French)
-- The Lord of the Rings (series)
+- Harry Potter series
+- The Hitchhiker's Guide to the Galaxy "trilogy"
+- The Little Prince
+- The Lord of the Rings trilogy
 - Nineteen Eighty-Four
 
 <i class="fa-duotone fa-light fa-game-console-handheld color-orange"></i>
-**Video games**
+**Playing**
 
 - Age of Empires II
 - BioShock
-- Deep Rock Galactic
 - Factorio
-- Final Fantasy (series)
+- Final Fantasy IX & XIV
 - Outer Wilds
+- Ragnarok Online
 - Stardew Valley
 - Trials of Mana
 
-<i class="fa-duotone fa-light fa-camera-movie color-pink"></i>
-**Films**
-
-- Airplane!
-- Back to the Future (series)
-- The Breakfast Club
-- The Dark Knight (series)
-- The Lord of the Rings (series)
-- Monty Python and the Holy Grail
-- Soul
-- Star Wars (series)
-
-<i class="fa-duotone fa-light fa-tv color-pink"></i>
-**Series**
+<i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
+**Watching**
 
 - Adventure Time
-- Freaks and Geeks
-- Futurama
-- Game of Thrones
-
-<i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
-**Anime**
-
 - Angel Beats!
-- Bakemonogatari (series)
+- Back to the Future trilogy
 - Clannad
+- Futurama
+- Freaks and Geeks
+- Game of Thrones
 - Kaguya-sama: Love is War
+- The Lord of the Rings trilogy
+- Monty Python and the Holy Grail
 - Nichijou
+- Pixar films
 - Spy x Family
+- Star Wars universe
+- Stranger Things
 - Toradora!
 
 ### Brief timeline
@@ -142,7 +131,7 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2014** (20y): **Transferred university** to Mount Allison University in NB (for a variety of reasons) to pursue computer science. Went to the **USA for the first time**. Climbed my **first 5k+ ft mountain** (Mount Katahdin in ME, a hair short from being an ultra). **Went skydiving**. Attended my **first big convention**, PAX East in Boston, MA.
 - **2015** (21y): Took my **first ever (commercial) flights**, visiting university friends in Calgary (AB), Banff (AB), Los Angeles (CA), and Montreal (QC).
 - **2016** (22y): Hired for my **first summer tech internship**, at EMC Corporation.
-- **2017** (23y): Spent **3 weeks travelling Western Europe** as my **first truly solo trip** (and first time being outside North America). Completed a second **summer internship at EMC** (now acquired by Dell). Flew out to Mountain View (CA) for **interviews with Google**.
+- **2017** (23y): Spent **3 weeks travelling Western Europe** as my **first truly solo trip** (and first time being outside North America). Completed a second **summer internship at EMC** (now acquired by Dell). Flew out to Mountain View (CA) for **interviews with Google** (which I wouldn't pass).
 
 <i class="fa-duotone fa-light fa-user-astronaut"></i>
 **Starting my career**
@@ -154,3 +143,4 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2022** (28y): Visited New York (NY) for the first time.
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
+- **2025** (31y): Let's see what this year holds!

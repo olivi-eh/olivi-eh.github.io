@@ -144,3 +144,4 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
 - **2025** (31y): Let's see what this year holds!
+<!-- picked up learning japanese again, JLPT?, trips (las vegas, bc/ab, nyc, east coast, mtl, atl), 5th year at google -->

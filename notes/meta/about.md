@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-01-24
+modified: 2025-02-01
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About

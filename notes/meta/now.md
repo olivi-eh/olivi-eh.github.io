@@ -1,6 +1,6 @@
 title: Now
 description: Summarized snapshot of what I'm up to, updated regularly.
-modified: 2024-12-24
+modified: 2025-02-01
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now

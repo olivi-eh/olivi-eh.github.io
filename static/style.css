@@ -63,7 +63,7 @@
   src: url("/static/fonts/MonaspaceNeonVarVF[wght,wdth,slnt].woff2") format("woff2");
   src: url("/static/fonts/MonaspaceNeonVarVF[wght,wdth,slnt].woff2") format("woff2") tech("variations");
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
-  font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
+  font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10";
 }
 
 @font-face {
@@ -75,7 +75,7 @@
   src: url("/static/fonts/MonaspaceRadonVarVF[wght,wdth,slnt].woff2") format("woff2");
   src: url("/static/fonts/MonaspaceRadonVarVF[wght,wdth,slnt].woff2") format("woff2") tech("variations");
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400;
-  font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08";
+  font-feature-settings: "calt", "liga", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10";
 }
 
 /* Main */

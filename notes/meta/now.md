@@ -1,6 +1,6 @@
 title: Now
 description: Summarized snapshot of what I'm up to, updated regularly.
-modified: 2025-02-01
+modified: 2025-02-07
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now
@@ -11,7 +11,7 @@ is an up-to-date summarized snapshot of where a person is focused on, at this ve
 
 ### What have I been up to, lately?
 
-_Updated as of February 1, 2025._
+_Updated as of February 7, 2025._
 
 <i class="fa-duotone fa-light fa-location-dot color-red"></i>
 Living in **Waterloo (ON)** in Canada.
@@ -31,6 +31,9 @@ Still **rock climbing**! It's been just about 2 years now and I'm able to reliab
 
 <i class="fa-duotone fa-light fa-hat-santa color-red"></i>
 Spent the **winter holidays** working on side projects and visiting friends & family in **Québec (QC)**.
+
+<i class="fa-duotone fa-light fa-chalkboard-user color-aqua"></i>
+Picked up **learning Japanese** again, after a long hiatus.
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
 Currently **reading**...

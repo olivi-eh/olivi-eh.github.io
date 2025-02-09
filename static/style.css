@@ -289,7 +289,7 @@ main a[target="_blank"]:after {
   vertical-align: super;
 }
 
-p > code {
+code {
   font-family: var(--body-font-family);
   background-color: var(--background-off-color);
   border: 1px solid var(--borders-color);

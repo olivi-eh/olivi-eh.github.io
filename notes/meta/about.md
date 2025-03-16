@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-02-01
+modified: 2025-03-14
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -34,7 +34,7 @@ Hiking, rock climbing, and spending time in nature (or in botanical gardens)
 
 It's like two truths one lie, except I'm only listing truths! Again in no particular order.
 
-- Came across someone I know by chance while solo travelling in Montenegro.
+- Came across a highschool friend by chance while solo travelling in Montenegro.
 - Walked the 15km of roads and highway interchanges separating Brussels and its airport.
 - Did some urban exploration photography, breaking into abandoned factories and schools.
 - Piloted an airplane while the pilot was busy taking video footage.
@@ -42,7 +42,7 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Slept overnight in a Walmart parking lot.
 - Hitchhiked and was picked up by a former Navy in the north of Japan.
 - Reliably traced my lineage in two direction going back to the early 1600s.
-- Organising and tracking my life in a large digital notebook (3,200+ notes worth of information).
+- Organised and tracking my life in a large digital notebook (3,200+ notes worth of information).
 - First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
 
 ### Favourite media
@@ -115,20 +115,20 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **1994** (0y): **Born in Québec (QC)**.
 - **1997** (3y): **Moved near Shédiac (NB)**, where I'd stay for much of the next 20+ years.
 - **1999** (5y): **Started attending school**.
-- **2001** (7y): Got my first computer (a beat-up Pentium 3 machine). **Learned HTML** and made my first "websites" (coded entirely in Microsoft Notepad!)
+- **2001** (7y): Got my **first computer** (a beat-up Pentium 3 machine). **Learned HTML** and made my first "websites" (coded entirely in Microsoft Notepad!)
 - **2004** (10y): Around this point, I **wanted to become an astronaut** and got very interested in everything space-related.
 - **2005** (11y): **Started learning English** more in-depth.
 - **2006** (12y): **Started playing drums**, getting my first ever kit (an Alesis DM5-based one).
 - **2007** (13y): Also **started playing guitar**. Coincidentally, the Taylor I went on to aquire a decade later was built that same year. **Learned C++** and got into programmation as a hobby.
 - **2008** (14y): **Graduaded from middle school** and **started highschool**. **Got into photography** as a hobby. At this point I thought I'd get into robotics or electronics as a career.
-- **2010** (16y): Attended my first **LAN party**. Later that year, I would **host my own**, a yearly tradition I kept up with friends for the following 11 years before moving out of the province.
+- **2010** (16y): Attended my first **LAN party**. Later that year, I would **host my own**, a yearly tradition I kept up with friends for the following 10 years before moving out of the province.
 - **2011** (17y): **Started learning Japanese** on and off.
 
 <i class="fa-duotone fa-light fa-user-graduate"></i>
 **Entering university**
 
 - **2012** (18y): **Graduated from highschool**, **moved to Québec (QC) alone** to attend Université Laval in software engineering. Boarded my **first ever flight** (a two-seater Cessna 140).
-- **2014** (20y): **Transferred university** to Mount Allison University in NB (for a variety of reasons) to pursue computer science. Went to the **USA for the first time**. Climbed my **first 5k+ ft mountain** (Mount Katahdin in ME, a hair short from being an ultra). **Went skydiving**. Attended my **first big convention**, PAX East in Boston, MA.
+- **2014** (20y): **Transferred university** to Mount Allison University in NB (for a variety of reasons) to pursue computer science. Went to the **outside the country for the first time** (USA). Hiked my **first 5k+ ft mountain** (Mount Katahdin in ME, a hair short from being an ultra). **Went skydiving**. Attended my **first big convention**, PAX East in Boston (MA).
 - **2015** (21y): Took my **first ever (commercial) flights**, visiting university friends in Calgary (AB), Banff (AB), Los Angeles (CA), and Montreal (QC).
 - **2016** (22y): Hired for my **first summer tech internship**, at EMC Corporation.
 - **2017** (23y): Spent **3 weeks travelling Western Europe** as my **first truly solo trip** (and first time being outside North America). Completed a second **summer internship at EMC** (now acquired by Dell). Flew out to Mountain View (CA) for **interviews with Google** (which I wouldn't pass).
@@ -144,4 +144,4 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
 - **2025** (31y): Let's see what this year holds!
-<!-- picked up learning japanese again, JLPT?, trips (las vegas, bc/ab, nyc, east coast, mtl, atl), 5th year at google -->
+<!-- picked up learning japanese again, JLPT?, trips (chicago, las vegas, bc/ab, nyc, east coast, mtl, atl), 5th year at google, kaero -->

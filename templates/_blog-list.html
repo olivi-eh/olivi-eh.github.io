@@ -1,7 +1,7 @@
 <div id="blog-list">
   <div class="resume-cards-group">
   {% for post in posts %}
-    {% if post.published %}
+  {% if post.published %}
     <a href="{{ post.url_absolute }}">
         <div class="resume-card">
           <div class="resume-card-header">
@@ -23,17 +23,19 @@
               </span>
             </div>
           </div>
-          <div class="resume-card-content">
+          <!-- <div class="resume-card-content">
             <p style="padding-left: 20px; padding-right: 20px">{{ post.description }}</p>
-          </div>
+          </div> -->
         </div>
       </a>
     {% endif %}
     {% endfor %}
+    {% if not hide_see_all %}
     <div class="resume-card">
       <div class="resume-card-header">
         <b><i class="fa-solid fa-angle-right me-1"></i><a href="/blog/">See all posts</a></b>
       </div>
     </div>
+    {% endif %}
   </div>
 </div>

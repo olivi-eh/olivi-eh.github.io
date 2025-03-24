@@ -81,7 +81,7 @@
 /* Main */
 
 body {
-  background-image: url("/static/assets/bg.png");
+  /* background-image: url("/static/assets/bg.png"); */
   background-color: var(--background-color);
   color: var(--text-color);
 

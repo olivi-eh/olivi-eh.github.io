@@ -22,9 +22,9 @@ Listening to music (all genre, but tend towards progressive rock and metal)
 - <i class="fa-duotone fa-light fa-guitars color-red"></i>
 Playing music (drums, though nowadays mostly guitar)
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
-Travelling (visited 16+ countries, 60+ flights)
+Solo travelling (visited 16+ countries, 70+ flights)
 - <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
-Photography (usually a Pentax K-50 with a 35mm lens)
+Photography (usually with my Pentax K-50 and a 35mm lens)
 - <i class="fa-duotone fa-light fa-books color-aqua"></i>
 Learning about new topics and novel scientific findings
 - <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>

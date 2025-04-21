@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-03-14
+modified: 2025-04-21
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -20,7 +20,7 @@ Urbanism (with a focus on liveability, walkability, and transit)
 - <i class="fa-duotone fa-light fa-radio color-aqua"></i>
 Listening to music (all genre, but tend towards progressive rock and metal)
 - <i class="fa-duotone fa-light fa-guitars color-red"></i>
-Playing music (drums, though nowadays mostly guitar)
+Playing music (drums primarily, but also guitar, bass, and singing)
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
 Solo travelling (visited 16+ countries, 70+ flights)
 - <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
@@ -44,6 +44,7 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Reliably traced my lineage in two direction going back to the early 1600s.
 - Organised and tracking my life in a large digital notebook (3,200+ notes worth of information).
 - First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
+- First phone owned was a Palm Pre which I got sometime mid-high school.
 
 ### Favourite media
 
@@ -65,6 +66,7 @@ Everything listed below, I consider "favourites".
 <i class="fa-duotone fa-light fa-book color-purple"></i>
 **Reading**
 
+- Anne of Green Gables series
 - Asterix series
 - Dirk Gently's Holistic Detective Agency
 - Harry Potter series
@@ -79,7 +81,7 @@ Everything listed below, I consider "favourites".
 - Age of Empires II
 - BioShock
 - Factorio
-- Final Fantasy IX & XIV
+- Final Fantasy series
 - Outer Wilds
 - Ragnarok Online
 - Stardew Valley

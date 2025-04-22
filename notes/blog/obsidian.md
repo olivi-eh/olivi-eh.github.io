@@ -12,7 +12,7 @@ I've been storing and keeping track of information in various ways for a long ti
 
 Near the tail end of 2022, I came across what I thought might be the answer to all my woes: a note-taking app built by a small team, with the name of [Obsidian](https://obsidian.md/){:target="_blank"}.
 
-## What's in an Obsidian?
+### What's in an Obsidian?
 
 Obsidian is a multi-platform note-taking and writing app. Simple enough. But aren't there plenty of those around? Yes absolutely, but they each have downsides that I wasn't able to settle with long-term. With [Google Cloud](https://docs.google.com/){:target="_blank"} it was the difficult of linking between notes (this has improved since but it's still not quite what I want). With [Evernote](https://evernote.com/){:target="_blank"} my notes were in a proprietary format and stuck in the cloud. [Notion](https://www.notion.com/){:target="_blank"} also had the cloud-first problem and stored in an awkward non-standard Markdown format. And the list goes on.
 
@@ -30,7 +30,7 @@ Here's what Obsidian provides that sold it to me:
 ![Screenshot of my Obsidian vault opened on the graph view](/static/images/obsidian/obsidian.png)
 <span class="img-caption">Screenshot of my Obsidian vault opened on the graph view.</span>
 
-## Why store information?
+### Why store information?
 
 The way people interact with pieces of information is very personal and differ from person to person, but these are the main reasons I've been maintaining a repository of notes over the past decade or so:
 
@@ -55,7 +55,7 @@ So with that said, what are the kinds of notes that I have in Obsidian? Glad you
 ![Screenshot of a note I created to act as an overview of my personal notes](/static/images/obsidian/olivier.png)
 <span class="img-caption">A note I created to act as an overview of notes about me.</span>
 
-## Templates to reduce repetition
+### Templates to reduce repetition
 
 The first community-built plugin that I ended up trying out was [QuickAdd](https://obsidian.md/plugins?id=quickadd){:target="_blank"}. This plugin allows you to create custom commands in the command palette configured to duplicate a specific template note. This means that you could create for example a note called "New trip template" and configure a command called "Add new trip" which would duplicate that particular note and open it for you to fill out as desired.
 
@@ -74,7 +74,7 @@ Since templates mean I get to create a lot of notes really easily, I wanted to p
 ![Screenshot of the directory structure of my vault, showing the Trips notes](/static/images/obsidian/trips-dirs.png)
 <span class="img-caption">The directory structure of my vault, showing the Trips notes.</span>
 
-## Scripting to leverage external metadata
+### Scripting to leverage external metadata
 
 One of the advantages of using a local-first notes app with an open portable format is that I can easily interact with the notes outside of the note taking app itself. This means that I can, among other things, build custom scripts or pipelines that can create or modify notes.
 
@@ -87,7 +87,7 @@ I currently do this for three types of notes:
 ![Screenshot of the Back to the Future note after injecting IMDb metadata](/static/images/obsidian/back-to-the-future.png)
 <span class="img-caption">The Back to the Future note after injecting IMDb metadata.</span>
 
-## Querying notes to render tables
+### Querying notes to render tables
 
 Something that I missed after having used Notion for a few years was the ability to create rendered tables out of notes with custom columns, filters, and sorting. Obsidian doesn't have that built-in (though it is [on the roadmap](https://obsidian.md/roadmap/){:target="_blank"}), but there is a community-built plugin called [Dataview](https://obsidian.md/plugins?id=dataview){:target="_blank"} that offers most of what I was looking for.
 
@@ -113,7 +113,7 @@ sort apirating desc
 
 <span class="text-small">*Yes I know, I need to get to Coppola's The Godfather trilogy sometime.</span>
 
-## Journaling to clear my mind
+### Journaling to clear my mind
 
 I have a confession to make. Before 2024 I'd never try journaling. I decided to give it a try early last year and it's been useful so far! It helps me remember what I do on a day-to-day basis, track illnesses like the flu, and put nagging thoughts in order. On that first point, it's already helping me quickly answer questions like "when was the last time I chatted with so-and-so, and what did we talk about?" (the search and the backlink functionalities of Obsidian doing the heavy-lifting).
 
@@ -129,7 +129,7 @@ Since I was planning to do journaling every day, I wanted to make the process as
 ![Screenshot of the template I use for daily journaling](/static/images/obsidian/daily-template.png)
 <span class="img-caption">The template I use for daily journaling.</span>
 
-## Takeaways
+### Takeaways
 
 And now, two years with Obsidian, here are my takeaways:
 

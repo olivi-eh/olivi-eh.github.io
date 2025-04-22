@@ -5,7 +5,7 @@ tags: typography
 published: 2025-01-25
 modified: 2025-01-25
 template: blog
-length: 2
+length: 3
 ---
 
 If you have ever used a computer, you likely have come across fonts before (like the classic Times New Roman or the infamous Comic Sans). But did you know fonts have been around for much longer than computers have? The concept of fonts dates from the 15th century, shortly after the invention of the [printing press](https://en.wikipedia.org/wiki/Printing_press){:target="_blank"}.

@@ -58,4 +58,4 @@ Here I'm outlining my own preference and styles when it comes to communicating w
 - Silence doesn't necessarily mean anything more than that. I'm probably just thinking, or enjoying the silence. That doesn't mean I don't want you to reach out, or don't want you to keep talking.
 - No, I don't generally speak in bullet points with no emoji or nuance. It's just for this blog post, I swear.
 
-Do you have your own "handbook" on how to communicate with you? If so do [let me know](/contact), I would love to read it!
+Do you have your own "handbook" on how you prefer communicating? If so do [let me know](/contact), I would love to read it!

@@ -13,11 +13,11 @@ In my [previous post](/hello-world/), I introduced the latest version of my pers
 
 ### A blank slate
 
-When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/){:target="_blank"} or other preexisting libraries*.
+When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/){:target="_blank"} or other preexisting libraries<sup>*</sup>.
 
 This time, as a challenge for myself, I aimed to use _nothing_ external. Only HTML, CSS, and perhaps a scripting language to help generate some files. For the most part I did achieve that, and I'm very happy with my end result! But it didn't all go as planned.
 
-<span class="text-small">*There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5){:target="_blank"}, especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.</span>
+<span class="text-small"><sup>*</sup>There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5){:target="_blank"}, especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.</span>
 
 ### Generating worlds
 

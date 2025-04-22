@@ -21,7 +21,7 @@ Small disclaimer: the tables I created in this post to do comparisons don't show
 
 ### For code readability
 
-All* computer programmers use monospace fonts to write their code, where a mistake on one small character can make a whole lot of difference in the program output. Monospace fonts are generally designed to take out any ambiguity between similar-looking characters. Take a look at the following sets of characters and try to spot where ambiguity could occur.
+All<sup>*</sup> computer programmers use monospace fonts to write their code, where a mistake on one small character can make a whole lot of difference in the program output. Monospace fonts are generally designed to take out any ambiguity between similar-looking characters. Take a look at the following sets of characters and try to spot where ambiguity could occur.
 
 | Proportional | Monospace |
 | :- | :- |
@@ -33,7 +33,7 @@ Additionally, monospace fonts make code appear less squished and more structured
 | :- | :- |
 | <span style="font-family: serif">if &lowbar;&lowbar;name&lowbar;&lowbar; == &apos;&lowbar;&lowbar;main&lowbar;&lowbar;&apos;:<br>&nbsp;&nbsp;&nbsp;&nbsp;pages_meta = process_notes()<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_sitemap(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_rss(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_atom(pages_meta)</span> | if &lowbar;&lowbar;name&lowbar;&lowbar; == &apos;&lowbar;&lowbar;main&lowbar;&lowbar;&apos;:<br>&nbsp;&nbsp;&nbsp;&nbsp;pages_meta = process_notes()<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_sitemap(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_rss(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_atom(pages_meta) |
 
-<span class="text-small">*Do you write code and use a proportional font? Please reach out to me, I would love to hear about it!</span>
+<span class="text-small"><sup>*</sup>Do you write code and use a proportional font? Please reach out to me, I would love to hear about it!</span>
 
 ### For making art
 
@@ -75,6 +75,6 @@ In biochemistry, monospace fonts are useful to quickly parse [nucleic acid seque
 
 Finally you may simply find, like me, that monospace fonts are aesthetically pleasing, and that's very valid! Regardless of the domain, you can see that still today, monospace fonts have tons of room to shine.
 
-What about you? Do you use monospace in your day-to-day life? Do you have a favourite monospace font?*
+What about you? Do you use monospace in your day-to-day life? Do you have a favourite monospace font?<sup>*</sup>
 
-<span class="text-small">These days, I tend to keep coming back to a series of fonts called [Monaspace](https://monaspace.githubnext.com/){:target="_blank"}.</span>
+<span class="text-small"><sup>*</sup>These days, I tend to keep coming back to a series of fonts called [Monaspace](https://monaspace.githubnext.com/){:target="_blank"}.</span>

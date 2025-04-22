@@ -109,9 +109,9 @@ sort apirating desc
 ```
 
 ![Screenshot of the "Films by IMDb ratings" table](/static/images/obsidian/films-table.png)
-<span class="img-caption">The rendered table for films* sorted by IMDb user ratings.</span>
+<span class="img-caption">The rendered table for films<sup>*</sup> sorted by IMDb user ratings.</span>
 
-<span class="text-small">*Yes I know, I need to get to Coppola's The Godfather trilogy sometime.</span>
+<span class="text-small"><sup>*</sup>Yes I know, I need to get to Coppola's The Godfather trilogy sometime.</span>
 
 ### Journaling to clear my mind
 

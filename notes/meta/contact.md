@@ -6,7 +6,7 @@ modified: 2025-01-19
 ## <i class="fa-duotone fa-light fa-envelope me-1"></i>Contact
 
 Do you want to chat about something I've talked about, share a new opportunity with me,
-or simply would like to say hi? I would love to hear from you!
+or simply would like to say hi? I would love to hear from you! Read more [about my communication style](/communication-style).
 
 The fastest way to reach me is via email at `bourgeoisor [symbol] gmail.com`.
 

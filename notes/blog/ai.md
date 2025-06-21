@@ -1,4 +1,4 @@
-title: My stance on AI: Where I feel it belongs (or don't)
+title: My stance on AI: Where I feel it belongs (or doesn't)
 description: All content I publish is created by me personally. This page is a thorough understanding of how I feel about AI and where I think it does or doesn't belong.
 tags: meta
 tags: ai

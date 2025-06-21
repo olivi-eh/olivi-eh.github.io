@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-04-21
+modified: 2025-06-21
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -45,6 +45,7 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Organised and tracking my life in a large digital notebook (3,200+ notes worth of information).
 - First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
 - First phone owned was a Palm Pre which I got sometime mid-high school.
+- Love hugs, receiving post cards, and catching up with friends.
 
 ### Favourite media
 
@@ -146,4 +147,4 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
 - **2025** (31y): Let's see what this year holds!
-<!-- picked up learning japanese again, JLPT?, trips (chicago, las vegas, bc/ab, nyc, east coast, mtl, atl), 5th year at google, kaero -->
+<!-- picked up learning japanese again, JLPT?, trips (chicago, las vegas, bc/ab, nyc, east coast?, mtl, atl), 5th year at google, kaero -->

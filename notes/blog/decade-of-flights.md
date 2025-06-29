@@ -22,7 +22,7 @@ I took my first flight on June 1, 2015 at the age of 20<sup>*</sup>. Now well in
 
 ### Historical flight data
 
-As I've mentioned in [my blog post about Obsdian](/obsidian), I take note of a lot of things. This includes flights that I've taken. I had on hand a complete list of flights that I've taken in the past, but I realized that it only contained flight numbers and dates, and nothing else. Surely the rest of the data should be available online somewhere, right?
+As I've mentioned in [my blog post about Obsidian](/obsidian), I take note of a lot of things. This includes flights that I've taken. I had on hand a complete list of flights that I've taken in the past, but I realized that it only contained flight numbers and dates, and nothing else. Surely the rest of the data should be available online somewhere, right?
 
 It didn't take me long to realize that historical flight data was extremely difficult to get a hold of. Despite looking for quite some time, I wasn't able to find flight data older than 3 days that wasn't locked behind some membership-only service or a paid subscription. I ended up shelling out $25 to get access to the simple data I was looking for (departure and arrival times -- expected and actual -- and aircraft).
 

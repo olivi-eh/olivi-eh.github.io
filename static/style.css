@@ -283,7 +283,7 @@ a:hover {
 
 main a[target="_blank"]:after {
   content: "\f08e";
-  font-family: 'Font Awesome 6 Pro';
+  font-family: 'Font Awesome 7 Pro';
   font-size: 0.6em;
   margin-left: 5px;
   vertical-align: super;

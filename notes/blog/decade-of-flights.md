@@ -8,11 +8,6 @@ template: blog
 length: 5
 ---
 
-<!-- TODO: Review meta tags -->
-<!-- TODO: Check spelling + UK -->
-<!-- TODO: Publish -->
-<!-- TODO: Post on socials (Bluesky, LinkedIn) -->
-
 I took my first flight on June 1, 2015 at the age of 20<sup>*</sup>. Now well into June 2025, I wanted to look back on the past 10 years and see what kind of statistics I could get out of it. Please make sure your seat and tray table are in the upright position for take-off!
 
 ![Screenshot of my Obsidian vault opened on the graph view](/static/images/decade-of-flights/cessna-140.jpg)

@@ -15,7 +15,7 @@ This page contains a complete list of my employment history since 2016. [View my
       <div>
         <b>Senior DevRel Developer</b> at <b>Google</b><br>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2020 — Now</span>
-        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Kitchener, ON</span>
+        <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-location-dot me-1 color-red"></i>Toronto, ON</span>
       </div>
       <img class="no-radius h-40 d-sm-none" src="/static/assets/logo-google.png" alt="Logo for Google">
     </div>

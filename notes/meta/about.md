@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-07-24
+modified: 2025-09-27
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -62,6 +62,7 @@ Everything listed below, I consider "favourites".
 - The Pineapple Thief
 - Porcupine Tree
 - Rush
+- Steven Wilson
 - Tool
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
@@ -95,6 +96,7 @@ Everything listed below, I consider "favourites".
 - Angel Beats!
 - Back to the Future trilogy
 - Clannad
+- Doctor Who
 - Futurama
 - Freaks and Geeks
 - Game of Thrones

@@ -11,4 +11,4 @@ length: LENGTH
 <!-- TODO: Review meta tags -->
 <!-- TODO: Check spelling + UK -->
 <!-- TODO: Publish -->
-<!-- TODO: Post on socials (Bluesky, LinkedIn) -->
+<!-- TODO: Post on socials (Bluesky, LinkedIn, Instagram) -->

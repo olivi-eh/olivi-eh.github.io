@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-09-27
+modified: 2025-12-02
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -148,5 +148,4 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2022** (28y): Visited New York (NY) for the first time.
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
-- **2025** (31y): Let's see what this year holds!
-<!-- picked up learning japanese again, JLPT?, trips (chicago, las vegas, vancouver, edmonton, calgary, nyc, east coast?, mtl, atl?), 5th year at google, kaero -->
+- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)**, just me and my two cats. Went on **12 trips** covering all four corners of North America (mostly for work). Built a **spec-compliant IRC client** for fun.

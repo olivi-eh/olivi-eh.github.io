@@ -14,21 +14,21 @@ auto-biography**. See something interesting? Have questions? I'd love to [hear f
 Some things that inspire me, in no particular order!
 
 - <i class="fa-duotone fa-light fa-microchip color-purple"></i>
-Technology (fascinated by retro systems, web 1.0, and homelabs)
+**Technology**, especially fascinated by retro systems, web 1.0, and homelabs.
 - <i class="fa-duotone fa-light fa-house-tree color-green"></i>
-Urbanism (with a focus on liveability, walkability, and transit)
+**Urbanism**, with a focus on liveability, walkability, and transit.
 - <i class="fa-duotone fa-light fa-radio color-aqua"></i>
-Listening to music (most genre, but tend towards progressive rock and metal)
+**Listening to music**, particularly progressive rock and metal.
 - <i class="fa-duotone fa-light fa-guitars color-red"></i>
-Playing music (drums primarily, but also guitar, bass, and singing)
+**Playing music**, drums primarily, but also guitar, bass, and singing.
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
-Solo travelling (visited 16+ countries, 75+ flights)
+**Solo travelling**, immersing myself in another culture, learning its history.
 - <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
-Photography (usually with my Pentax K-50 and a 35mm lens)
+**Photography**, usually with my Pentax K-50 and a 35mm lens.
 - <i class="fa-duotone fa-light fa-books color-aqua"></i>
-Learning about new topics and novel scientific findings
+**Continuous learning**, doing introspection, reading novel scientific findings.
 - <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
-Hiking, rock climbing, and spending time in nature (or in botanical gardens)
+**Time in nature**, whether rock climbing, hiking, or wandering in botanical gardens.
 
 ### Assorted fun facts
 
@@ -39,76 +39,28 @@ It's like two truths one lie, except I'm only listing truths! Again in no partic
 - Did some urban exploration photography, breaking into abandoned factories and schools.
 - Piloted an airplane while the pilot was busy taking video footage.
 - Traveled to Europe (and missed school) primarily to see a one-off music show.
-- Slept overnight in a Walmart parking lot.
+- Hosted 16 multi-day themed LAN party weekends, with a rotation of 19 friends.
 - Hitchhiked and was picked up by a former Navy in the north of Japan.
 - Reliably traced my lineage in two direction going back to the early 1600s.
-- Organised and tracking my life in a large digital notebook (3,200+ notes worth of information).
-- First computer owned was a Pentium 3 machine with 64MB of RAM and a 20GB hard drive.
-- First phone owned was a Palm Pre which I got sometime mid-high school.
-- Love hugs, receiving post cards, and catching up with others.
+- Organised and tracked my life in a large digital notebook (3,200+ notes worth of information).
+- Received a Pentium 3 machine with 64MB of RAM and a 20GB hard drive as first computer.
+- Didn't have a cellphone until mid-high school, a Palm Pre I purchased from a part-time job.
+- Love sharing hugs, receiving post cards, and connecting with others.
 
 ### Favourite media
 
 Everything listed below, I consider "favourites".
 
-<i class="fa-duotone fa-light fa-radio color-aqua"></i>
-**Listening**
-
-- Ayreon
-- Between the Buried and Me
-- The Dear Hunter
-- Haken
-- Leprous
-- The Pineapple Thief
-- Porcupine Tree
-- Rush
-- Steven Wilson
-- Tool
-
-<i class="fa-duotone fa-light fa-book color-purple"></i>
-**Reading**
-
-- Anne of Green Gables series
-- Asterix series
-- Dirk Gently's Holistic Detective Agency
-- Harry Potter series
-- The Hitchhiker's Guide to the Galaxy "trilogy"
-- The Little Prince
-- The Lord of the Rings trilogy
-- Nineteen Eighty-Four
-
-<i class="fa-duotone fa-light fa-game-console-handheld color-orange"></i>
-**Playing**
-
-- Age of Empires II
-- BioShock
-- Factorio
-- Final Fantasy series
-- Outer Wilds
-- Ragnarok Online
-- Stardew Valley
-- Trials of Mana
-
-<i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
-**Watching**
-
-- Adventure Time
-- Angel Beats!
-- Back to the Future trilogy
-- Clannad
-- Doctor Who
-- Futurama
-- Freaks and Geeks
-- Game of Thrones
-- Kaguya-sama: Love is War
-- The Lord of the Rings trilogy
-- Monty Python and the Holy Grail
-- Nichijou
-- Pixar films
-- Spy x Family
-- Star Wars universe
-- Stranger Things
-- Toradora!
+- <i class="fa-duotone fa-light fa-radio color-aqua"></i>
+**Listening**: Ayreon, Between the Buried and Me, The Dear Hunter, Haken, Porcupine Tree, Rush, Tool.
+- <i class="fa-duotone fa-light fa-book color-purple"></i>
+**Reading**: Anne of Green Gables, Asterix, Harry Potter, The Hitchhiker's Guide to the Galaxy, The Little Prince, The Lord of the Rings.
+- <i class="fa-duotone fa-light fa-game-console-handheld color-green"></i>
+**Playing**: Age of Empires, BioShock, Factorio, Final Fantasy, Outer Wilds, Ragnarok Online, Stardew Valley, Trials of Mana.
+- <i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
+**Watching (series)**: Adventure Time, Angel Beats, Clannad, Doctor Who, Futurama, Freaks and Geeks, Game of Thrones, Kaguya-sama, Spy x Family, Stranger Things, Toradora.
+- <i class="fa-duotone fa-light fa-film color-red"></i>
+**Watching (films)**: Back to the Future, Ghibli, The Lord of the Rings, Monty Python, Pixar, Star Wars.
 
 ### Brief timeline
 
@@ -148,7 +100,7 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2022** (28y): Visited New York (NY) for the first time.
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
-- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)**, just me and my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Built a **spec-compliant IRC client** for fun.
+- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)** with my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Built a **spec-compliant IRC client** for fun.
 
 <i class="fa-duotone fa-light fa-rocket"></i>
 **Change of direction**

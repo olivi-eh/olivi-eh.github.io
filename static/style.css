@@ -1,6 +1,7 @@
 /* Variables */
 
 :root {
+  --background-image: none;
   --background-color: #f6f8fc;
   --background-off-color: #f4f6fb80;
   --background-hover-color: #f3f5f9;
@@ -25,6 +26,10 @@
   --body-font-family: "Monaspace Neon", monospace, sans-serif;
   --font-size: 16px;
   --line-height: 1.6;
+}
+
+:root[data-theme="winter"] {
+  --background-image: url("/static/assets/bg-snow.png");
 }
 
 :root[data-theme="dark"] {
@@ -81,7 +86,7 @@
 /* Main */
 
 body {
-  /* background-image: url("/static/assets/bg.png"); */
+  background-image: var(--background-image);
   background-color: var(--background-color);
   color: var(--text-color);
 

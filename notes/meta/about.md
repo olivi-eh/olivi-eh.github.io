@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-12-02
+modified: 2025-12-09
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -24,11 +24,13 @@ Some things that inspire me, in no particular order!
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
 **Solo travelling**, immersing myself in another culture, learning its history.
 - <i class="fa-duotone fa-light fa-camera-retro color-pink"></i>
-**Photography**, usually with my Pentax K-50 and a 35mm lens.
+**Photography**, often landscape, usually with my Pentax K-50 and a 35mm lens.
 - <i class="fa-duotone fa-light fa-books color-aqua"></i>
-**Continuous learning**, doing introspection, reading novel scientific findings.
+**Continuous learning**, introspections, reading novel scientific findings.
 - <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
-**Time in nature**, whether rock climbing, hiking, or wandering in botanical gardens.
+**Time in nature**, rock climbing, hiking, and wandering in botanical gardens.
+- <i class="fa-duotone fa-light fa-chart-mixed-up-circle-dollar color-green"></i>
+**Financial independance**, FIRE movement, DIY investing, simple living.
 
 ### Assorted fun facts
 

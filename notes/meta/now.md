@@ -1,6 +1,6 @@
 title: Now
 description: Summarized snapshot of what I'm up to, updated regularly.
-modified: 2026-02-03
+modified: 2026-03-15
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now
@@ -11,16 +11,16 @@ is an up-to-date summarized snapshot of where a person is focused on, at this ve
 
 ### What have I been up to, lately?
 
-_Updated as of February 3, 2026._
+_Updated as of March 15, 2026._
 
 <i class="fa-duotone fa-light fa-location-dot color-red"></i>
 Living in **Toronto (ON)** in Canada with my two cats, as of July last year.
 
 <i class="fa-duotone fa-light fa-briefcase color-blue"></i>
-Working full-time at **Google** in the **Developer Relations** team in Google Cloud. Just passed my 5th anniversary!
+Working full-time at **Google** in the **Developer Relations** team in Google Cloud, focusing on containerization and GKE. Onwards to my 6th anniversary there!
 
 <i class="fa-duotone fa-light fa-plane-departure color-aqua"></i>
-After some time home not moving further than my grocery store, I'm about to go back on the road. Within the next few weeks I have trips planned to **Quebec (QC)**, **Western Europe** (London, Paris, Barcelona, Madrid, and Lisbon), **New York (NY)**, **Washington (DC)**, **San Francisco (CA)**, and **Las Vegas (NV)**.
+Arrived from a well-deserved two weeks vacation in **Western Europe** (London, Paris, Barcelona, Madrid, and Lisbon), and started being on the road for work again, passing through **New York (NY)**, **Washington (DC)**, **San Francisco (CA)**, and **Las Vegas (NV)** (with more to come, I'm sure).
 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
 Not working quite as much on **[XIV ToDo](https://xivtodo.com){:target="_blank"}**. I hope to find more time soon to get back at it. I've also been working on-and-off on a spec-compliant IRC client, though haven't touched it in a couple months.

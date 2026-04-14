@@ -22,11 +22,12 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
     </div>
     <div class="resume-card-content">
       <ul>
-        <li>Tech lead for two Google Cloud reference applications, microservices-demo and bank-of-anthos.</li>
-        <li>Leads the developer experience engineering planning for Google Kubernetes Engine (GKE).</li>
-        <li>Maintains sample applications and client libraries for GKE and Anthos products.</li>
-        <li>Designs and develops core technical tutorials for GKE and Migrate for Anthos.</li>
-        <li>Engages with internal partner teams to enhance the Google Cloud on-boarding experience.</li>
+        <li>Technical lead for flagship Google Cloud reference architectures, Microservices Demo and Bank of Anthos, showcasing cloud-native best practices, totaling 21,000+ stars.</li>
+        <li>Strategized the Developer Experience (DX) roadmap for Google Kubernetes Engine (GKE), identifying critical friction points and implementing workflows that reduced developer onboarding time.</li>
+        <li>Created and maintained sample applications and client libraries for GKE products.</li>
+        <li>Produced high-authority technical content (tutorials, labs, architecture guides, and articles).</li>
+        <li>Presented talks and delivered workshop labs at conferences and workshop events.</li>
+        <li>Cross-functional collaborator with product and engineering teams to advocate for developer needs.</li>
       </ul>
     </div>
   </div>

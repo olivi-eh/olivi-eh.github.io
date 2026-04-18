@@ -17,7 +17,7 @@ Here I'm outlining my own preference and styles when it comes to communicating w
 - My name is Olivier (spelt with two i's).
 - My preferred pronouns are he / him, but I'm also okay with they / them.
 - I currently live in the Eastern time zone (GMT-4 or GMT-5 depending on the season).
-- When I'm not travelling, I'm generally awake between 8am and midnight local time.
+- When I'm not travelling, I'm generally awake between 9am and midnight local time.
 - Though I love conversing with others, I'm more introverted and require time to recharge.
 - I value honesty, curiosity, integrity, and kindness. This gets reflected in the way I communicate.
 
@@ -43,6 +43,7 @@ Here I'm outlining my own preference and styles when it comes to communicating w
 - Similarly, I'd prefer you don't guess what I'm trying to convey. If you're not sure, or if something I said seems ambiguous, let me know and I can clarify.
 - Do feel empowered to "bother me" whenever you feel like it. I genuinely enjoy people reaching out.
 - If I offer something (e.g. help), I genuinely mean it. I expect the same to hold true of what you offer me.
+- I don't expect anything that wasn't agreed upon previously, and similarly you shouldn't expect anything from me that wasn't agreed upon previously. If you want to set an expectation on either side, talk about it.
 
 ### Disagreements & conflicts
 

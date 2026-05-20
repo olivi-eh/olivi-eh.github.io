@@ -1,3 +1,6 @@
+![GitHub branch check runs](https://img.shields.io/github/check-runs/bourgeoisor/bourgeoisor.github.io/main)
+![GitHub License](https://img.shields.io/github/license/bourgeoisor/bourgeoisor.github.io)
+
 # Personal website
 
 This repository contains my personal website, which is hosted on [olivi-eh.dev](https://olivi-eh.dev/). It is powered by a custom static site generator script that renders Markdown documents using Jinja2 templates.

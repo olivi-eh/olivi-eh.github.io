@@ -1,6 +1,6 @@
 title: Now
 description: Summarized snapshot of what I'm up to, updated regularly.
-modified: 2026-03-15
+modified: 2026-05-18
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now
@@ -11,16 +11,16 @@ is an up-to-date summarized snapshot of where a person is focused on, at this ve
 
 ### What have I been up to, lately?
 
-_Updated as of March 15, 2026._
+_Updated as of May 18, 2026._
 
 <i class="fa-duotone fa-light fa-location-dot color-red"></i>
-Living in **Toronto (ON)** in Canada with my two cats, as of July last year.
+Living in **Toronto (ON)** in Canada with my two cats.
 
 <i class="fa-duotone fa-light fa-briefcase color-blue"></i>
-Working full-time at **Google** in the **Developer Relations** team in Google Cloud, focusing on containerization and GKE. Onwards to my 6th anniversary there!
+Working full-time at **Google** in the **Developer Relations** team in Google Cloud, focusing on containerization and GKE. Nearing my 6th anniversary there.
 
 <i class="fa-duotone fa-light fa-plane-departure color-aqua"></i>
-Arrived from a well-deserved two weeks vacation in **Western Europe** (London, Paris, Barcelona, Madrid, and Lisbon), and started being on the road for work again, passing through **New York (NY)**, **Washington (DC)**, **San Francisco (CA)**, and **Las Vegas (NV)** (with more to come, I'm sure).
+Upcoming trips for work in **New York (NY)**, **Austin (TX)**, **San Francisco (CA)** and **Seattle (WA)**. Followed that, personal trips back in Canada in **Vancouver (BC)**, **Montreal (QC)**, and **Quebec (QC)**.
 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
 Not working quite as much on **[XIV ToDo](https://xivtodo.com){:target="_blank"}**. I hope to find more time soon to get back at it. I've also been working on-and-off on a spec-compliant IRC client, though haven't touched it in a couple months.
@@ -43,14 +43,13 @@ Currently **reading**...
 Currently **playing**...
 
 - Final Fantasy XIV Online (occasionally)
-- Yakuza: Like a Dragon
+- Like a Dragon: Infinite Wealth
 - Outer Wilds (the DLC)
 
 <i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
 Currently **watching**...
 
-- Game Changer (almost caught up)
-- Make Some Noise (also almost caught up)
+- Frieren
 
 ---
 

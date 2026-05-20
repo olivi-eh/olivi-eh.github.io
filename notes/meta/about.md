@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2025-12-09
+modified: 2026-05-18
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
@@ -74,7 +74,7 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **1994** (0y): **Born in Québec (QC)**.
 - **1997** (3y): **Moved near Shédiac (NB)**, where I'd stay for much of the next 20+ years.
 - **1999** (5y): **Started attending school**.
-- **2001** (7y): Got my **first computer** (a beat-up Pentium 3 machine). **Learned HTML** and made my first "websites" (coded entirely in Microsoft Notepad!)
+- **2001** (7y): Got my **first computer** (a beat-up Pentium 3 machine). **Learned HTML** and made my first web pages (coded entirely in Microsoft Notepad!)
 - **2004** (10y): Around this point, I **wanted to become an astronaut** and got very interested in everything space-related.
 - **2005** (11y): **Started learning English** more in-depth.
 - **2006** (12y): **Started playing drums**, getting my first ever kit (an Alesis DM5-based one).
@@ -102,9 +102,10 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2022** (28y): Visited New York (NY) for the first time.
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
 - **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
-- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)** with my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Built a **spec-compliant IRC client** for fun.
+- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)** with my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Worked on a **spec-compliant IRC client** for fun.
 
 <i class="fa-duotone fa-light fa-rocket"></i>
 **Change of direction**
 
 - **2026** (32y): Let's see what this year holds!
+<!-- trips (euro, others), Japan 3 months -->

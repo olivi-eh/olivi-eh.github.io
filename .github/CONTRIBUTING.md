@@ -27,8 +27,8 @@ Make sure you have [uv](https://github.com/astral-sh/uv) installed.
 ### Setup & Local testing
 1. Clone your fork and navigate to the directory:
    ```sh
-   git clone https://github.com/your-username/bourgeoisor.github.io.git
-   cd bourgeoisor.github.io
+   git clone https://github.com/your-username/olivi-eh.github.io.git
+   cd olivi-eh.github.io
    ```
 2. Start the local development server:
    ```sh

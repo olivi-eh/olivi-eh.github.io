@@ -1,5 +1,5 @@
-![GitHub branch check runs](https://img.shields.io/github/check-runs/bourgeoisor/bourgeoisor.github.io/main)
-![GitHub License](https://img.shields.io/github/license/bourgeoisor/bourgeoisor.github.io)
+![GitHub branch check runs](https://img.shields.io/github/check-runs/olivi-eh/olivi-eh.github.io/main)
+![GitHub License](https://img.shields.io/github/license/olivi-eh/olivi-eh.github.io)
 
 # Personal website
 

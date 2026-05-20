@@ -70,7 +70,7 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
       <div>
         <b>Creator</b> of <b>Kaero</b><br>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2024 — Now</span>
-        <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/bourgeoisor/kaero" target="_blank">Source</a></span>
+        <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/olivi-eh/kaero" target="_blank">Source</a></span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-kaero.png" alt="Logo for Kaero">
     </div>
@@ -88,7 +88,7 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_b
         <b>Creator</b> of <b>XIV ToDo</b><br>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar me-1 color-green"></i>2021 — Now</span>
         <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-globe-pointer me-1 color-aqua"></i><a href="https://xivtodo.com" target="_blank">Website</a></span>
-        <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/bourgeoisor/xivtodo" target="_blank">Source</a></span>
+        <span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i><a href="https://github.com/olivi-eh/xivtodo" target="_blank">Source</a></span>
       </div>
       <img class="no-radius h-30 d-sm-none" src="/static/assets/logo-xivtodo.png" alt="Logo for XIV ToDo">
     </div>

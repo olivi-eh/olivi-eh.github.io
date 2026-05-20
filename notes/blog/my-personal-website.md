@@ -54,7 +54,7 @@ For those unfamiliar with the Jinja syntax, here is the entire source code of my
 {% include "_suffix.html" %}
 ```
 
-I also created functions to generate a sitemap, an RSS feed, and an Atom feed. All in all, my generator script is just about 150 lines long (at the time of writing), which you can [view here](https://github.com/bourgeoisor/bourgeoisor.github.io/blob/main/md2html.py){:target="_blank"}.
+I also created functions to generate a sitemap, an RSS feed, and an Atom feed. All in all, my generator script is just about 150 lines long (at the time of writing), which you can [view here](https://github.com/olivi-eh/olivi-eh.github.io/blob/main/build.py){:target="_blank"}.
 
 So now I have a handful of generated HTML files, but without any styling it doesn't look so sharp. Let's fix that!
 
@@ -144,4 +144,4 @@ do
 done
 ```
 
-I then made sure my domain name (`olivi-eh.dev`) was linked to the GitHub Pages configuration, and I was good to go! If you want to see the entire source code for this website, it's available in a [public repository](https://github.com/bourgeoisor/bourgeoisor.github.io){:target="_blank"} on GitHub. I'm hoping this inspires others to also attempt the challenge of building something!
+I then made sure my domain name (`olivi-eh.dev`) was linked to the GitHub Pages configuration, and I was good to go! If you want to see the entire source code for this website, it's available in a [public repository](https://github.com/olivi-eh/olivi-eh.github.io){:target="_blank"} on GitHub. I'm hoping this inspires others to also attempt the challenge of building something!

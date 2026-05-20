@@ -1,5 +1,5 @@
 [project]
-name = "bourgeoisor-github-io"
+name = "olivi-eh-github-io"
 version = "1.0.0"
 description = "Olivier Bourgeois' personal website & blog static site generator"
 readme = "README.md"
@@ -21,4 +21,4 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://olivi-eh.dev"
-Repository = "https://github.com/bourgeoisor/bourgeoisor.github.io"
+Repository = "https://github.com/olivi-eh/olivi-eh.github.io"

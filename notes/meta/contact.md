@@ -25,5 +25,5 @@ I am not generally active on any other social media platforms. If in doubt, it's
 
 In addition to [this site's blog](/blog/), I also sometimes publish articles at the following places:
 
-<span class="me-2 no-wrap"><i class="fa-brands fa-medium me-1"></i>[Medium](https://medium.com/@bourgeoisor){:target="_blank"}</span>
-<span class="me-2 no-wrap"><i class="fa-brands fa-dev me-1"></i>[DEV](https://dev.to/bourgeoisor){:target="_blank"}</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-medium me-1"></i>[Medium](https://medium.com/@olivi-eh){:target="_blank"}</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-dev me-1"></i>[DEV](https://dev.to/olivi-eh){:target="_blank"}</span>

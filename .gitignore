@@ -1,1 +1,11 @@
-out/**
+# Builds
+out/
+
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.pyc
+
+# IDEs and OS files
+.idea/
+.DS_Store

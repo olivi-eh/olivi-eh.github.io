@@ -1,0 +1,10 @@
+[project]
+name = "bourgeoisor-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jinja2==3.1.5",
+    "markdown==3.7",
+]

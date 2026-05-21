@@ -22,13 +22,17 @@ This repository contains my personal website, which is hosted on [olivi-eh.dev](
 
 ## Development and building
 
-This project utilizes the `uv` Python package manager to manage dependencies and execute tasks.
-
 ### Prerequisites
 
-Make sure you have [uv](https://github.com/astral-sh/uv) installed.
+This project utilizes the [uv](https://github.com/astral-sh/uv) package manager to manage dependencies and python runtimes. You only need to have `uv` installed; it will automatically download and manage the required Python version for you.
 
-### 1. Run the development server (with watcher)
+Clone the repository and navigate to the project directory:
+```sh
+git clone https://github.com/olivi-eh/olivi-eh.github.io.git
+cd olivi-eh.github.io
+```
+
+### Starting the development server
 
 To serve the website locally and watch for changes in `notes/`, `templates/`, and `static/` directories:
 
@@ -38,7 +42,7 @@ To serve the website locally and watch for changes in `notes/`, `templates/`, an
 
 This will automatically build the site, run a local development server at [http://localhost:8082](http://localhost:8082), and trigger automatic rebuilds as you edit the files.
 
-### 2. Build the production site
+### Rendering the production site
 
 If you just want to run a one-time build to compile the static files:
 
@@ -48,6 +52,6 @@ uv run build.py
 
 This clean build will output all static assets directly into the `out/` directory.
 
-## Deployment
+## Automated deployments
 
-Deployments are automated via GitHub Actions ([gh-pages-deploy.yaml](file:///.github/workflows/gh-pages-deploy.yaml)). Any push to the `main` branch compiles the site with Python 3.14 and pushes the output from the `out/` directory to the `gh-pages` branch.
+Deployments are automated via GitHub Actions ([gh-pages-deploy.yaml](file:///.github/workflows/gh-pages-deploy.yaml)). Any push to the `main` branch compiles the site and pushes the output from the `out/` directory to the `gh-pages` branch, which is then served by GitHub Pages.

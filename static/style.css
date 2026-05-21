@@ -205,6 +205,11 @@ header>nav>ul>li>a {
   padding-bottom: 6px;
 }
 
+header>nav>ul>li.active>a {
+  color: var(--link-color);
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 700;
+}
+
 header>nav>ul>li>a:hover {
   background-color: var(--background-off-color);
 }

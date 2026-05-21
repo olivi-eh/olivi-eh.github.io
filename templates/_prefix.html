@@ -58,26 +58,26 @@
       </div>
       <nav>
         <ul>
-          <li><a href="/">
+          <li{% if url_absolute == "/" %} class="active"{% endif %}><a href="/">
             <i class="fa-regular fa-house"></i><span class="d-md-none ms-1">Home</span>
           </a></li>
-          <li><a href="/blog/">
-            <i class="fa-regular fa-newspaper"></i><span class="d-md-none ms-1">Blog</span></span>
+          <li{% if url_absolute == "/blog/" or template == "blog" %} class="active"{% endif %}><a href="/blog/">
+            <i class="fa-regular fa-newspaper"></i><span class="d-md-none ms-1">Blog</span>
           </a></li>
-          <li><a href="/about/">
-            <i class="fa-regular fa-messages-question"></i><span class="d-md-none ms-1">About</span></span>
+          <li{% if url_absolute == "/about/" %} class="active"{% endif %}><a href="/about/">
+            <i class="fa-regular fa-messages-question"></i><span class="d-md-none ms-1">About</span>
           </a></li>
-          <li><a href="/now/">
-            <i class="fa-regular fa-calendar-lines-pen"></i><span class="d-md-none ms-1">Now</span></span>
+          <li{% if url_absolute == "/now/" %} class="active"{% endif %}><a href="/now/">
+            <i class="fa-regular fa-calendar-lines-pen"></i><span class="d-md-none ms-1">Now</span>
           </a></li>
-          <li><a href="/projects/">
-            <i class="fa-regular fa-seedling"></i><span class="d-md-none ms-1">Projects</span></span>
+          <li{% if url_absolute == "/projects/" %} class="active"{% endif %}><a href="/projects/">
+            <i class="fa-regular fa-seedling"></i><span class="d-md-none ms-1">Projects</span>
           </a></li>
-          <li><a href="/resume/">
-            <i class="fa-regular fa-memo-circle-info"></i><span class="d-md-none ms-1">Resume</span></span>
+          <li{% if url_absolute == "/resume/" or url_absolute == "/employment/" %} class="active"{% endif %}><a href="/resume/">
+            <i class="fa-regular fa-memo-circle-info"></i><span class="d-md-none ms-1">Resume</span>
           </a></li>
-          <li><a href="/contact/">
-            <i class="fa-regular fa-envelope"></i><span class="d-md-none ms-1">Contact</span></span>
+          <li{% if url_absolute == "/contact/" %} class="active"{% endif %}><a href="/contact/">
+            <i class="fa-regular fa-envelope"></i><span class="d-md-none ms-1">Contact</span>
           </a></li>
         </ul>
         <ul class="d-xs-none">

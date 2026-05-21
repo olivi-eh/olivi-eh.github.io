@@ -44,8 +44,11 @@ def process_note(input_path, output_path, pages_meta):
         md.reset()
         html = md.convert(text)
 
+    template_name = md.Meta.get('template', ['default'])[0]
+
     vars = {
         'md_html': html,
+        'template': template_name,
         'title': f'{md.Meta["title"][0]} - {author}' if 'title' in md.Meta else default_title,
         'title_raw': md.Meta.get('title', [''])[0],
         'description': md.Meta.get('description', [default_description])[0],
@@ -61,7 +64,6 @@ def process_note(input_path, output_path, pages_meta):
         'pages_meta': pages_meta
     }
 
-    template_name = md.Meta.get('template', ['default'])[0]
     template = j2env.get_template(f'{template_name}.html')
     html_content = template.render(vars)
     with open(output_path, 'w', encoding='utf-8') as f:

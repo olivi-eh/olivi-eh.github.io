@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="default">
+
   <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0546BJCVFH"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
 
       gtag('config', 'G-0546BJCVFH');
@@ -41,12 +42,19 @@
 
     <link rel="canonical" href="{{ url }}">
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico?v=4">
+
     <link rel="stylesheet" href="/static/fonts/css/fontawesome.min.css">
     <link rel="stylesheet" href="/static/fonts/css/duotone-light.min.css">
     <link rel="stylesheet" href="/static/fonts/css/regular.min.css">
     <link rel="stylesheet" href="/static/fonts/css/brands.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&display=swap" rel="stylesheet">
+
     <link rel='stylesheet' href="/static/style.css">
   </head>
+
   <body>
     <header>
       <a href="/">
@@ -58,38 +66,38 @@
       </div>
       <nav>
         <ul>
-          <li{% if url_absolute == "/" %} class="active"{% endif %}><a href="/">
-            <i class="fa-regular fa-house"></i><span class="d-md-none ms-1">Home</span>
-          </a></li>
-          <li{% if url_absolute == "/blog/" or template == "blog" %} class="active"{% endif %}><a href="/blog/">
-            <i class="fa-regular fa-newspaper"></i><span class="d-md-none ms-1">Blog</span>
-          </a></li>
-          <li{% if url_absolute == "/about/" %} class="active"{% endif %}><a href="/about/">
-            <i class="fa-regular fa-messages-question"></i><span class="d-md-none ms-1">About</span>
-          </a></li>
-          <li{% if url_absolute == "/now/" %} class="active"{% endif %}><a href="/now/">
-            <i class="fa-regular fa-calendar-lines-pen"></i><span class="d-md-none ms-1">Now</span>
-          </a></li>
-          <li{% if url_absolute == "/projects/" %} class="active"{% endif %}><a href="/projects/">
-            <i class="fa-regular fa-seedling"></i><span class="d-md-none ms-1">Projects</span>
-          </a></li>
-          <li{% if url_absolute == "/resume/" or url_absolute == "/employment/" %} class="active"{% endif %}><a href="/resume/">
-            <i class="fa-regular fa-memo-circle-info"></i><span class="d-md-none ms-1">Resume</span>
-          </a></li>
-          <li{% if url_absolute == "/contact/" %} class="active"{% endif %}><a href="/contact/">
-            <i class="fa-regular fa-envelope"></i><span class="d-md-none ms-1">Contact</span>
-          </a></li>
+          <li {% if url_absolute=="/" %}class="active" {% endif %}><a href="/">
+              <i class="fa-regular fa-house"></i><span class="d-md-none ms-1">Home</span>
+            </a></li>
+          <li {% if url_absolute=="/blog/" or template=="blog" %}class="active" {% endif %}><a href="/blog/">
+              <i class="fa-regular fa-newspaper"></i><span class="d-md-none ms-1">Blog</span>
+            </a></li>
+          <li {% if url_absolute=="/about/" %}class="active" {% endif %}><a href="/about/">
+              <i class="fa-regular fa-messages-question"></i><span class="d-md-none ms-1">About</span>
+            </a></li>
+          <li {% if url_absolute=="/now/" %}class="active" {% endif %}><a href="/now/">
+              <i class="fa-regular fa-calendar-lines-pen"></i><span class="d-md-none ms-1">Now</span>
+            </a></li>
+          <li {% if url_absolute=="/projects/" %}class="active" {% endif %}><a href="/projects/">
+              <i class="fa-regular fa-seedling"></i><span class="d-md-none ms-1">Projects</span>
+            </a></li>
+          <li {% if url_absolute=="/resume/" or url_absolute=="/employment/" %}class="active" {% endif %}><a href="/resume/">
+              <i class="fa-regular fa-memo-circle-info"></i><span class="d-md-none ms-1">Resume</span>
+            </a></li>
+          <li {% if url_absolute=="/contact/" %}class="active" {% endif %}><a href="/contact/">
+              <i class="fa-regular fa-envelope"></i><span class="d-md-none ms-1">Contact</span>
+            </a></li>
         </ul>
         <ul class="d-xs-none">
           <li><a href="https://github.com/olivi-eh" target="_blank" aria-label="Link to my GitHub profile">
-            <i class="fa-brands fa-github"></i>
-          </a></li>
+              <i class="fa-brands fa-github"></i>
+            </a></li>
           <li><a href="https://www.linkedin.com/in/olivi-eh/" target="_blank" aria-label="Link to my LinkedIn profile">
-            <i class="fa-brands fa-linkedin"></i>
-          </a></li>
+              <i class="fa-brands fa-linkedin"></i>
+            </a></li>
           <li><a href="https://bsky.app/profile/olivi-eh.dev" target="_blank" aria-label="Link to my Bluesky profile">
-            <i class="fa-brands fa-bluesky"></i>
-          </a></li>
+              <i class="fa-brands fa-bluesky"></i>
+            </a></li>
         </ul>
       </nav>
     </header>

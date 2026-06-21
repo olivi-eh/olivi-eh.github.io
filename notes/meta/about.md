@@ -3,7 +3,7 @@ description: Learn more about me, my interests, and my upbringings.
 modified: 2026-05-18
 ---
 
-## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About
+## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About me
 
 If you're here, you're likely curious about me. Why this page? **Life is short**, and if it helps
 someone connect over shared interests, that's a win. This page also serves as a sort of **ever-evolving

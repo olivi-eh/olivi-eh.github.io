@@ -16,25 +16,25 @@ Consider this a sort of retrospective over the past twelve months. Enjoy!
 
 It was October 19, 2024. I woke up on the day of my 30th birthday from the comfort of my own bed-- Except... Wait a minute, this isn't my bed! In fact this isn't even Canada! That's right. I had decided that the best place to wake up for my special three-decades celebration would be in a cool and windy autumn-adorned Sapporo, Japan. And what a great decision that was!
 
-Japan is a place I had wanted to visit since middle school. In high school a few friends and I made a pact that we'd all visit together post-graduation. Like you'd expect from a high school pact, that never panned out. Then, we tried planning again with a smaller group of people and officially set the date: October 2020 will be it! But it wasn't, for what would quickly become very obvious reason<sup>*</sup>.
+Japan is a place I had wanted to visit since middle school. In high school a few friends and I made a pact that we'd all visit together post-graduation. Like you'd expect from a high school pact, that never panned out. Then, we tried planning again with a smaller group of people and officially set the date: October 2020 will be it! But it wasn't, for what would quickly become very obvious reason[^*].
 
 Third time's the charm, right? What initially sparked as an idea for a 2012 trip, which then became a 2020 trip, finally materialised itself at the tail end of 2024! I want to talk in much more detail about my trip to Japan so I won't spend too much time here, but I had a wonderful three weeks there. Half of it solo, half of it with friends, and all of it still in my heart a year later.
 
 For the curious, I spent the day of my 30th birthday hiking up Mount Moiwa (藻岩山) just outside of Sapporo (札幌市) with my two high school best friends, both of whom also happened to be 30 at the time (we have a very short overlapping timeframe of about 6 weeks where the three of us are the same age). I even got a birthday cake topped with the iconic Japanese white strawberries.
 
-<span class="text-small"><sup>*</sup>If you're somehow unsure what this is referencing, try looking up SARS-CoV-2.</span>
+[^*]: If you're somehow unsure what this is referencing, try looking up SARS-CoV-2.
 
 ![We tried (and sort of succeeded) in spelling out "30!"](/static/images/thirtieth/japan_30yo.jpg)
-<span class="img-caption">We tried (and sort of succeeded) in spelling out "30!"</span>
+{caption: We tried (and sort of succeeded) in spelling out "30!"}
 
 ![Views atop Mount Moiwa outside Sapporo](/static/images/thirtieth/japan_mtn.jpg)
-<span class="img-caption">Views atop Mount Moiwa outside Sapporo, which I hiked on my birthday.</span>
+{caption: Views atop Mount Moiwa outside Sapporo, which I hiked on my birthday.}
 
 ![The Tokyo entertainment district Kabukichō at night](/static/images/thirtieth/japan_kabukicho.jpg)
-<span class="img-caption">The Tokyo entertainment district Kabukichō at night.</span>
+{caption: The Tokyo entertainment district Kabukichō at night.}
 
 ![New and old friends at the Nintendo Museum in Kyoto](/static/images/thirtieth/japan_nintendo.jpg)
-<span class="img-caption">New and old friends at the Nintendo Museum in Kyoto.</span>
+{caption: New and old friends at the Nintendo Museum in Kyoto.}
 
 ### Hermes watches over me
 
@@ -59,16 +59,16 @@ Finally, over the following handful of months I'd go on to do four different tri
 We'll see what this new year brings in terms of travels, but so far it's looking like it might be just as packed!
 
 ![An izakaya just outside of Tokyo](/static/images/thirtieth/japan.jpg)
-<span class="img-caption">An izakaya just outside of Tokyo.</span>
+{caption: An izakaya just outside of Tokyo.}
 
 ![The streets of Old Montreal at night](/static/images/thirtieth/mtl.jpg)
-<span class="img-caption">The streets of Old Montreal at night.</span>
+{caption: The streets of Old Montreal at night.}
 
 ![The New York City skyline never cease to amaze me](/static/images/thirtieth/nyc.jpg)
-<span class="img-caption">The New York City skyline never cease to amaze me.</span>
+{caption: The New York City skyline never cease to amaze me.}
 
 ![Area 15, that's the aliens thing right?](/static/images/thirtieth/vegas.jpg)
-<span class="img-caption">Area 15, that's the aliens thing right?</span>
+{caption: Area 15, that's the aliens thing right?}
 
 ### Joy in nature's embrace
 
@@ -81,19 +81,19 @@ Though I mostly rock climb indoors (mostly for convenience and access reasons), 
 But that's not to say that I haven't also spent a great chunk of my year climbing indoors. Most weeks I climbed at least two days, and I'm at a point where 5.9s are easy warm-ups, I can climb most 5.10s thrown at me with enough perseverence, and I'm just slightly starting to climb 5.11s. And I am so proud of myself to see that amount of progress over the years!
 
 !["You may be wondering how I put myself in this situation"](/static/images/thirtieth/climbing1.jpg)
-<span class="img-caption">"You may be wondering how I put myself in this situation."</span>
+{caption: "You may be wondering how I put myself in this situation."}
 
 ![It's all fun and games until you look down](/static/images/thirtieth/climbing2.jpg)
-<span class="img-caption">It's all fun and games until you look down.</span>
+{caption: It's all fun and games until you look down.}
 
 ![If you're the strongest climber in the room, you're in the wrong room](/static/images/thirtieth/dc_climbs.jpg)
-<span class="img-caption">If you're the strongest climber in the room, you're in the wrong room.</span>
+{caption: If you're the strongest climber in the room, you're in the wrong room.}
 
 ![Views atop Mount Hakodate at night](/static/images/thirtieth/japan_mtn2.jpg)
-<span class="img-caption">Views atop Mount Hakodate at night.</span>
+{caption: Views atop Mount Hakodate at night.}
 
 ![Spent time in the mountains of Squamish](/static/images/thirtieth/squamish.jpg)
-<span class="img-caption">Spent time in the mountains of Squamish.</span>
+{caption: Spent time in the mountains of Squamish.}
 
 ### Live music and other acts*
 
@@ -113,22 +113,22 @@ On the "other acts" front, I saw my first ever Broadway show while in New York C
 
 Towards the end of summer, I also managed to catch Back to the Future: The Musical while it was touring in Toronto, which was quite the polar opposite in terms of set and costume design. They had so many sets on stage (as well as a real DeLorean!) and the special effects were incredibly impressive. I'm hoping to see more musicals and theatrical plays over the next year!
 
-<span class="text-small"><sup>*</sup>There's 3 layers of puns in that title. Find them all?</span>
+[^*]: There's 3 layers of puns in that title. Find them all?
 
 ![This photo was entirely my idea, so I'm basically part of the band now!](/static/images/thirtieth/tdh.jpg)
-<span class="img-caption">This photo was entirely my idea, so I'm basically part of the band now!</span>
+{caption: This photo was entirely my idea, so I'm basically part of the band now!}
 
 ![Tommy being so serious is so out-of-place given how funny he is in person](/static/images/thirtieth/btbam1.jpg)
-<span class="img-caption">Tommy being so serious is so out-of-place given how funny he is in person.</span>
+{caption: Tommy being so serious is so out-of-place given how funny he is in person.}
 
 ![Is it even a good music show if you're not at the gate?](/static/images/thirtieth/btbam2.jpg)
-<span class="img-caption">Is it even a good music show if you're not at the gate?</span>
+{caption: Is it even a good music show if you're not at the gate?}
 
 ![Now if only they'd produce the sequels as musicals as well](/static/images/thirtieth/bttf.jpg)
-<span class="img-caption">Now if only they'd produce the sequels as musicals as well.</span>
+{caption: Now if only they'd produce the sequels as musicals as well.}
 
 ![Finale spectacle of The Killers show](/static/images/thirtieth/killers.jpg)
-<span class="img-caption">Finale spectacle of The Killers show.</span>
+{caption: Finale spectacle of The Killers show.}
 
 ### On the road for work
 
@@ -149,13 +149,13 @@ Finally, I ended up either presenting at or assisting with 11 different workshop
 And although plans for 2026 are not quite done yet, I have the suspicion that travelling for work is going to continue being the norm for our team. Already, I have 4 more workshops in 4 cities to look forward to over the next few weeks (Austin, Sunnyvale, Seattle, and Vancouver). Overall, it's clear to say that I've been enjoying this slight role change!
 
 ![A group photo full of software rockstars](/static/images/thirtieth/next.jpg)
-<span class="img-caption">A group photo full of software rockstars.</span>
+{caption: A group photo full of software rockstars.}
 
 ![Our booth at KubeCon NA in Salt Lake City](/static/images/thirtieth/kubecon.jpg)
-<span class="img-caption">Our booth at KubeCon NA in Salt Lake City.</span>
+{caption: Our booth at KubeCon NA in Salt Lake City.}
 
 ![Collecting Google Cloud wristbands like they're Infinity Stones](/static/images/thirtieth/bands.jpg)
-<span class="img-caption">Collecting Google Cloud wristbands like they're Infinity Stones.</span>
+{caption: Collecting Google Cloud wristbands like they're Infinity Stones.}
 
 ### Growth loves discomfort
 
@@ -174,13 +174,13 @@ And lastly, the past year brought on a lot of opportunities for introspective, j
 And I'm of course looking forward to what learning and growth the next year brings me.
 
 ![My new town, Toronto](/static/images/thirtieth/toronto.jpg)
-<span class="img-caption">My new town, Toronto.</span>
+{caption: My new town, Toronto.}
 
 ![My two furballs seem to be liking their new environment](/static/images/thirtieth/cats.jpg)
-<span class="img-caption">My two furballs seem to be liking their new environment.</span>
+{caption: My two furballs seem to be liking their new environment.}
 
 ![Presenting a workshop on agentic development](/static/images/thirtieth/accelerate.jpg)
-<span class="img-caption">Presenting a workshop on agentic development.</span>
+{caption: Presenting a workshop on agentic development.}
 
 ### Life's greatest treasure
 
@@ -188,36 +188,36 @@ Friendship. The answer is friendship. And do I ever feel grateful for it!
 
 According to [my personal tracker](/obsidian/) I've hung out with 111 different people over the past year. Most of them were one-offs, but there's still a good 34 people with whom I hung out more than 5 times over these twelve months. In general I increased the amount of socialising I generally do, and I'm incredibly happy with the results. Friends feel closer, and I'm even more appreciative of how lovingly unique individuals are.
 
-Over the past year, I've also met (or gotten much closer to, in one instance) three<sup>*</sup> lovely, intelligent, and inquisitive people and I feel so lucky to get to call them close friends! Thank you for being a part of this journey. I appreciate you all so much.
+Over the past year, I've also met (or gotten much closer to, in one instance) three[^*] lovely, intelligent, and inquisitive people and I feel so lucky to get to call them close friends! Thank you for being a part of this journey. I appreciate you all so much.
 
 I've also started saying yes to more social events (especially since moving to Toronto) to great outcomes. I'm also appreciative of people that help introduce others to you, since it generally has a higher success rate than through random encounters (I'm part of a really fun chain where I'm on the verge of meeting a friend-of-a-friend-of-a-friend-of-a-friend-of-a-friend and that's very amusing to me).
 
 This is a short section, but I mostly really wanted to include photos of many of the people I hold dear, so here you go!
 
-<span class="text-small"><sup>*</sup>If this is about you, you should know who you are. But if in doubt, the initials are with JL, MP, and NK!</span>
+[^*]: If this is about you, you should know who you are. But if in doubt, the initials are with JL, MP, and NK!
 
 ![Soft-launch of my apartment with an Acadian Day gathering](/static/images/thirtieth/acadian_day.jpg)
-<span class="img-caption">Soft-launch of my apartment with an Acadian Day gathering.</span>
+{caption: Soft-launch of my apartment with an Acadian Day gathering.}
 
 ![What a lovely crew of people!](/static/images/thirtieth/leannes_farewell.jpg)
-<span class="img-caption">What a lovely crew of people!</span>
+{caption: What a lovely crew of people!}
 
 ![Friends wear matching bracelets?](/static/images/thirtieth/fanexpo.jpg)
-<span class="img-caption">Friends wear matching bracelets?</span>
+{caption: Friends wear matching bracelets?}
 
 ![Reunion of my university's CS department](/static/images/thirtieth/mta.jpg)
-<span class="img-caption">Reunion of my university's CS department.</span>
+{caption: Reunion of my university's CS department.}
 
 ![Had a great time wandering inside Omega Mart](/static/images/thirtieth/omega.jpg)
-<span class="img-caption">Had a great time wandering inside Omega Mart.</span>
+{caption: Had a great time wandering inside Omega Mart.}
 
 ### Goodbye 30, hello 31!
 
-Twelve months later, today is my birthday once again. Not in Japan this time<sup>*</sup>, but instead from my new home in Toronto. I continue to be grateful for what life has to offer me, and looking forward to another twelve months full of new adventures and lovely people.
+Twelve months later, today is my birthday once again. Not in Japan this time[^*], but instead from my new home in Toronto. I continue to be grateful for what life has to offer me, and looking forward to another twelve months full of new adventures and lovely people.
 
 As always, if you want to chat about anything I've mentioned or want to catch up, don't hesitate to [let me know](/contact)!
 
-<span class="text-small"><sup>*</sup>But my 32nd birthday sounds like a great opportunity to have a re-run of that experience, don't you think? :)</span>
+[^*]: But my 32nd birthday sounds like a great opportunity to have a re-run of that experience, don't you think? :)
 
 ![Birthday hike to close the year](/static/images/thirtieth/bday_hike.jpg)
-<span class="img-caption">Pre-birthday hike near Milton to close the year.</span>
+{caption: Pre-birthday hike near Milton to close the year.}

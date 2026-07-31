@@ -70,7 +70,7 @@ At its core, publishing a personal website boils down to four components:
 **Domain name (optional)**: Many hosts will provide you with a generic subdomain or similar that you can use to access your website. But if you want some added flair, you can decide to purchase your very own domain name from registrars like [Namecheap](https://www.namecheap.com/).
 
 ![Screenshot of VSCode with a Markdown page open](/static/images/hello-world/vscode-md.png)
-<span class="img-caption">This website is built with a static site generator (Markdown to HTML).</span>
+{caption: This website is built with a static site generator (Markdown to HTML).}
 
 In my [next post](/my-personal-website/) (which is already up!), I will do a deep dive into this very website and my process building it.
 
@@ -83,21 +83,21 @@ In the process of building this version, I decided to do a little bit of digital
 In 2015, the earliest source code I could find, my personal website looked like this. At the time, I had just discovered a colour scheme called [Solarized](https://ethanschoonover.com/solarized/) and I decided that I just *had* to incorporate it into everything. So you'll spot it both in the Golang screenshot and in the site's colour scheme.
 
 ![Screenshot of the 2015 version of my website](/static/images/hello-world/website-v0.png)
-<span class="img-caption">Screenshot of my personal website, circa 2015.</span>
+{caption: Screenshot of my personal website, circa 2015.}
 
 Then in 2016, I completely revamped it for a lighter, cleaner version. For this design, I used [Bootstrap](https://getbootstrap.com/) to help with the layout, but did much of the styling myself. In retrospect, Bootstrap was likely overkill for what I ended up publishing.
 
 ![Screenshot of the 2016 version of my website](/static/images/hello-world/website-v1.png)
-<span class="img-caption">Screenshot of my personal website, circa 2016.</span>
+{caption: Screenshot of my personal website, circa 2016.}
 
 Over the following years, I slowly improved on the design and continued polishing it. I somewhat kept the same colour palette (lots of blues and deep reds) but also added a large header. This is what it looked like around 2021. Despite the design changes, never at any point had it been anything more than a glorified single-page resume (as mentioned previously).
 
 ![Screenshot of the 2021 version of my website](/static/images/hello-world/website-v2.png)
-<span class="img-caption">Screenshot of my personal website, circa 2021.</span>
+{caption: Screenshot of my personal website, circa 2021.}
 
 Finally, in 2024 I once again did a major revamp, starting again from scratch. The result? You're currently looking at it! I find it interesting to look back at almost 10 years worth of changes and notice which bits are different (and which are not). Most importantly though, it's clear that my web design skills have improved over the past years and I'm very proud of that.
 
 ![Screenshot of the 2024 version of my website](/static/images/hello-world/website-v3.png)
-<span class="img-caption">Screenshot of my personal website, circa 2024.</span>
+{caption: Screenshot of my personal website, circa 2024.}
 
 As for the future? Well, let's see what it brings!

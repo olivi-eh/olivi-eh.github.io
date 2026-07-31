@@ -8,12 +8,12 @@ template: blog
 length: 5
 ---
 
-I took my first flight on June 1, 2015 at the age of 20<sup>*</sup>. Now well into June 2025, I wanted to look back on the past 10 years and see what kind of statistics I could get out of it. Please make sure your seat and tray table are in the upright position for take-off!
+I took my first flight on June 1, 2015 at the age of 20[^*]. Now well into June 2025, I wanted to look back on the past 10 years and see what kind of statistics I could get out of it. Please make sure your seat and tray table are in the upright position for take-off!
 
 ![Screenshot of my Obsidian vault opened on the graph view](/static/images/decade-of-flights/cessna-140.jpg)
-<span class="img-caption">Photo I took mid-flight aboard a Cessna 140.</span>
+{caption: Photo I took mid-flight aboard a Cessna 140.}
 
-<span class="text-small"><sup>*</sup>Well okay... That's not exactly true. In late-2012 I stepped aboard an old Cessna 140 held together by duct tape and fairy dust about an hour north of Quebec City, and in the summer of 2014 I hung out in the back of a Cessna 182 and climbed up 10,000 feet before jumping out of it. But my first commercial flight was in 2015 so let's run with that.</span>
+[^*]: Well okay... That's not exactly true. In late-2012 I stepped aboard an old Cessna 140 held together by duct tape and fairy dust about an hour north of Quebec City, and in the summer of 2014 I hung out in the back of a Cessna 182 and climbed up 10,000 feet before jumping out of it. But my first commercial flight was in 2015 so let's run with that.
 
 ### Historical flight data
 
@@ -47,36 +47,36 @@ Who knew that I would've spent just shy of 250 hours over the past decade stuck 
 Immediately, the first thing that comes to mind in the following chart is that the global pandemic of 2020 really put a pause in my own travels. I did not fly at all in either 2020 or 2021, and only by necessity during 2022 and 2023. In fact, I'm still not up to par with the amount of flying I used to do pre-2020.
 
 ![Chart showcasing the # of flights per year](/static/images/decade-of-flights/flights_per_year.png)
-<span class="img-caption">Chart showcasing the # of flights per year.</span>
+{caption: Chart showcasing the # of flights per year.}
 
 It's also fairly noticeable that I don't travel during the winter, in general. Most of my trips end up in the shoulder seasons (either May-June, or September-October).
 
 ![Chart showcasing the # of flights per month](/static/images/decade-of-flights/flights_per_month.png)
-<span class="img-caption">Chart showcasing the # of flights per month.</span>
+{caption: Chart showcasing the # of flights per month.}
 
 ### Where do I travel?
 
 I've lived most of my life on the east coast of Canada, which is a fairly sparsely populated area. This means that most of my flights had connections through Toronto or Montreal. It also means that a lot of these flights started or ended in Moncton, which was the city near where I grew up.
 
 ![Chart showcasing the # of flights per city](/static/images/decade-of-flights/flights_per_city.png)
-<span class="img-caption">Chart showcasing the # of flights per city.</span>
+{caption: Chart showcasing the # of flights per city.}
 
 Consequently, the airports I've been in the most are also all Canadians (many of which have inflated numbers due to connections).
 
 ![Chart showcasing the # of flights per airport](/static/images/decade-of-flights/flights_per_airport.png)
-<span class="img-caption">Chart showcasing the # of flights per airport.</span>
+{caption: Chart showcasing the # of flights per airport.}
 
 ### Through which means do I travel?
 
 This first chart is interesting. I thought for sure that the top aircraft used in my past flights would be a Boeing or an Airbus but hey, we do love that Bombardier representation!
 
 ![Chart showcasing the # of flights per aircraft](/static/images/decade-of-flights/flights_per_aircraft.png)
-<span class="img-caption">Chart showcasing the # of flights per aircraft.</span>
+{caption: Chart showcasing the # of flights per aircraft.}
 
 And... Yeah I'm mostly an Air Canada guy. They often offer the best availability or prices for the locations I'm interested in, so most of my flights end up through them.
 
 ![Chart showcasing the # of flights per airline](/static/images/decade-of-flights/flights_per_airline.png)
-<span class="img-caption">Chart showcasing the # of flights per airline.</span>
+{caption: Chart showcasing the # of flights per airline.}
 
 ### What do the flights look like?
 
@@ -85,22 +85,22 @@ Lastly, I was also interested in seeing how flights themselves looked like, in a
 I'm not an early bird, so I tend to prefer flights that depart after 9 or 10 in the morning, and that is clearly visible on the following chart, with the bulk of my flights departing between 11am and 3pm.
 
 ![Chart showcasing the # of flights per departure hour](/static/images/decade-of-flights/flights_per_departure_hour.png)
-<span class="img-caption">Chart showcasing the # of flights per departure hour.</span>
+{caption: Chart showcasing the # of flights per departure hour.}
 
 As for arrival, the chart looks a bit more like a bell curve, peaking at 2pm, tapering off on both sides.
 
 ![Chart showcasing the # of flights per arrival hour](/static/images/decade-of-flights/flights_per_arrival_hour.png)
-<span class="img-caption">Chart showcasing the # of flights per arrival hour.</span>
+{caption: Chart showcasing the # of flights per arrival hour.}
 
 Immediately, it's obvious that the majority of the flights I've taken are short-haul (with most being less than 3 hours long). The few exceptions at the tail-end are going to Europe pre-pandemic, or to Japan last year.
 
 ![Chart showcasing the # of flights per duration](/static/images/decade-of-flights/flights_per_duration.png)
-<span class="img-caption">Chart showcasing the # of flights per duration.</span>
+{caption: Chart showcasing the # of flights per duration.}
 
 Delays was an interesting metric to chart, because naively I think of myself as fairly unlucky when it comes to flying. It feels like most of my flights are delayed. But now that I have this chart in front of me, it's undeniable that almost half of the flights I've taken in fact arrived earlier than expected. Of the delays, almost all were less than an hour.
 
 ![Chart showcasing the # of flights per arrival delta](/static/images/decade-of-flights/flights_per_arrival_delta_30m.png)
-<span class="img-caption">Chart showcasing the # of flights per arrival delta.</span>
+{caption: Chart showcasing the # of flights per arrival delta.}
 
 ### Future improvements
 

@@ -13,11 +13,11 @@ In my [previous post](/hello-world/), I introduced the latest version of my pers
 
 ### A blank slate
 
-When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/) or other preexisting libraries<sup>*</sup>.
+When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/) or other preexisting libraries[^*].
 
 This time, as a challenge for myself, I aimed to use _nothing_ external. Only HTML, CSS, and perhaps a scripting language to help generate some files. For the most part I did achieve that, and I'm very happy with my end result! But it didn't all go as planned.
 
-<span class="text-small"><sup>*</sup>There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5), especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.</span>
+[^*]: There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5), especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.
 
 ### Generating worlds
 
@@ -59,7 +59,7 @@ I also created functions to generate a sitemap, an RSS feed, and an Atom feed. A
 So now I have a handful of generated HTML files, but without any styling it doesn't look so sharp. Let's fix that!
 
 ![Screenshot of the now/ page before styling](/static/images/my-personal-website/website-before-style.png)
-<span class="img-caption">The now/ page without any styling.</span>
+{caption: The now/ page without any styling.}
 
 ### Let there be colour!
 
@@ -100,7 +100,7 @@ For the icons, I leveraged my trusty [Font Awesome](https://fontawesome.com/) Pr
 <i class="fa-duotone fa-light fa-face-smile-hearts" style="--fa-primary-color: #ff2d2d; --fa-primary-opacity: 0.8; --fa-secondary-color: #fee7bc; --fa-secondary-opacity: 1;"></i>
 
 ![Screenshot of the now/ page after styling](/static/images/my-personal-website/website-after-style.png)
-<span class="img-caption">The now/ page with styling.</span>
+{caption: The now/ page with styling.}
 
 I have to say that even as I write this blog post, I'm still tweaking the styling ever so slightly. So it's always a work in progress, and that's okay!
 

@@ -22,7 +22,9 @@ author = 'Olivier Bourgeois'
 domain = 'https://olivi-eh.dev/'
 
 from markdown.treeprocessors import Treeprocessor
+from markdown.inlinepatterns import InlineProcessor
 from markdown.extensions import Extension
+from xml.etree import ElementTree as ET
 
 class AutoExternalLinksTreeprocessor(Treeprocessor):
     def run(self, root):
@@ -32,13 +34,79 @@ class AutoExternalLinksTreeprocessor(Treeprocessor):
             is_pdf = href.endswith('.pdf')
             if is_external or is_pdf:
                 element.set('target', '_blank')
-                element.set('rel', 'noopener')
-
 class AutoExternalLinksExtension(Extension):
     def extendMarkdown(self, md):
         md.treeprocessors.register(AutoExternalLinksTreeprocessor(md), 'auto_external_links', 15)
 
-md = markdown.Markdown(extensions=['meta', 'extra', 'smarty', 'admonition', AutoExternalLinksExtension()])
+class SectionFootnotesTreeprocessor(Treeprocessor):
+    def run(self, root):
+        import re
+        from xml.etree import ElementTree as ET
+        
+        parent_map = {c: p for p in root.iter() for c in p}
+        for p in list(root.iter('p')):
+            if not p.text:
+                continue
+            lines = p.text.split('\n')
+            if any(re.match(r'^(?:\[\^(\*|\d+)\]:?|\^(\*|\d+)\^?|<sup>(\*|\d+)</sup>:?)\s*', line) for line in lines):
+                parent = parent_map.get(p, root)
+                idx = list(parent).index(p)
+                parent.remove(p)
+                for i, line in enumerate(lines):
+                    m = re.match(r'^(?:\[\^(\*|\d+)\]:?|\^(\*|\d+)\^?|<sup>(\*|\d+)</sup>:?)\s*(.*)', line)
+                    if m:
+                        symbol = m.group(1) or m.group(2) or m.group(3)
+                        rest = m.group(4)
+                        new_p = ET.Element('p')
+                        new_p.attrib['class'] = 'text-small'
+                        sup = ET.Element('sup')
+                        sup.text = symbol
+                        sup.tail = rest
+                        new_p.append(sup)
+                        parent.insert(idx + i, new_p)
+                    else:
+                        new_p = ET.Element('p')
+                        new_p.text = line
+                        parent.insert(idx + i, new_p)
+
+        for elem in root.iter():
+            if elem.tag not in ('script', 'style'):
+                if elem.tag == 'p' and elem.attrib.get('class') == 'text-small':
+                    continue
+                if elem.text:
+                    elem.text = re.sub(r'\[\^(\*|\d+)\]', r'<sup>\1</sup>', elem.text)
+                if elem.tail:
+                    elem.tail = re.sub(r'\[\^(\*|\d+)\]', r'<sup>\1</sup>', elem.tail)
+
+class SectionFootnotesExtension(Extension):
+    def extendMarkdown(self, md):
+        for reg in (md.preprocessors, md.inlinePatterns, md.parser.blockprocessors, md.treeprocessors):
+            for key in list(reg._data.keys()):
+                if 'footnote' in key.lower():
+                    reg.deregister(key)
+        md.treeprocessors.register(SectionFootnotesTreeprocessor(md), 'section_footnotes', 25)
+
+class ShortcodesInlineProcessor(InlineProcessor):
+    CLASS_MAP = {
+        'small': 'text-small',
+        'caption': 'img-caption'
+    }
+    def handleMatch(self, m, data):
+        tag_type = m.group(1)
+        text = m.group(2)
+        class_name = self.CLASS_MAP.get(tag_type, tag_type)
+        span = ET.Element('span')
+        span.attrib['class'] = class_name
+        span.text = text
+        return span, m.start(0), m.end(0)
+
+class ShortcodesExtension(Extension):
+    def extendMarkdown(self, md):
+        import re
+        pattern = r'\{(small|caption):\s*(.*?)\}'
+        md.inlinePatterns.register(ShortcodesInlineProcessor(pattern, md), 'shortcodes', 175)
+
+md = markdown.Markdown(extensions=['meta', 'extra', 'smarty', 'admonition', AutoExternalLinksExtension(), SectionFootnotesExtension(), ShortcodesExtension()])
 j2env = jinja2.Environment(loader=jinja2.FileSystemLoader(str(TEMPLATES_DIR)))
 
 def get_url_from_filepath(filepath):

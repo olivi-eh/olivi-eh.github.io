@@ -12,5 +12,5 @@ See something incorrect, or that you'd like to talk about? [Let me know](/contac
 
 ### Writings
 
-Subscribe to the [RSS feed](/rss.xml){:target="_blank"} or [Atom feed](/atom.xml){:target="_blank"}
+Subscribe to the [RSS feed](/rss.xml) or [Atom feed](/atom.xml)
 to be notified of new posts.

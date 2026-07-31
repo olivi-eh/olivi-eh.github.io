@@ -14,10 +14,10 @@ The fastest way to reach me is via email at `bourgeoisor [symbol] gmail.com`.
 
 You can follow me or DM me through one of my social accounts:
 
-<span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i>[GitHub](https://github.com/olivi-eh){:target="_blank"}</span>
-<span class="me-2 no-wrap"><i class="fa-brands fa-instagram me-1"></i>[Instagram](https://www.instagram.com/olivi_eh/){:target="_blank"}</span>
-<span class="me-2 no-wrap"><i class="fa-brands fa-linkedin me-1"></i>[LinkedIn](https://www.linkedin.com/in/olivi-eh/){:target="_blank"}</span>
-<span class="me-2 no-wrap"><i class="fa-brands fa-bluesky me-1"></i>[Bluesky](https://bsky.app/profile/olivi-eh.dev){:target="_blank"}</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-github me-1"></i>[GitHub](https://github.com/olivi-eh)</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-instagram me-1"></i>[Instagram](https://www.instagram.com/olivi_eh/)</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-linkedin me-1"></i>[LinkedIn](https://www.linkedin.com/in/olivi-eh/)</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-bluesky me-1"></i>[Bluesky](https://bsky.app/profile/olivi-eh.dev)</span>
 
 I am not generally active on any other social media platforms. If in doubt, it's probably not me.
 
@@ -25,5 +25,5 @@ I am not generally active on any other social media platforms. If in doubt, it's
 
 In addition to [this site's blog](/blog/), I also sometimes publish articles at the following places:
 
-<span class="me-2 no-wrap"><i class="fa-brands fa-medium me-1"></i>[Medium](https://medium.com/@olivi-eh){:target="_blank"}</span>
-<span class="me-2 no-wrap"><i class="fa-brands fa-dev me-1"></i>[DEV](https://dev.to/olivi-eh){:target="_blank"}</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-medium me-1"></i>[Medium](https://medium.com/@olivi-eh)</span>
+<span class="me-2 no-wrap"><i class="fa-brands fa-dev me-1"></i>[DEV](https://dev.to/olivi-eh)</span>

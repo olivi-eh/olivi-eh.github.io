@@ -26,7 +26,7 @@ Here I'm outlining my own preference and styles when it comes to communicating w
 - If it's the first time you're reaching out to me, I prefer emails.
 - For complex discussions or with lots of back-and-forths or decisions, I prefer a call (especially true if we've been talking for a while). Failing that, emails.
 - For casual conversations post-introduction, I prefer chat (we can figure out a service that works for us).
-- I'm a big proponent of [no-hello](https://nohello.net/en/){:target="_blank"} and tend to ignore emails or chat requests that are devoid of context. Let me know what you want to talk about alongside your "hello".
+- I'm a big proponent of [no-hello](https://nohello.net/en/) and tend to ignore emails or chat requests that are devoid of context. Let me know what you want to talk about alongside your "hello".
 
 ### When to reach out
 
@@ -54,7 +54,7 @@ Here I'm outlining my own preference and styles when it comes to communicating w
 
 ### Miscellaneous points
 
-- If ever I hit you with a "oh you don't know about ___?" it's not meant to be condescending (I'm open to suggestions on how to word it differently). I'm genuinely excited that I get to be the one to tell you about something cool. You're [one of today's lucky 10,000](https://xkcd.com/1053/){:target="_blank"}.
+- If ever I hit you with a "oh you don't know about ___?" it's not meant to be condescending (I'm open to suggestions on how to word it differently). I'm genuinely excited that I get to be the one to tell you about something cool. You're [one of today's lucky 10,000](https://xkcd.com/1053/).
 - If you get me to talk about a topic I'm passionate about, I will talk a lot. I don't necessarily expect you to match my energy (but it's always appreciated).
 - Silence doesn't necessarily mean anything more than that. I'm probably just thinking, or enjoying the silence. That doesn't mean I don't want you to reach out, or don't want you to keep talking.
 - No, I don't generally speak in bullet points with no emoji or nuance. It's just for this blog post, I swear.

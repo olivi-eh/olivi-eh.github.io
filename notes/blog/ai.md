@@ -12,7 +12,7 @@ In an era of commodified artificial intelligence, I want to be fully transparent
 
 ### Conversations
 
-In general, I think using AI tools as a substitute for what would otherwise be a search engine query is okay, and I do use [Gemini](https://gemini.google.com/app){:target="_blank"} that way. I take the same precautions as for search engine queries (e.g. is the output verifiable by a source of authority?)
+In general, I think using AI tools as a substitute for what would otherwise be a search engine query is okay, and I do use [Gemini](https://gemini.google.com/app) that way. I take the same precautions as for search engine queries (e.g. is the output verifiable by a source of authority?)
 
 <i class="fa-duotone fa-light fa-thumbs-up color-green"></i>
 <b>Yes</b>: Using AI to brainstorm ideas
@@ -25,7 +25,7 @@ In general, I think using AI tools as a substitute for what would otherwise be a
 
 ### Code generation
 
-I have [GitHub Copilot](https://github.com/features/copilot){:target="_blank"} set-up in my coding editor and use it primarily like I would [Stack Overflow](https://stackoverflow.com/){:target="_blank"} (e.g. "how do you iterate over a dictionary, again?") I keep my usage sparse and never use code that I do not understand or that breaks consistency.
+I have [GitHub Copilot](https://github.com/features/copilot) set-up in my coding editor and use it primarily like I would [Stack Overflow](https://stackoverflow.com/) (e.g. "how do you iterate over a dictionary, again?") I keep my usage sparse and never use code that I do not understand or that breaks consistency.
 
 <i class="fa-duotone fa-light fa-thumbs-up color-green"></i>
 <b>Yes</b>: Using AI to code-complete lines.
@@ -71,6 +71,6 @@ Under no circumstances do I condone the training of AI models using copyrighted 
 
 ---
 
-This page was inspired by [Damola Morenikeji's AI manifesto](https://www.bydamo.la/p/ai-manifesto){:target="_blank"} and is listed on [SlashAI](https://slashai.page/){:target="_blank"}.
+This page was inspired by [Damola Morenikeji's AI manifesto](https://www.bydamo.la/p/ai-manifesto) and is listed on [SlashAI](https://slashai.page/).
 
-<sup>[1]</sup> I recommend reading [Johan Brandstedt's "Top ten lies about AI art, debunked"](https://johancb.substack.com/p/top-ten-lies-about-ai-art-debunked){:target="_blank"}, [Erik Hoel's "Here lies the internet, murdered by generative AI"](https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by){:target="_blank"}, and [Phil Venables's "Where the Wild Things Are: Second Order Risks of AI"](https://www.philvenables.com/post/where-the-wild-things-are-second-order-risks-of-ai){:target="_blank"}.
+<sup>[1]</sup> I recommend reading [Johan Brandstedt's "Top ten lies about AI art, debunked"](https://johancb.substack.com/p/top-ten-lies-about-ai-art-debunked), [Erik Hoel's "Here lies the internet, murdered by generative AI"](https://www.theintrinsicperspective.com/p/here-lies-the-internet-murdered-by), and [Phil Venables's "Where the Wild Things Are: Second Order Risks of AI"](https://www.philvenables.com/post/where-the-wild-things-are-second-order-risks-of-ai).

@@ -13,9 +13,9 @@ This is officially the first post on my personal website since... Well, ever! In
 
 ### A bit of historical context
 
-I got my first computer in 2001, though it wouldn't be connected to the Internet until 2003. At the time, much of the Internet was still static pages or at most PHP pages with basic interactivity. Dial-up was still common in households (I vividly remember my parents asking me to get off the Internet so they could make a phone call, and the [dial-up connection noises](https://en.wikipedia.org/wiki/File:Dial_up_modem_noises.ogg){:target="_blank"} are forever imprinted in my memory). Social media was just starting up (Myspace was founded that year, and Facebook wouldn't exist for another year), but despite the lack of interactive platforms as we know them today, many had personal web pages. This era of the Internet is now retroactively known as [Web 1.0](https://en.wikipedia.org/wiki/Web_2.0#Web_1.0){:target="_blank"}.
+I got my first computer in 2001, though it wouldn't be connected to the Internet until 2003. At the time, much of the Internet was still static pages or at most PHP pages with basic interactivity. Dial-up was still common in households (I vividly remember my parents asking me to get off the Internet so they could make a phone call, and the [dial-up connection noises](https://en.wikipedia.org/wiki/File:Dial_up_modem_noises.ogg) are forever imprinted in my memory). Social media was just starting up (Myspace was founded that year, and Facebook wouldn't exist for another year), but despite the lack of interactive platforms as we know them today, many had personal web pages. This era of the Internet is now retroactively known as [Web 1.0](https://en.wikipedia.org/wiki/Web_2.0#Web_1.0).
 
-During those early 2000s years, I fell in love with both the technology and the amount of creativity that was found on the web. I learned C++ from someone's tutorials. I spent many hours peering over fan-run [RPG Maker](https://en.wikipedia.org/wiki/RPG_Maker){:target="_blank"} forums. I learned about obscure video games (some that had never been released outside of Japan) from [digital shrines](https://fanlore.org/wiki/Character_Shrine){:target="_blank"}. It truly felt like if an idea existed, there was probably a website for it (and I was determined to find it!)
+During those early 2000s years, I fell in love with both the technology and the amount of creativity that was found on the web. I learned C++ from someone's tutorials. I spent many hours peering over fan-run [RPG Maker](https://en.wikipedia.org/wiki/RPG_Maker) forums. I learned about obscure video games (some that had never been released outside of Japan) from [digital shrines](https://fanlore.org/wiki/Character_Shrine). It truly felt like if an idea existed, there was probably a website for it (and I was determined to find it!)
 
 Then, in the following years, there was an explosion of social media platforms: Myspace (2003), Facebook (2004), YouTube (2005), Twitter (2006), Tumblr (2007), and many more. The convenience, ease of use, and wanting to be where your friends were drove a lot of people to move away from their own managed websites, and away from forums, to create social media profiles instead. Slowly at first, but by the late 2000s it was clear that this trend was here to stay.
 
@@ -47,7 +47,7 @@ As you may have noticed already (if you decided to take a peek at the navigation
 
 - **Contact information for others to reach out.** I love meeting new people and having conversations about interesting new topics as well as shared interests. This page also acts as a source of truth to know which social media accounts are mine.
 
-I'm also brainstorming additional sections (like an album for my [photographs](https://www.instagram.com/olivi_eh/){:target="_blank"}). Look forward to it!
+I'm also brainstorming additional sections (like an album for my [photographs](https://www.instagram.com/olivi_eh/)). Look forward to it!
 
 ### How can you get started?
 
@@ -59,15 +59,15 @@ At its core, publishing a personal website boils down to four components:
 
 **Content**: Now that you have an idea, you need to write content and structure the website. There are many possible directions here, so I'll list three from lowest to highest technical expertise required:
 
-- a) **Website builders**: The easiest option is to use what is typically called a WYSIWYG (What You See is What You Get) platform like [Squarespace](https://www.squarespace.com/){:target="_blank"} or [Wix](https://www.wix.com/){:target="_blank"}. These platforms allow you to quickly put together a website without any coding experience.
+- a) **Website builders**: The easiest option is to use what is typically called a WYSIWYG (What You See is What You Get) platform like [Squarespace](https://www.squarespace.com/) or [Wix](https://www.wix.com/). These platforms allow you to quickly put together a website without any coding experience.
 
-- b) **Static site generators**: The middle of the road option is to use a static site generator like [Jekyll](https://jekyllrb.com/){:target="_blank"}, [Hugo](https://gohugo.io/){:target="_blank"}, or [Eleventy](https://www.11ty.dev/){:target="_blank"} to convert plain text or [Markdown formatted](https://www.markdownguide.org/cheat-sheet/){:target="_blank"} files into a rendered site. This allows for more flexibility than website builders allow, while remaining fairly low-code.
+- b) **Static site generators**: The middle of the road option is to use a static site generator like [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/), or [Eleventy](https://www.11ty.dev/) to convert plain text or [Markdown formatted](https://www.markdownguide.org/cheat-sheet/) files into a rendered site. This allows for more flexibility than website builders allow, while remaining fairly low-code.
 
-- c) **Coding in HTML**: Finally, the most technical (but most flexible) option is the DIY approach. Instead of generating HTML based on premade templates and conversions, you manually do this work. This typically requires knowledge of HTML, CSS, and possibly JavaScript for interactivity. On the structural and styling side, building on top of a framework like [Bootstrap](https://getbootstrap.com/){:target="_blank"} or [Tailwind CSS](https://tailwindcss.com/){:target="_blank"} can greatly help reduce the feeling of reinventing the wheel.
+- c) **Coding in HTML**: Finally, the most technical (but most flexible) option is the DIY approach. Instead of generating HTML based on premade templates and conversions, you manually do this work. This typically requires knowledge of HTML, CSS, and possibly JavaScript for interactivity. On the structural and styling side, building on top of a framework like [Bootstrap](https://getbootstrap.com/) or [Tailwind CSS](https://tailwindcss.com/) can greatly help reduce the feeling of reinventing the wheel.
 
-**Host**: Okay, you have some ideas and you've got some pages written up. Next is to make those pages available for others to find and read. If you're using a website builder, this likely happens with the click of a button. Else, you'll need somewhere that can host the HTML pages you've generated or written up. There are many options, but the simplest (and cheapest) ones are to use a host with a freemium model, like [GitHub Pages](https://pages.github.com/){:target="_blank"}, [Neocities](https://neocities.org/){:target="_blank"}, or [Netlify](https://www.netlify.com/){:target="_blank"}.
+**Host**: Okay, you have some ideas and you've got some pages written up. Next is to make those pages available for others to find and read. If you're using a website builder, this likely happens with the click of a button. Else, you'll need somewhere that can host the HTML pages you've generated or written up. There are many options, but the simplest (and cheapest) ones are to use a host with a freemium model, like [GitHub Pages](https://pages.github.com/), [Neocities](https://neocities.org/), or [Netlify](https://www.netlify.com/).
 
-**Domain name (optional)**: Many hosts will provide you with a generic subdomain or similar that you can use to access your website. But if you want some added flair, you can decide to purchase your very own domain name from registrars like [Namecheap](https://www.namecheap.com/){:target="_blank"}.
+**Domain name (optional)**: Many hosts will provide you with a generic subdomain or similar that you can use to access your website. But if you want some added flair, you can decide to purchase your very own domain name from registrars like [Namecheap](https://www.namecheap.com/).
 
 ![Screenshot of VSCode with a Markdown page open](/static/images/hello-world/vscode-md.png)
 <span class="img-caption">This website is built with a static site generator (Markdown to HTML).</span>
@@ -80,12 +80,12 @@ In my [next post](/my-personal-website/) (which is already up!), I will do a dee
 
 In the process of building this version, I decided to do a little bit of digital spelunking to fetch screenshots of previous versions of my website. Think of this section like a little bonus! The source code repository for this only goes back as far as 2015, though I'm sure I had _something_ in the years prior. Unfortunately, I wasn't able to find backups of any of it, so it's likely been lost to time.
 
-In 2015, the earliest source code I could find, my personal website looked like this. At the time, I had just discovered a colour scheme called [Solarized](https://ethanschoonover.com/solarized/){:target="_blank"} and I decided that I just *had* to incorporate it into everything. So you'll spot it both in the Golang screenshot and in the site's colour scheme.
+In 2015, the earliest source code I could find, my personal website looked like this. At the time, I had just discovered a colour scheme called [Solarized](https://ethanschoonover.com/solarized/) and I decided that I just *had* to incorporate it into everything. So you'll spot it both in the Golang screenshot and in the site's colour scheme.
 
 ![Screenshot of the 2015 version of my website](/static/images/hello-world/website-v0.png)
 <span class="img-caption">Screenshot of my personal website, circa 2015.</span>
 
-Then in 2016, I completely revamped it for a lighter, cleaner version. For this design, I used [Bootstrap](https://getbootstrap.com/){:target="_blank"} to help with the layout, but did much of the styling myself. In retrospect, Bootstrap was likely overkill for what I ended up publishing.
+Then in 2016, I completely revamped it for a lighter, cleaner version. For this design, I used [Bootstrap](https://getbootstrap.com/) to help with the layout, but did much of the styling myself. In retrospect, Bootstrap was likely overkill for what I ended up publishing.
 
 ![Screenshot of the 2016 version of my website](/static/images/hello-world/website-v1.png)
 <span class="img-caption">Screenshot of my personal website, circa 2016.</span>

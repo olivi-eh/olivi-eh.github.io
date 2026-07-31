@@ -23,7 +23,7 @@ Working full-time at **Google** in the **Developer Relations** team in Google Cl
 Upcoming trips for work in **New York (NY)**, **Austin (TX)**, **San Francisco (CA)** and **Seattle (WA)**. Followed that, personal trips back in Canada in **Vancouver (BC)**, **Montreal (QC)**, and **Quebec (QC)**.
 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
-Not working quite as much on **[XIV ToDo](https://xivtodo.com){:target="_blank"}**. I hope to find more time soon to get back at it. I've also been working on-and-off on a spec-compliant IRC client, though haven't touched it in a couple months.
+Not working quite as much on **[XIV ToDo](https://xivtodo.com)**. I hope to find more time soon to get back at it. I've also been working on-and-off on a spec-compliant IRC client, though haven't touched it in a couple months.
 
 <i class="fa-duotone fa-light fa-person-hiking color-orange"></i>
 Still **rock climbing**! It's been over 2 years now and I'm able to reliably top virtually all 5.10x routes. I was able to top one or two 5.11x route, but that's still a work in progress. Although I've been more sporadic about it since moving to Toronto.
@@ -53,4 +53,4 @@ Currently **watching**...
 
 ---
 
-This page was inspired by [Derek Siver's](https://sive.rs/now){:target="_blank"} and is listed on [NowNowNow](https://nownownow.com/){:target="_blank"}.
+This page was inspired by [Derek Siver's](https://sive.rs/now) and is listed on [NowNowNow](https://nownownow.com/).

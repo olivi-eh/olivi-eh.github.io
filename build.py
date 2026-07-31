@@ -21,7 +21,24 @@ default_description = 'Cloud and backend software developer based in Canada. Spe
 author = 'Olivier Bourgeois'
 domain = 'https://olivi-eh.dev/'
 
-md = markdown.Markdown(extensions=['meta', 'extra', 'smarty', 'admonition'])
+from markdown.treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+
+class AutoExternalLinksTreeprocessor(Treeprocessor):
+    def run(self, root):
+        for element in root.iter('a'):
+            href = element.get('href', '')
+            is_external = href.startswith(('http://', 'https://')) and not href.startswith(('https://olivi-eh.dev', 'http://olivi-eh.dev', 'https://www.olivi-eh.dev', 'http://www.olivi-eh.dev'))
+            is_pdf = href.endswith('.pdf')
+            if is_external or is_pdf:
+                element.set('target', '_blank')
+                element.set('rel', 'noopener')
+
+class AutoExternalLinksExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(AutoExternalLinksTreeprocessor(md), 'auto_external_links', 15)
+
+md = markdown.Markdown(extensions=['meta', 'extra', 'smarty', 'admonition', AutoExternalLinksExtension()])
 j2env = jinja2.Environment(loader=jinja2.FileSystemLoader(str(TEMPLATES_DIR)))
 
 def get_url_from_filepath(filepath):

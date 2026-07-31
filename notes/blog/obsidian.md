@@ -10,11 +10,11 @@ length: 7
 
 I've been storing and keeping track of information in various ways for a long time. First using physical notes, then simple digital text files, and finally I jumped from app to app as I encountered issues that irritated me that I had no control over.
 
-Near the tail end of 2022, I came across what I thought might be the answer to all my woes: a note-taking app built by a small team, with the name of [Obsidian](https://obsidian.md/){:target="_blank"}.
+Near the tail end of 2022, I came across what I thought might be the answer to all my woes: a note-taking app built by a small team, with the name of [Obsidian](https://obsidian.md/).
 
 ### What's in an Obsidian?
 
-Obsidian is a multi-platform note-taking and writing app. Simple enough. But aren't there plenty of those around? Yes absolutely, but they each have downsides that I wasn't able to settle with long-term. With [Google Cloud](https://docs.google.com/){:target="_blank"} it was the difficult of linking between notes (this has improved since but it's still not quite what I want). With [Evernote](https://evernote.com/){:target="_blank"} my notes were in a proprietary format and stuck in the cloud. [Notion](https://www.notion.com/){:target="_blank"} also had the cloud-first problem and stored in an awkward non-standard Markdown format. And the list goes on.
+Obsidian is a multi-platform note-taking and writing app. Simple enough. But aren't there plenty of those around? Yes absolutely, but they each have downsides that I wasn't able to settle with long-term. With [Google Cloud](https://docs.google.com/) it was the difficult of linking between notes (this has improved since but it's still not quite what I want). With [Evernote](https://evernote.com/) my notes were in a proprietary format and stuck in the cloud. [Notion](https://www.notion.com/) also had the cloud-first problem and stored in an awkward non-standard Markdown format. And the list goes on.
 
 Here's what Obsidian provides that sold it to me:
 
@@ -24,8 +24,8 @@ Here's what Obsidian provides that sold it to me:
 - **YAML frontmatter** rendering key-value pairs of metadata for each note in a beautiful way.
 - **Graphs and canvases** allowing me to easily visualize notes and their connections.
 - **Mobile friendly** with support for all of the same features that the desktop version offers.
-- **Native sync** providing [end-to-end encrypted sync and version control](https://obsidian.md/sync){:target="_blank"} for a modest monthly fee.
-- **Extensible** with a broad catalog of [community-created plugins](https://obsidian.md/plugins){:target="_blank"} and themes.
+- **Native sync** providing [end-to-end encrypted sync and version control](https://obsidian.md/sync) for a modest monthly fee.
+- **Extensible** with a broad catalog of [community-created plugins](https://obsidian.md/plugins) and themes.
 
 ![Screenshot of my Obsidian vault opened on the graph view](/static/images/obsidian/obsidian.png)
 <span class="img-caption">Screenshot of my Obsidian vault opened on the graph view.</span>
@@ -57,7 +57,7 @@ So with that said, what are the kinds of notes that I have in Obsidian? Glad you
 
 ### Templates to reduce repetition
 
-The first community-built plugin that I ended up trying out was [QuickAdd](https://obsidian.md/plugins?id=quickadd){:target="_blank"}. This plugin allows you to create custom commands in the command palette configured to duplicate a specific template note. This means that you could create for example a note called "New trip template" and configure a command called "Add new trip" which would duplicate that particular note and open it for you to fill out as desired.
+The first community-built plugin that I ended up trying out was [QuickAdd](https://obsidian.md/plugins?id=quickadd). This plugin allows you to create custom commands in the command palette configured to duplicate a specific template note. This means that you could create for example a note called "New trip template" and configure a command called "Add new trip" which would duplicate that particular note and open it for you to fill out as desired.
 
 In my Obsidian vault I've set-up many of these templates which both saves me a lot of time, and ensures consistency between notes of the same category / type. When I open the command palette and search for "QuickAdd", they all show up:
 
@@ -81,21 +81,21 @@ One of the advantages of using a local-first notes app with an open portable for
 I currently do this for three types of notes:
 
 - Batch-converting Google Contacts metadata to _people notes_.
-- Generating _concert notes_ from a [setlist.fm](https://www.setlist.fm/){:target="_blank"} URL which then auto-fills metadata like venue, tour name, and setlist.
-- Injecting metadata into _media notes_ using public APIs like [IGDB](https://www.igdb.com/api){:target="_blank"} to auto-fill metadata like release date, synopsis, rating, and more.
+- Generating _concert notes_ from a [setlist.fm](https://www.setlist.fm/) URL which then auto-fills metadata like venue, tour name, and setlist.
+- Injecting metadata into _media notes_ using public APIs like [IGDB](https://www.igdb.com/api) to auto-fill metadata like release date, synopsis, rating, and more.
 
 ![Screenshot of the Back to the Future note after injecting IMDb metadata](/static/images/obsidian/back-to-the-future.png)
 <span class="img-caption">The Back to the Future note after injecting IMDb metadata.</span>
 
 ### Querying notes to render tables
 
-Something that I missed after having used Notion for a few years was the ability to create rendered tables out of notes with custom columns, filters, and sorting. Obsidian doesn't have that built-in (though it is [on the roadmap](https://obsidian.md/roadmap/){:target="_blank"}), but there is a community-built plugin called [Dataview](https://obsidian.md/plugins?id=dataview){:target="_blank"} that offers most of what I was looking for.
+Something that I missed after having used Notion for a few years was the ability to create rendered tables out of notes with custom columns, filters, and sorting. Obsidian doesn't have that built-in (though it is [on the roadmap](https://obsidian.md/roadmap/)), but there is a community-built plugin called [Dataview](https://obsidian.md/plugins?id=dataview) that offers most of what I was looking for.
 
 Dataview works by parsing code blocks starting with ````dataview` containing what they call Dataview Query Language (it's essentially SQL) and renders them based on that query. The query contains statements allowing you to do parsing, filtering, sorting, and grouping. It even has some limited support for expressions and function-calling.
 
 I currently use Dataview for rendering tables of my media backlog, trips, and events.
 
-Below you'll find an example of a Dataview table note I created and how it renders. The query essentially translates to: build a table with three columns (title, year, rating) made up of all notes of category "films" (excluding the template note), and sort by [IMDb](https://www.imdb.com/){:target="_blank"} rating.
+Below you'll find an example of a Dataview table note I created and how it renders. The query essentially translates to: build a table with three columns (title, year, rating) made up of all notes of category "films" (excluding the template note), and sort by [IMDb](https://www.imdb.com/) rating.
 
 ```
 table without id
@@ -120,8 +120,8 @@ I have a confession to make. Before 2024 I'd never try journaling. I decided to 
 Since I was planning to do journaling every day, I wanted to make the process as streamlined and easy as possible for me, as to remove any cognitive friction that would push me towards skipping a day (or ten). This is the workflow I ended up building:
 
 - A template for the daily notes (`_meta/templates/Daily template`).
-- The built-in [Daily notes plugin](https://help.obsidian.md/Plugins/Daily+notes){:target="_blank"} to manage and format daily notes (`YYYY/MM-MMMM/YYYY-MM-DD-dddd`)
-- The [Calendar plugin](https://obsidian.md/plugins?id=calendar){:target="_blank"} to add a calendar in the sidebar that links to the relevant daily notes.
+- The built-in [Daily notes plugin](https://help.obsidian.md/Plugins/Daily+notes) to manage and format daily notes (`YYYY/MM-MMMM/YYYY-MM-DD-dddd`)
+- The [Calendar plugin](https://obsidian.md/plugins?id=calendar) to add a calendar in the sidebar that links to the relevant daily notes.
 
 ![Screenshot of the Calendar plugin](/static/images/obsidian/calendar.png)
 <span class="img-caption">Screenshot of the Calendar plugin.</span>

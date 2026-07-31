@@ -13,15 +13,15 @@ In my [previous post](/hello-world/), I introduced the latest version of my pers
 
 ### A blank slate
 
-When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/){:target="_blank"} or other preexisting libraries<sup>*</sup>.
+When I started this project, I had a few goals in mind and some ideas of what I wanted the end result to look like. I wanted a handful of pages with varying content, beautiful cards for my online resume, and a blog where I could publish writings. Most importantly though, I also wanted this project to be a learning opportunity. I'd always relied on at the very least a CSS framework like [Bootstrap](https://getbootstrap.com/) or other preexisting libraries<sup>*</sup>.
 
 This time, as a challenge for myself, I aimed to use _nothing_ external. Only HTML, CSS, and perhaps a scripting language to help generate some files. For the most part I did achieve that, and I'm very happy with my end result! But it didn't all go as planned.
 
-<span class="text-small"><sup>*</sup>There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5){:target="_blank"}, especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.</span>
+<span class="text-small"><sup>*</sup>There is nothing wrong with avoiding reinventing the wheel, and it's often [the preferable option](https://en.wikipedia.org/wiki/Not_invented_here#cite_note-5), especially if you're not intentionally looking for the learning experience that comes from a more DIY solution.</span>
 
 ### Generating worlds
 
-You know how I said, about five seconds ago, how I didn't want to use any external libraries? Well that didn't last long at all. I knew from the start that I wanted to write my blog posts in [Markdown](https://www.markdownguide.org/cheat-sheet/){:target="_blank"} for simplicity and portability, but that meant converting it to HTML. So the first thing I worked on was a Markdown-to-HTML conversion script.
+You know how I said, about five seconds ago, how I didn't want to use any external libraries? Well that didn't last long at all. I knew from the start that I wanted to write my blog posts in [Markdown](https://www.markdownguide.org/cheat-sheet/) for simplicity and portability, but that meant converting it to HTML. So the first thing I worked on was a Markdown-to-HTML conversion script.
 
 I quickly had some of the basics working (e.g. if a line starts with `#<space>`, replace the entire line with `<h1>{line.replace('# ', '')}</h1>`), but then I got to text formatting... What if bold text runs over two different lines? What if there's a combination of bold and italics? What if the asterisk is actually part of a word and not meant to be a bold symbol at all? In terms of parsing, it seemed there were more exceptions than rules and while I ended up implementing a good chunk of it and learned a lot (I truly did), I eventually decided that it just didn't make sense to reimplement such a complex parser if I could simply `import markdown`.
 
@@ -36,7 +36,7 @@ with open(input_filename, 'r', encoding='utf-8') as f:
     html = md.convert(text)
 ```
 
-That out of the way, I also knew I wanted at least basic templating to avoid doing some rather ugly string interpolation. _That_, I didn't want to have to reimplement. Reimplementing templating is not something that I find satisfying enough to attempt. I instead used a templating engine called [Jinja](https://palletsprojects.com/projects/jinja/){:target="_blank"} (which I knew from prior experience with it). The features I was mostly interested in were includes, variables, and loops.
+That out of the way, I also knew I wanted at least basic templating to avoid doing some rather ugly string interpolation. _That_, I didn't want to have to reimplement. Reimplementing templating is not something that I find satisfying enough to attempt. I instead used a templating engine called [Jinja](https://palletsprojects.com/projects/jinja/) (which I knew from prior experience with it). The features I was mostly interested in were includes, variables, and loops.
 
 For those unfamiliar with the Jinja syntax, here is the entire source code of my `blog/` index page as an example:
 
@@ -54,7 +54,7 @@ For those unfamiliar with the Jinja syntax, here is the entire source code of my
 {% include "_suffix.html" %}
 ```
 
-I also created functions to generate a sitemap, an RSS feed, and an Atom feed. All in all, my generator script is just about 150 lines long (at the time of writing), which you can [view here](https://github.com/olivi-eh/olivi-eh.github.io/blob/main/build.py){:target="_blank"}.
+I also created functions to generate a sitemap, an RSS feed, and an Atom feed. All in all, my generator script is just about 150 lines long (at the time of writing), which you can [view here](https://github.com/olivi-eh/olivi-eh.github.io/blob/main/build.py).
 
 So now I have a handful of generated HTML files, but without any styling it doesn't look so sharp. Let's fix that!
 
@@ -63,7 +63,7 @@ So now I have a handful of generated HTML files, but without any styling it does
 
 ### Let there be colour!
 
-As mentioned earlier, I typically use [Bootstrap](https://getbootstrap.com/){:target="_blank"} to help structure my websites and then style on top of it (a little fun fact is that [XIV ToDo](https://xivtodo.com/){:target="_blank"}, which I created, also uses Bootstrap!) One of the problems with a CSS framework is that it can be difficult to get away from the "default" look it gives you out of the box. This time, I wanted to try creating something entirely different from scratch.
+As mentioned earlier, I typically use [Bootstrap](https://getbootstrap.com/) to help structure my websites and then style on top of it (a little fun fact is that [XIV ToDo](https://xivtodo.com/), which I created, also uses Bootstrap!) One of the problems with a CSS framework is that it can be difficult to get away from the "default" look it gives you out of the box. This time, I wanted to try creating something entirely different from scratch.
 
 The way I approached it was to start with the bigger objects, and make my way down from there. I started with the main containers (the header, navigation bar, the content box, the footer) and sized them properly. At that point I also decided on some initial colors and fonts. From there, I moved on to smaller and smaller details. Any helpers that I needed (like `text-muted` or `me-1`) I would just create on the fly as I needed them (instead of mass-producing them beforehand).
 
@@ -96,7 +96,7 @@ In terms of responsiveness, I heavily leveraged media queries. In general, this 
 }
 ```
 
-For the icons, I leveraged my trusty [Font Awesome](https://fontawesome.com/){:target="_blank"} Pro lifetime licence (one of my favourite Kickstarter purchases). For those on a budget, they do have a free tier with over 2,000 icons available. I am absolutely not sponsored; I just really like their offerings.
+For the icons, I leveraged my trusty [Font Awesome](https://fontawesome.com/) Pro lifetime licence (one of my favourite Kickstarter purchases). For those on a budget, they do have a free tier with over 2,000 icons available. I am absolutely not sponsored; I just really like their offerings.
 <i class="fa-duotone fa-light fa-face-smile-hearts" style="--fa-primary-color: #ff2d2d; --fa-primary-opacity: 0.8; --fa-secondary-color: #fee7bc; --fa-secondary-opacity: 1;"></i>
 
 ![Screenshot of the now/ page after styling](/static/images/my-personal-website/website-after-style.png)
@@ -106,7 +106,7 @@ I have to say that even as I write this blog post, I'm still tweaking the stylin
 
 ### The invisible host
 
-Finally, I now need to host my website somewhere. Since previous versions of my website were already using [GitHub Pages](https://pages.github.com/){:target="_blank"} (and it has been working great for me), I decided to leave it as-is. The only change I needed to make was adding a GitHub workflow to run the page generator whenever new changes were pushed to the repository and create a `gh-pages` branch with its output.
+Finally, I now need to host my website somewhere. Since previous versions of my website were already using [GitHub Pages](https://pages.github.com/) (and it has been working great for me), I decided to leave it as-is. The only change I needed to make was adding a GitHub workflow to run the page generator whenever new changes were pushed to the repository and create a `gh-pages` branch with its output.
 
 ```yaml
 name: Deploy to GitHub Pages
@@ -128,7 +128,7 @@ jobs:
           git push origin HEAD:gh-pages --force
 ```
 
-One common complaint of GitHub Pages is the lack of access to the routing server. This means you can't modify the behaviour of routing to, for example, remove the `.html` suffix in the URL of non-index pages. There are a [few methods](https://stackoverflow.com/a/29200325){:target="_blank"} to get around this like simply removing the extension from the file entirely. I feel strangely about extension-less files, so I instead opted to create subdirectories for each page. In short, it means that a page like `/now/` would be served by `/now/index.html`.
+One common complaint of GitHub Pages is the lack of access to the routing server. This means you can't modify the behaviour of routing to, for example, remove the `.html` suffix in the URL of non-index pages. There are a [few methods](https://stackoverflow.com/a/29200325) to get around this like simply removing the extension from the file entirely. I feel strangely about extension-less files, so I instead opted to create subdirectories for each page. In short, it means that a page like `/now/` would be served by `/now/index.html`.
 
 ```sh
 for file in out/*.html
@@ -144,4 +144,4 @@ do
 done
 ```
 
-I then made sure my domain name (`olivi-eh.dev`) was linked to the GitHub Pages configuration, and I was good to go! If you want to see the entire source code for this website, it's available in a [public repository](https://github.com/olivi-eh/olivi-eh.github.io){:target="_blank"} on GitHub. I'm hoping this inspires others to also attempt the challenge of building something!
+I then made sure my domain name (`olivi-eh.dev`) was linked to the GitHub Pages configuration, and I was good to go! If you want to see the entire source code for this website, it's available in a [public repository](https://github.com/olivi-eh/olivi-eh.github.io) on GitHub. I'm hoping this inspires others to also attempt the challenge of building something!

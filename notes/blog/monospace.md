@@ -3,7 +3,7 @@ description: A short introduction to monospace fonts and the kind of use cases t
 tags: technology
 tags: typography
 published: 2025-01-25
-modified: 2025-01-25
+modified: 2026-07-31
 template: blog
 length: 3
 ---
@@ -59,7 +59,7 @@ jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ### For computing numbers
 
-In fields of science and mathematics (including adjacent fields like economics and finances), monospace fonts prevent the misalignment of numbers, which reduces the rate of mistakes and speeds up readability of numbers. Proportional fonts have the downside of quickly misaligning large numbers (especially when they contain lots of 1's which have a narrow width).
+In fields of science and mathematics (including adjacent fields like economics and finances), monospace fonts prevent the misalignment of numbers, which reduces the rate of mistakes and speeds up readability of numbers. Proportional fonts[^*] have the downside of quickly misaligning large numbers (especially when they contain lots of 1's which have a narrow width).
 
 | Proportional | Monospace |
 | :- | :- |
@@ -70,6 +70,8 @@ In biochemistry, monospace fonts are useful to quickly parse [nucleic acid seque
 | Proportional | Monospace |
 | :- | :- |
 | <span style="font-family: serif">TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG</span> | TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG |
+
+[^*] I've been told by a reader that a number of proportional fonts such as Calibri and Verdana do use constant-width digits to prevent misalignments. Thanks, Klaus!
 
 ### Or just because it looks nice!
 

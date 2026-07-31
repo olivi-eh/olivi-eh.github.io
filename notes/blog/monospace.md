@@ -71,7 +71,7 @@ In biochemistry, monospace fonts are useful to quickly parse [nucleic acid seque
 | :- | :- |
 | <span style="font-family: serif">TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG</span> | TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG |
 
-[^*] I've been told by a reader that a number of proportional fonts such as Calibri and Verdana do use constant-width digits to prevent misalignments. Thanks, Klaus!
+[^*] **Edit**: I've been told by a reader that a number of proportional fonts such as Calibri and Verdana do use constant-width digits to prevent misalignments. Thanks, Klaus!
 
 ### Or just because it looks nice!
 

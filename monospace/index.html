@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0546BJCVFH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-0546BJCVFH');
+    </script>
+
+    <title>Monospace: Why use fixed-width fonts in the modern world - Olivier Bourgeois</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Olivier Bourgeois">
+    <meta name="language" content="English">
+    <meta name="title" content="Monospace: Why use fixed-width fonts in the modern world">
+    <meta name="description" content="A short introduction to monospace fonts and the kind of use cases they still excel at.">
+    <meta name="keywords" content="software,engineer,developer,web,design,html,css,html,development,java,golang,software,c++,consulting">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:site_name" content="Olivier Bourgeois: Cloud and backend software developer">
+    <meta property="og:title" content="Monospace: Why use fixed-width fonts in the modern world">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://olivi-eh.dev/monospace/">
+    <meta property="og:image" content="http://olivi-eh.dev/static/assets/og-default.png">
+    <meta property="og:description" content="A short introduction to monospace fonts and the kind of use cases they still excel at.">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="olivi-eh.dev">
+    <meta property="twitter:url" content="https://olivi-eh.dev/monospace/">
+    <meta name="twitter:title" content="Monospace: Why use fixed-width fonts in the modern world">
+    <meta name="twitter:description" content="A short introduction to monospace fonts and the kind of use cases they still excel at.">
+    <meta name="twitter:image" content="http://olivi-eh.dev/static/assets/og-default.png">
+
+    <link rel="canonical" href="https://olivi-eh.dev/monospace/">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico?v=4">
+
+    <link rel="stylesheet" href="/static/fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/static/fonts/css/duotone-light.min.css">
+    <link rel="stylesheet" href="/static/fonts/css/regular.min.css">
+    <link rel="stylesheet" href="/static/fonts/css/brands.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href="/static/style.css">
+  </head>
+
+  <body>
+    <header>
+      <a href="/">
+        <img src="/static/assets/profile.jpg" alt="Olivier Bourgeois" id="header-image" class="d-sm-none" width="88" height="88">
+      </a>
+      <div id="header-card">
+        <h1>Olivier Bourgeois</h1>
+        <p>Software developer with a focus on cloud, back-end development, and developer experience.</p>
+      </div>
+      <nav>
+        <ul>
+          <li ><a href="/">
+              <i class="fa-regular fa-house"></i><span class="d-md-none ms-1">Home</span>
+            </a></li>
+          <li class="active" ><a href="/blog/">
+              <i class="fa-regular fa-newspaper"></i><span class="d-md-none ms-1">Blog</span>
+            </a></li>
+          <li ><a href="/about/">
+              <i class="fa-regular fa-messages-question"></i><span class="d-md-none ms-1">About</span>
+            </a></li>
+          <li ><a href="/now/">
+              <i class="fa-regular fa-calendar-lines-pen"></i><span class="d-md-none ms-1">Now</span>
+            </a></li>
+          <li ><a href="/projects/">
+              <i class="fa-regular fa-seedling"></i><span class="d-md-none ms-1">Projects</span>
+            </a></li>
+          <li ><a href="/resume/">
+              <i class="fa-regular fa-memo-circle-info"></i><span class="d-md-none ms-1">Resume</span>
+            </a></li>
+          <li ><a href="/contact/">
+              <i class="fa-regular fa-envelope"></i><span class="d-md-none ms-1">Contact</span>
+            </a></li>
+        </ul>
+        <ul class="d-xs-none">
+          <li><a href="https://github.com/olivi-eh" target="_blank" aria-label="Link to my GitHub profile">
+              <i class="fa-brands fa-github"></i>
+            </a></li>
+          <li><a href="https://www.linkedin.com/in/olivi-eh/" target="_blank" aria-label="Link to my LinkedIn profile">
+              <i class="fa-brands fa-linkedin"></i>
+            </a></li>
+          <li><a href="https://bsky.app/profile/olivi-eh.dev" target="_blank" aria-label="Link to my Bluesky profile">
+              <i class="fa-brands fa-bluesky"></i>
+            </a></li>
+        </ul>
+      </nav>
+    </header>
+<main>
+  <div id="main-header">
+    <p><a href="/blog/">Blog</a> / <b>Monospace: Why use fixed-width fonts in the modern world</b></p>
+
+    <p>A short introduction to monospace fonts and the kind of use cases they still excel at.</p>
+    
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
+      January 25, 2025
+    </span>
+
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-clock color-blue"></i>
+      3 min read
+    </span>
+
+    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
+    
+      #technology, 
+    
+      #typography
+    
+    </span>
+  </div>
+
+  <div id="main-content">
+    <h2>Monospace: Why use fixed-width fonts in the modern world</h2>
+    <p>If you have ever used a computer, you likely have come across fonts before (like the classic Times New Roman or the infamous Comic Sans). But did you know fonts have been around for much longer than computers have? The concept of fonts dates from the 15th century, shortly after the invention of the <a href="https://en.wikipedia.org/wiki/Printing_press" target="_blank">printing press</a>.</p>
+<p>Originally, fonts came in sets of individual physical molded letters made of cast iron (the French word for cast iron is&hellip; Fonte!) These metal pieces would then be placed on trays or railings to form words and sentences. The letters would then be inked, ready to be used as a sort of giangantic stamp for everything from newspapers to books.</p>
+<p>Fonts differ by various characteristics: casing, boldness, ink traps, spacing, ligatures, kerning, and much more. Among these characteristics is whether the font&rsquo;s letters are of variable width (proportional to each letter) or of fixed width (equal width regardless of letter). The latter is called a fixed width font or a monospace font.</p>
+<p><img alt="Screenshot of the 2015 version of my website" src="/static/images/monospace/proportional-vs-monospace.png" />
+<span class="img-caption">Comparison between variable width fonts and fixed width fonts. <a href="https://en.wikipedia.org/wiki/Monospaced_font#/media/File:Proportional-vs-monospace-v5.svg" target="_blank">Wikipedia</a></span></p>
+<p>Small disclaimer: the tables I created in this post to do comparisons don&rsquo;t show up nicely on mobile. It may be preferable to view this post in landscape mode, or on a tablet or computer.</p>
+<h3>For code readability</h3>
+<p>All<sup>*</sup> computer programmers use monospace fonts to write their code, where a mistake on one small character can make a whole lot of difference in the program output. Monospace fonts are generally designed to take out any ambiguity between similar-looking characters. Take a look at the following sets of characters and try to spot where ambiguity could occur.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proportional</th>
+<th style="text-align: left;">Monospace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-family: serif">0 / O / o<br>1 / l / I<br>cl / d<br>rn / m</span></td>
+<td style="text-align: left;">0 / O / o<br>1 / l / I<br>cl / d<br>rn / m</td>
+</tr>
+</tbody>
+</table>
+<p>Additionally, monospace fonts make code appear less squished and more structured making it easier to parse.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proportional</th>
+<th style="text-align: left;">Monospace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-family: serif">if &lowbar;&lowbar;name&lowbar;&lowbar; == &apos;&lowbar;&lowbar;main&lowbar;&lowbar;&apos;:<br>&nbsp;&nbsp;&nbsp;&nbsp;pages_meta = process_notes()<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_sitemap(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_rss(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_atom(pages_meta)</span></td>
+<td style="text-align: left;">if &lowbar;&lowbar;name&lowbar;&lowbar; == &apos;&lowbar;&lowbar;main&lowbar;&lowbar;&apos;:<br>&nbsp;&nbsp;&nbsp;&nbsp;pages_meta = process_notes()<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_sitemap(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_rss(pages_meta)<br>&nbsp;&nbsp;&nbsp;&nbsp;generate_atom(pages_meta)</td>
+</tr>
+</tbody>
+</table>
+<p class="text-small"><sup>*</sup>Do you write code and use a proportional font? Please reach out to me, I would love to hear about it!</p>
+<h3>For making art</h3>
+<p>Interestingly enough, monospace fonts also have use in the creation of arts. Take the tablature for the first few iconic guitar notes of <a href="https://www.youtube.com/watch?v=Q2FzZSBD5LE" target="_blank">Smoke on the Water by Deep Purple</a>. Which type of font do you think is more readable for a guitar player learning a new song?</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proportional</th>
+<th style="text-align: left;">Monospace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-family: serif">e&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>B&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>G&vert;&dash;&dash;&dash;&dash;&dash;3&dash;&dash;&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;3&dash;&dash;&dash;6&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>D&vert;&dash;5&dash;&dash;&dash;3&dash;&dash;&dash;5&dash;&dash;&dash;&dash;5&dash;&vert;&dash;&dash;&dash;3&dash;&dash;&dash;6&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>A&vert;&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;5&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>E&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;</span></td>
+<td style="text-align: left;">e&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>B&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>G&vert;&dash;&dash;&dash;&dash;&dash;3&dash;&dash;&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;3&dash;&dash;&dash;6&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>D&vert;&dash;5&dash;&dash;&dash;3&dash;&dash;&dash;5&dash;&dash;&dash;&dash;5&dash;&vert;&dash;&dash;&dash;3&dash;&dash;&dash;6&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>A&vert;&dash;5&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;5&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;<br>E&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&vert;</td>
+</tr>
+</tbody>
+</table>
+<p>Monospace can also be used for a graphic design technique called ASCII art (named so for its constrained usage of the <a href="https://en.wikipedia.org/wiki/ASCII#Character_set" target="_blank">95 printable characters</a> contained in the American Standard Code for Information Interchange). Monospace fonts allow the art to have a deterministic and grid-like look of characters. Below is one of many examples you can find on the <a href="https://www.asciiart.eu/" target="_blank">ASCII Art Archive</a>.</p>
+<pre><code>Art by Joan G. Stark
+
+         wWWWw               wWWWw
+   vVVVv (___) wWWWw         (___)  vVVVv
+   (___)  ~Y~  (___)  vVVVv   ~Y~   (___)
+    ~Y~   \|    ~Y~   (___)    |/    ~Y~
+    \|   \ |/   \| /  \~Y~/   \|    \ |/
+   \\|// \\|// \\|/// \\|//  \\|// \\\|///
+jgs^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+</code></pre>
+<h3>For computing numbers</h3>
+<p>In fields of science and mathematics (including adjacent fields like economics and finances), monospace fonts prevent the misalignment of numbers, which reduces the rate of mistakes and speeds up readability of numbers. Proportional fonts<sup>*</sup> have the downside of quickly misaligning large numbers (especially when they contain lots of 1&rsquo;s which have a narrow width).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proportional</th>
+<th style="text-align: left;">Monospace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-family: serif">&nbsp;&nbsp;36,000<br>+111,107<br>--------<br>&nbsp;147,107</span></td>
+<td style="text-align: left;">&nbsp;&nbsp;36,000<br>+111,107<br>--------<br>&nbsp;147,107</td>
+</tr>
+</tbody>
+</table>
+<p>In biochemistry, monospace fonts are useful to quickly parse <a href="https://en.wikipedia.org/wiki/Nucleic_acid_sequence" target="_blank">nucleic acid sequences</a>, making pairs align together in a deterministic manner. Below is one such example (don&rsquo;t read too much into it, it doesn&rsquo;t map to anything).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proportional</th>
+<th style="text-align: left;">Monospace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span style="font-family: serif">TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG</span></td>
+<td style="text-align: left;">TCCTGATACCGTATTC<br>GAATAAGCCGAAGCTG<br>ATGCGTAGCTAGCTAG</td>
+</tr>
+</tbody>
+</table>
+<p class="text-small"><sup>*</sup><strong>Edit</strong>: I&rsquo;ve been told by a reader that a number of proportional fonts such as Calibri and Verdana do use constant-width digits to prevent misalignments. Thanks, Klaus!</p>
+<h3>Or just because it looks nice!</h3>
+<p>Finally you may simply find, like me, that monospace fonts are aesthetically pleasing, and that&rsquo;s very valid! Regardless of the domain, you can see that still today, monospace fonts have tons of room to shine.</p>
+<p>What about you? Do you use monospace in your day-to-day life? Do you have a favourite monospace font?<sup>*</sup></p>
+<p class="text-small"><sup>*</sup>These days, I tend to keep coming back to a series of fonts called <a href="https://monaspace.githubnext.com/" target="_blank">Monaspace</a>.</p>
+  </div>
+
+  <div id="main-footer">
+    <span><a href="/blog/">View all posts</a></span>
+  </div>
+</main>
+<footer>
+  <div class="d-md-none">
+    Powered by 100% Canadian maple syrup <i class="fa-solid fa-leaf-maple"></i>
+  </div>
+  <div>
+    Page last modified on <span style="white-space: nowrap">July 31, 2026</span>
+  </div>
+</footer>
+</body>
+
+</html>

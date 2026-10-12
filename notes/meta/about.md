@@ -1,6 +1,6 @@
 title: About
 description: Learn more about me, my interests, and my upbringings.
-modified: 2026-05-18
+modified: 2026-10-12
 ---
 
 ## <i class="fa-duotone fa-light fa-messages-question me-1"></i>About me
@@ -17,8 +17,6 @@ Some things that inspire me, in no particular order!
 **Technology**, especially fascinated by retro systems, web 1.0, and homelabs.
 - <i class="fa-duotone fa-light fa-house-tree color-green"></i>
 **Urbanism**, with a focus on liveability, walkability, and transit.
-- <i class="fa-duotone fa-light fa-radio color-aqua"></i>
-**Listening to music**, particularly progressive rock and metal.
 - <i class="fa-duotone fa-light fa-guitars color-red"></i>
 **Playing music**, drums primarily, but also guitar, bass, and singing.
 - <i class="fa-duotone fa-light fa-passport color-blue"></i>
@@ -31,6 +29,8 @@ Some things that inspire me, in no particular order!
 **Time in nature**, rock climbing, hiking, and wandering in botanical gardens.
 - <i class="fa-duotone fa-light fa-chart-mixed-up-circle-dollar color-green"></i>
 **Financial independance**, FIRE movement, DIY investing, simple living.
+- <i class="fa-duotone fa-light fa-radio color-aqua"></i>
+**Listening to music**, particularly progressive rock and metal.
 
 ### Assorted fun facts
 
@@ -101,11 +101,10 @@ Here's a very brief timeline of major events of my life. Non-exhaustive, of cour
 - **2021** (27y): Started working on and **released XIV ToDo**. **Relocated to Waterloo (ON)** to work from the Google office in-person.
 - **2022** (28y): Visited New York (NY) for the first time.
 - **2023** (29y): Started **rock climbing**. Attended my **first tech conference as a staff worker**, Google Cloud Next in San Francisco (CA).
-- **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
-- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)** with my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Worked on a **spec-compliant IRC client** for fun.
 
 <i class="fa-duotone fa-light fa-rocket"></i>
-**Change of direction**
+**Growth and adventures**
 
+- **2024** (30y): Started getting back into travelling, doing **trips** to Vancouver (BC), Montreal (QC), Boston (MA), Salt Lake City (UT), and spending **3 weeks in Japan**. Released a fully **revamped version of my website** (you're reading it now!)
+- **2025** (31y): Picked up **learning Japanese** again. Relocated to **Toronto (ON)** with my two cats. Went on **12 trips** covering 15 cities in all four corners of North America. Worked on a **spec-compliant IRC client** for fun.
 - **2026** (32y): Let's see what this year holds!
-<!-- trips (euro, others), Japan 3 months -->

@@ -1,6 +1,6 @@
 title: Now
 description: Summarized snapshot of what I'm up to, updated regularly.
-modified: 2026-08-16
+modified: 2026-10-12
 ---
 
 ## <i class="fa-duotone fa-light fa-calendar-lines-pen me-1"></i>Now
@@ -11,16 +11,16 @@ is an up-to-date summarized snapshot of where a person is focused on, at this ve
 
 ### What have I been up to, lately?
 
-_Updated as of August 16, 2026._
+_Updated as of October 12, 2026._
 
 <i class="fa-duotone fa-light fa-location-dot color-red"></i>
-Living in **Toronto (ON)** in Canada with my two cats.
+Living in **Toronto (ON)** in Canada with my two cats. I just changed neighbourhoods (again) last month, and liking the change of scenery so far!
 
 <i class="fa-duotone fa-light fa-briefcase color-blue"></i>
-Working full-time at **Google** in the **Developer Relations** team in Google Cloud, focusing on Kubernetes (GKE). Nearing my 6th anniversary there.
+Working full-time at **Google** in the **Developer Relations** team in Google Cloud, focusing on Kubernetes (GKE). Nearing my 6th anniversary there. And I still love it.
 
 <i class="fa-duotone fa-light fa-plane-departure color-aqua"></i>
-Already went on many travels this year, and still more to go! I have some "likely" travels for work between September and November, and of course I'll be in **Salt Lake City (UT)** for KubeCon NA. The rest is very in flux.
+Already went on many travels this year, and still more to go! I have some "likely" travels for work between October and November (mostly for DevFest), and of course I'll be in **Salt Lake City (UT)** for KubeCon NA.
 
 <i class="fa-duotone fa-light fa-seedling color-green"></i>
 My most worked on project recently is re-optimizing my **Obsidian vault**, which has grown quite large (almost 3,000 notes).
@@ -31,24 +31,24 @@ Still **rock climbing** when I get the chance, but not as much as I'd like to. W
 <!-- <i class="fa-duotone fa-light fa-hat-santa color-red"></i>
 The **winter holidays** are near, and though I typically spend that time visiting my family, this year I'll be spending two weeks at the comfort of my home, relaxing and working on side projects. -->
 
-<i class="fa-duotone fa-light fa-chalkboard-user color-aqua"></i>
-Still **learning Japanese** on-and-off, though not necessarily consistently.
+<!-- <i class="fa-duotone fa-light fa-chalkboard-user color-aqua"></i>
+Still **learning Japanese** on-and-off, though not necessarily consistently. -->
 
 <i class="fa-duotone fa-light fa-book color-purple"></i>
 Currently **reading**...
 
 - Ted Chiang's massive short stories backlog
+- What's Our Problem?: A Self-Help Book for Societies
 
 <i class="fa-duotone fa-light fa-game-console-handheld color-orange"></i>
 Currently **playing**...
 
-- Final Fantasy XIV Online (occasionally)
+- Final Fantasy XIV Online (very occasionally)
 - Like a Dragon: Infinite Wealth
 
 <i class="fa-duotone fa-light fa-tv-retro color-pink"></i>
 Currently **watching**...
 
-- Young Sheldon
 - Anne with an E
 
 ---

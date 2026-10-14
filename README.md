@@ -3,65 +3,99 @@
 
 # Personal website
 
-This repository contains my personal website, which is hosted on [olivi-eh.dev](https://olivi-eh.dev/). It is powered by a custom static site generator script that renders Markdown documents using Jinja2 templates.
+Source for my personal website and blog, hosted at [olivi-eh.dev](https://olivi-eh.dev/). It's built by a small custom static site generator that renders Markdown notes through Jinja2 templates.
 
-## Features
+- **Markdown content:** pages and posts are plain Markdown files with front matter.
+- **Pretty URLs:** every page is served from its own directory (`/about/` rather than `/about.html`).
+- **Feeds:** RSS, Atom, and a sitemap are generated on every build.
+- **Link checking:** the build fails if any page links to an internal page or asset that doesn't exist.
+- **Dev server:** local preview with automatic rebuilds on save.
 
-* **Markdown pages:** Write posts and pages in plain Markdown inside the `notes/` directory.
-* **Pretty URLs:** Automatically formats outputs so that pages are served clean (e.g., `/about/` instead of `/about.html`).
-* **Automated feeds:** Dynamically generates RSS (`rss.xml`), Atom (`atom.xml`), and Sitemap (`sitemap.xml`) files on every build.
-* **Development mode:** Built-in development server with automatic file watching and rebuilds.
+## Quick start
 
-## Directory structure
+The only requirement is [uv](https://github.com/astral-sh/uv), which installs the right Python version (see `.python-version`) and dependencies on first run.
 
-* **`notes/`** — Source markdown files for the posts and pages.
-* **`static/`** — Static assets like CSS, images, and fonts.
-* **`templates/`** — Jinja2 HTML templates used to render the markdown pages.
-* **`static-root/`** — Configuration files meant to live at the root of the site (e.g., `CNAME`, `robots.txt`).
-* **`out/`** — The compiled web assets ready for deployment (git ignored).
-
-## Development and building
-
-### Prerequisites
-
-This project utilizes the [uv](https://github.com/astral-sh/uv) package manager to manage dependencies and python runtimes. You only need to have `uv` installed; it will automatically download and manage the required Python version for you.
-
-Clone the repository and navigate to the project directory:
 ```sh
 git clone https://github.com/olivi-eh/olivi-eh.github.io.git
 cd olivi-eh.github.io
-```
-
-### Starting the development server
-
-To serve the website locally and watch for changes in `notes/`, `templates/`, and `static/` directories:
-
-```sh
 ./dev.sh
 ```
 
-This will automatically build the site, run a local development server at [http://localhost:8082](http://localhost:8082), and trigger automatic rebuilds as you edit the files.
+The site is served at [http://localhost:8082](http://localhost:8082) and rebuilds whenever a file in `notes/`, `templates/`, `static/`, or `static-root/` changes.
 
-### Rendering the production site
-
-If you just want to run a one-time build to compile the static files:
+To produce a one-time production build in `out/`:
 
 ```sh
 uv run build.py
 ```
 
-This clean build will output all static assets directly into the `out/` directory. The build fails if any page links to an internal page or asset that doesn't exist.
+## Project layout
+
+```
+notes/
+  blog/          Blog posts, served at /<filename>/ and listed in the feeds
+  meta/          Standalone pages (index, about, now, 404, ...)
+  wip/           Drafts and the post template; never built
+templates/       Jinja2 templates (default, blog, blog-index, index)
+static/          CSS, fonts, and images, served at /static/
+static-root/     Files copied to the site root (CNAME, robots.txt)
+builder/         The site generator
+build.py         Entry point for builds and the dev server
+optimize_images.py
+out/             Build output (git ignored)
+```
+
+## Writing content
+
+Each note starts with front matter, followed by a `---` line and the Markdown body:
+
+```
+title: My post title
+description: One-line summary used in feeds and meta tags.
+tags: first-tag
+tags: second-tag
+published: 2026-01-31
+modified: 2026-01-31
+template: blog
+length: 5
+---
+```
+
+| Key | Notes |
+| --- | --- |
+| `title` | Page title. Omit it to use the site's default title. |
+| `description` | Used for meta tags and feeds. Defaults to the site description. |
+| `tags` | Repeat the key once per tag. |
+| `published` | `YYYY-MM-DD`. Posts without it are left out of the blog list and feeds. |
+| `modified` | `YYYY-MM-DD`. Shown in the footer and used in the sitemap. |
+| `template` | `default` (the default), `blog`, `blog-index`, or `index`. |
+| `length` | Reading time in minutes. |
+| `related` | Optional, repeatable. |
+
+The build warns about any other key, which usually means a typo.
+
+> [!IMPORTANT]
+> Every file in `notes/blog/` is published on the next deploy, whatever its `published` date. Keep drafts in `notes/wip/` until they're ready. `notes/wip/!template.md` is a starting point for new posts.
+
+### Markdown extras
+
+On top of standard Markdown (with tables, fenced code, attribute lists, and admonitions):
+
+- **Footnotes:** reference with `[^1]` or `[^*]`, and define at the start of a line with `[^1]: text`. Definitions render in place as small text rather than at the end of the page.
+- **Shortcodes:** `{caption: text}` for an image caption and `{small: text}` for small text.
+- **External links:** links to other sites and to PDFs open in a new tab automatically.
+- **Images:** local images get `loading="lazy"` and their width and height added automatically.
 
 ### Adding images
 
-Before committing new images, convert them to resized WebP files without metadata (including GPS location):
+Put images in `static/images/<post-name>/`, reference them as `/static/images/<post-name>/<file>`, then convert them before committing:
 
 ```sh
 uv run optimize_images.py static/images/<post-name>/
 ```
 
-This replaces each JPEG/PNG with a `.webp` file and updates references in `notes/`.
+This resizes each JPEG or PNG to at most 1600 px wide, converts it to WebP, strips all metadata (including GPS location), and updates references in `notes/`.
 
-## Automated deployments
+## Deployment
 
-Deployments are automated via GitHub Actions ([gh-pages-deploy.yaml](.github/workflows/gh-pages-deploy.yaml)). Any push to the `main` branch builds the site and deploys the `out/` directory to GitHub Pages.
+Every push to `main` runs [gh-pages-deploy.yaml](.github/workflows/gh-pages-deploy.yaml), which builds the site and deploys `out/` to GitHub Pages. In the repository settings, the Pages source must be set to **GitHub Actions**.

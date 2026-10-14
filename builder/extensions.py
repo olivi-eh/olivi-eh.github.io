@@ -6,8 +6,18 @@ import markdown
 from markdown.extensions import Extension
 from markdown.inlinepatterns import InlineProcessor
 from markdown.treeprocessors import Treeprocessor
+from PIL import Image
 
-from builder.config import domain
+from builder.config import ROOT_DIR, domain
+from builder.log import BuildError
+
+# Everything 'extra' bundles except 'footnotes', which SectionFootnotesExtension replaces
+EXTRA_EXTENSIONS = ['fenced_code', 'attr_list', 'def_list', 'tables', 'abbr', 'md_in_html']
+
+# Matches a footnote definition at the start of a line: [^1], [^1]:, ^1, ^1^, <sup>1</sup>, ...
+FOOTNOTE_DEFINITION_RE = re.compile(r'^(?:\[\^(\*|\d+)\]:?|\^(\*|\d+)\^?|<sup>(\*|\d+)</sup>:?)\s*(.*)')
+# Matches an inline footnote reference: [^1], [^*]
+FOOTNOTE_REFERENCE_RE = re.compile(r'\[\^(\*|\d+)\]')
 
 
 def get_internal_prefixes(site_domain: str = domain) -> tuple[str, ...]:
@@ -62,57 +72,60 @@ class SectionFootnotesTreeprocessor(Treeprocessor):
             if not p.text:
                 continue
             lines = p.text.split('\n')
-            if any(
-                re.match(r'^(?:\[\^(\*|\d+)\]:?|\^(\*|\d+)\^?|<sup>(\*|\d+)</sup>:?)\s*', line)
-                for line in lines
-            ):
+            if any(FOOTNOTE_DEFINITION_RE.match(line) for line in lines):
                 parent = parent_map.get(p, root)
                 idx = list(parent).index(p)
                 parent.remove(p)
                 for i, line in enumerate(lines):
-                    m = re.match(
-                        r'^(?:\[\^(\*|\d+)\]:?|\^(\*|\d+)\^?|<sup>(\*|\d+)</sup>:?)\s*(.*)',
-                        line,
-                    )
+                    new_p = ET.Element('p')
+                    m = FOOTNOTE_DEFINITION_RE.match(line)
                     if m:
-                        symbol = m.group(1) or m.group(2) or m.group(3)
-                        rest = m.group(4)
-                        new_p = ET.Element('p')
                         new_p.attrib['class'] = 'text-small'
-                        sup = ET.Element('sup')
-                        sup.text = symbol
-                        sup.tail = rest
-                        new_p.append(sup)
-                        parent.insert(idx + i, new_p)
+                        sup = ET.SubElement(new_p, 'sup')
+                        sup.text = m.group(1) or m.group(2) or m.group(3)
+                        sup.tail = m.group(4)
                     else:
-                        new_p = ET.Element('p')
                         new_p.text = line
-                        parent.insert(idx + i, new_p)
+                    parent.insert(idx + i, new_p)
 
         for elem in root.iter():
-            if elem.tag not in ('script', 'style'):
-                if elem.tag == 'p' and elem.attrib.get('class') == 'text-small':
-                    continue
-                if elem.text:
-                    elem.text = re.sub(r'\[\^(\*|\d+)\]', r'<sup>\1</sup>', elem.text)
-                if elem.tail:
-                    elem.tail = re.sub(r'\[\^(\*|\d+)\]', r'<sup>\1</sup>', elem.tail)
+            if elem.tag in ('script', 'style'):
+                continue
+            if elem.tag == 'p' and elem.attrib.get('class') == 'text-small':
+                continue
+            if elem.text:
+                elem.text = FOOTNOTE_REFERENCE_RE.sub(r'<sup>\1</sup>', elem.text)
+            if elem.tail:
+                elem.tail = FOOTNOTE_REFERENCE_RE.sub(r'<sup>\1</sup>', elem.tail)
 
 
 class SectionFootnotesExtension(Extension):
     def extendMarkdown(self, md):
-        for reg in (
-            md.preprocessors,
-            md.inlinePatterns,
-            md.parser.blockprocessors,
-            md.treeprocessors,
-        ):
-            for key in list(reg._data.keys()):
-                if 'footnote' in key.lower():
-                    reg.deregister(key)
         md.treeprocessors.register(
             SectionFootnotesTreeprocessor(md), 'section_footnotes', 25
         )
+
+
+class ImagesTreeprocessor(Treeprocessor):
+    def run(self, root):
+        for img in root.iter('img'):
+            img.set('loading', 'lazy')
+            img.set('decoding', 'async')
+
+            src = img.get('src', '')
+            if not src.startswith('/static/'):
+                continue
+            path = ROOT_DIR / src.lstrip('/')
+            if not path.is_file():
+                raise BuildError(f'Image not found: {src}')
+            with Image.open(path) as image:
+                img.set('width', str(image.width))
+                img.set('height', str(image.height))
+
+
+class ImagesExtension(Extension):
+    def extendMarkdown(self, md):
+        md.treeprocessors.register(ImagesTreeprocessor(md), 'images', 10)
 
 
 class ShortcodesInlineProcessor(InlineProcessor):
@@ -140,11 +153,12 @@ def get_markdown_instance(site_domain: str = domain) -> markdown.Markdown:
     return markdown.Markdown(
         extensions=[
             'meta',
-            'extra',
+            *EXTRA_EXTENSIONS,
             'smarty',
             'admonition',
             AutoExternalLinksExtension(site_domain=site_domain),
             SectionFootnotesExtension(),
+            ImagesExtension(),
             ShortcodesExtension(),
         ]
     )

@@ -1,3 +1,4 @@
+{% from "_macros.html" import post_info -%}
 {% include "_prefix.html" %}
 <main>
   <div id="main-header">
@@ -5,24 +6,12 @@
 
     <p>{{ description }}</p>
     
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-calendar-lines-pen color-green"></i>
-      {{ published_formatted }}
-    </span>
-
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-clock color-blue"></i>
-      {{ length }} min read
-    </span>
-
-    <span class="me-2 no-wrap"><i class="fa-duotone fa-light fa-tags color-purple"></i>
-    {% for tag in tags %}
-      #{{ tag }}{% if not loop.last %}, {% endif %}
-    {% endfor %}
-    </span>
+    {{ post_info(page) }}
   </div>
 
   <div id="main-content">
     <h2>{{ title_raw }}</h2>
-    {{ md_html }}
+    {{ md_html|safe }}
   </div>
 
   <div id="main-footer">

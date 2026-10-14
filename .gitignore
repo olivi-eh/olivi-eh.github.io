@@ -9,3 +9,7 @@ __pycache__/
 # IDEs and OS files
 .idea/
 .DS_Store
+
+# Build staging directories
+out.tmp/
+out.old/

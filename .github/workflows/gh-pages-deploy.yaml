@@ -3,28 +3,47 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let an in-progress deploy finish, but skip any queued between it and the latest push
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  gh-pages-deploy:
-    name: Deploying to GitHub Pages
+  build:
+    name: Build site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup git config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+        uses: actions/checkout@v7
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v10
         with:
-          python-version: '3.14'
+          enable-cache: true
 
-      - name: Build and deploy to gh-pages
-        run: |
-          git checkout --orphan gh-pages-test
-          uv run build.py
-          git --work-tree out add --all
-          git --work-tree out commit -m "Automated out build"
-          git push origin HEAD:gh-pages --force
+      - name: Build
+        run: uv run build.py
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5

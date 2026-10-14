@@ -14,7 +14,7 @@ Originally, fonts came in sets of individual physical molded letters made of cas
 
 Fonts differ by various characteristics: casing, boldness, ink traps, spacing, ligatures, kerning, and much more. Among these characteristics is whether the font's letters are of variable width (proportional to each letter) or of fixed width (equal width regardless of letter). The latter is called a fixed width font or a monospace font.
 
-![Screenshot of the 2015 version of my website](/static/images/monospace/proportional-vs-monospace.png)
+![Screenshot of the 2015 version of my website](/static/images/monospace/proportional-vs-monospace.webp)
 {caption: Comparison between variable width fonts and fixed width fonts. [Wikipedia](https://en.wikipedia.org/wiki/Monospaced_font#/media/File:Proportional-vs-monospace-v5.svg)}
 
 Small disclaimer: the tables I created in this post to do comparisons don't show up nicely on mobile. It may be preferable to view this post in landscape mode, or on a tablet or computer.

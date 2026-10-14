@@ -1,9 +1,9 @@
 {% include "_prefix.html" %}
 <main>
   <div id="main-content">
-    {{ md_html }}
+    {{ md_html|safe }}
 
-    {% with posts = pages_meta[:3] %}
+    {% with posts = posts[:3] %}
       {% include "_blog-list.html" %}
     {% endwith %}
   </div>

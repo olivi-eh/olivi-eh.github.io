@@ -58,7 +58,7 @@ I also created functions to generate a sitemap, an RSS feed, and an Atom feed. A
 
 So now I have a handful of generated HTML files, but without any styling it doesn't look so sharp. Let's fix that!
 
-![Screenshot of the now/ page before styling](/static/images/my-personal-website/website-before-style.png)
+![Screenshot of the now/ page before styling](/static/images/my-personal-website/website-before-style.webp)
 {caption: The now/ page without any styling.}
 
 ### Let there be colour!
@@ -99,7 +99,7 @@ In terms of responsiveness, I heavily leveraged media queries. In general, this 
 For the icons, I leveraged my trusty [Font Awesome](https://fontawesome.com/) Pro lifetime licence (one of my favourite Kickstarter purchases). For those on a budget, they do have a free tier with over 2,000 icons available. I am absolutely not sponsored; I just really like their offerings.
 <i class="fa-duotone fa-light fa-face-smile-hearts" style="--fa-primary-color: #ff2d2d; --fa-primary-opacity: 0.8; --fa-secondary-color: #fee7bc; --fa-secondary-opacity: 1;"></i>
 
-![Screenshot of the now/ page after styling](/static/images/my-personal-website/website-after-style.png)
+![Screenshot of the now/ page after styling](/static/images/my-personal-website/website-after-style.webp)
 {caption: The now/ page with styling.}
 
 I have to say that even as I write this blog post, I'm still tweaking the styling ever so slightly. So it's always a work in progress, and that's okay!

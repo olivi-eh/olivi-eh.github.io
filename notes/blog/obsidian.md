@@ -27,7 +27,7 @@ Here's what Obsidian provides that sold it to me:
 - **Native sync** providing [end-to-end encrypted sync and version control](https://obsidian.md/sync) for a modest monthly fee.
 - **Extensible** with a broad catalog of [community-created plugins](https://obsidian.md/plugins) and themes.
 
-![Screenshot of my Obsidian vault opened on the graph view](/static/images/obsidian/obsidian.png)
+![Screenshot of my Obsidian vault opened on the graph view](/static/images/obsidian/obsidian.webp)
 {caption: Screenshot of my Obsidian vault opened on the graph view.}
 
 ### Why store information?
@@ -52,7 +52,7 @@ So with that said, what are the kinds of notes that I have in Obsidian? Glad you
 - **Trips & events** ("Pre-travel checklist", "List of flights taken", ...)
 - **Media consumed & backlog** ("Books I've read", "Christmas films I want to watch", ...)
 
-![Screenshot of a note I created to act as an overview of my personal notes](/static/images/obsidian/olivier.png)
+![Screenshot of a note I created to act as an overview of my personal notes](/static/images/obsidian/olivier.webp)
 {caption: A note I created to act as an overview of notes about me.}
 
 ### Templates to reduce repetition
@@ -61,17 +61,17 @@ The first community-built plugin that I ended up trying out was [QuickAdd](https
 
 In my Obsidian vault I've set-up many of these templates which both saves me a lot of time, and ensures consistency between notes of the same category / type. When I open the command palette and search for "QuickAdd", they all show up:
 
-![Screenshot of the command palette showing QuickAdd](/static/images/obsidian/quickadd.png)
+![Screenshot of the command palette showing QuickAdd](/static/images/obsidian/quickadd.webp)
 {caption: A few of the QuickAdd commands I have set-up.}
 
 Let's say I'm going on a trip soon. I select the **Add new trip** command, enter a name ("Trip to the Land of OOO") and a note is automatically created, stored at the expected location, with the relevant template (both the YAML metadata and the Markdown note itself) ready for me to fill out!
 
-![Screenshot of a generated trip built from its template](/static/images/obsidian/new-trip.png)
+![Screenshot of a generated trip built from its template](/static/images/obsidian/new-trip.webp)
 {caption: Looking forward to my upcoming trip to OOO!}
 
 Since templates mean I get to create a lot of notes really easily, I wanted to prevent an potential issue where my directories would be full of notes of all kinds mixed together. To solve this, I have the templating plugin set-up to place the notes in a relevant `_items/` directory within the root-level category directory. This allows me to easily find the non-templated notes (in this case, something like "Packing list").
 
-![Screenshot of the directory structure of my vault, showing the Trips notes](/static/images/obsidian/trips-dirs.png)
+![Screenshot of the directory structure of my vault, showing the Trips notes](/static/images/obsidian/trips-dirs.webp)
 {caption: The directory structure of my vault, showing the Trips notes.}
 
 ### Scripting to leverage external metadata
@@ -84,7 +84,7 @@ I currently do this for three types of notes:
 - Generating _concert notes_ from a [setlist.fm](https://www.setlist.fm/) URL which then auto-fills metadata like venue, tour name, and setlist.
 - Injecting metadata into _media notes_ using public APIs like [IGDB](https://www.igdb.com/api) to auto-fill metadata like release date, synopsis, rating, and more.
 
-![Screenshot of the Back to the Future note after injecting IMDb metadata](/static/images/obsidian/back-to-the-future.png)
+![Screenshot of the Back to the Future note after injecting IMDb metadata](/static/images/obsidian/back-to-the-future.webp)
 {caption: The Back to the Future note after injecting IMDb metadata.}
 
 ### Querying notes to render tables
@@ -108,7 +108,7 @@ where
 sort apirating desc
 ```
 
-![Screenshot of the "Films by IMDb ratings" table](/static/images/obsidian/films-table.png)
+![Screenshot of the "Films by IMDb ratings" table](/static/images/obsidian/films-table.webp)
 {caption: The rendered table for films[^*] sorted by IMDb user ratings.}
 
 [^*]: Yes I know, I need to get to Coppola's The Godfather trilogy sometime.
@@ -123,10 +123,10 @@ Since I was planning to do journaling every day, I wanted to make the process as
 - The built-in [Daily notes plugin](https://help.obsidian.md/Plugins/Daily+notes) to manage and format daily notes (`YYYY/MM-MMMM/YYYY-MM-DD-dddd`)
 - The [Calendar plugin](https://obsidian.md/plugins?id=calendar) to add a calendar in the sidebar that links to the relevant daily notes.
 
-![Screenshot of the Calendar plugin](/static/images/obsidian/calendar.png)
+![Screenshot of the Calendar plugin](/static/images/obsidian/calendar.webp)
 {caption: Screenshot of the Calendar plugin.}
 
-![Screenshot of the template I use for daily journaling](/static/images/obsidian/daily-template.png)
+![Screenshot of the template I use for daily journaling](/static/images/obsidian/daily-template.webp)
 {caption: The template I use for daily journaling.}
 
 ### Takeaways

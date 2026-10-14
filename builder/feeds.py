@@ -1,83 +1,82 @@
-from datetime import date, datetime
+from datetime import date, datetime, time
+from email.utils import format_datetime
+from xml.etree import ElementTree as ET
 
 from builder.config import (
-    OUT_DIR,
     author,
     default_description,
     default_title,
     domain,
+    language,
+    timezone,
 )
 
-
-def generate_sitemap(pages_meta):
-    print('  ├── Generating sitemap... ', end='', flush=True)
-    sitemap_path = OUT_DIR / 'sitemap.xml'
-    with open(sitemap_path, 'w', encoding='utf-8') as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n')
-        for vars in pages_meta:
-            f.write('  <url>\n')
-            f.write(f'    <loc>{vars["url"]}</loc>\n')
-            f.write(f'    <lastmod>{vars["modified"]}</lastmod>\n')
-            f.write('  </url>\n')
-        f.write('</urlset>\n')
-    print('Done!')
+ATOM_NS = 'http://www.w3.org/2005/Atom'
+ET.register_namespace('atom', ATOM_NS)
 
 
-def generate_rss(pages_meta):
-    print('  ├── Generating RSS feed... ', end='', flush=True)
-    rss_path = OUT_DIR / 'rss.xml'
-    with open(rss_path, 'w', encoding='utf-8') as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write('<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n')
-        f.write('  <channel>\n')
-        f.write(f'    <title>{default_title}</title>\n')
-        f.write(f'    <link>{domain}</link>\n')
-        f.write(f'    <description>{default_description}</description>\n')
-        f.write('    <language>en-us</language>\n')
-        f.write('    <docs>https://www.rssboard.org/rss-specification</docs>\n')
-        f.write(f'    <atom:link href="{domain}rss.xml" rel="self" type="application/rss+xml" />\n')
-        f.write('    <ttl>60</ttl>\n')
-        for vars in pages_meta:
-            if vars["published"] == '':
-                continue
-            pub_date = datetime.strptime(vars["published"], "%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S EST")
-            f.write('    <item>\n')
-            f.write(f'      <title>{vars["title_raw"]}</title>\n')
-            f.write(f'      <link>{vars["url"]}</link>\n')
-            f.write(f'      <description>{vars["description"]}</description>\n')
-            f.write(f'      <pubDate>{pub_date}</pubDate>\n')
-            f.write(f'      <guid>{vars["url"]}</guid>\n')
-            f.write('    </item>\n')
-        f.write('  </channel>\n')
-        f.write('</rss>\n')
-    print('Done!')
+def to_datetime(d: date) -> datetime:
+    return datetime.combine(d, time(), tzinfo=timezone)
 
 
-def generate_atom(pages_meta):
-    print('  ├── Generating Atom feed... ', end='', flush=True)
-    atom_path = OUT_DIR / 'atom.xml'
-    with open(atom_path, 'w', encoding='utf-8') as f:
-        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write('<feed xmlns="http://www.w3.org/2005/Atom">\n')
-        f.write(f'  <title>{default_title}</title>\n')
-        f.write(f'  <link href="{domain}" />\n')
-        f.write(f'  <link rel="self" href="{domain}atom.xml" />\n')
-        f.write(f'  <id>{domain}</id>\n')
-        f.write(f'  <updated>{date.today().strftime("%Y-%m-%d")}T00:00:00Z</updated>\n')
-        f.write('  <author>\n')
-        f.write(f'    <name>{author}</name>\n')
-        f.write('  </author>\n')
-        for vars in pages_meta:
-            if vars["published"] == '':
-                continue
-            f.write('    <entry>\n')
-            f.write(f'      <title>{vars["title_raw"]}</title>\n')
-            f.write(f'      <summary>{vars["description"]}</summary>\n')
-            f.write(f'      <link rel="alternate" href="{vars["url"]}" />\n')
-            f.write(f'      <updated>{vars["modified"]}T00:00:00Z</updated>\n')
-            f.write(f'      <published>{vars["published"]}T00:00:00Z</published>\n')
-            f.write(f'      <id>{vars["url"]}</id>\n')
-            f.write('    </entry>\n')
-        f.write('</feed>\n')
-    print('Done!')
+def write_xml(root, path):
+    ET.indent(root)
+    ET.ElementTree(root).write(path, encoding='utf-8', xml_declaration=True)
+
+
+def generate_sitemap(pages, out_dir):
+    urlset = ET.Element('urlset', xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
+    for page in pages:
+        url = ET.SubElement(urlset, 'url')
+        ET.SubElement(url, 'loc').text = page['url']
+        if page['modified']:
+            ET.SubElement(url, 'lastmod').text = page['modified'].isoformat()
+    write_xml(urlset, out_dir / 'sitemap.xml')
+
+
+def generate_rss(posts, out_dir):
+    rss = ET.Element('rss', version='2.0')
+    channel = ET.SubElement(rss, 'channel')
+    ET.SubElement(channel, 'title').text = default_title
+    ET.SubElement(channel, 'link').text = domain
+    ET.SubElement(channel, 'description').text = default_description
+    ET.SubElement(channel, 'language').text = language
+    ET.SubElement(channel, 'docs').text = 'https://www.rssboard.org/rss-specification'
+    ET.SubElement(
+        channel, f'{{{ATOM_NS}}}link',
+        href=f'{domain}rss.xml', rel='self', type='application/rss+xml',
+    )
+    ET.SubElement(channel, 'ttl').text = '60'
+    for post in posts:
+        item = ET.SubElement(channel, 'item')
+        ET.SubElement(item, 'title').text = post['title_raw']
+        ET.SubElement(item, 'link').text = post['url']
+        ET.SubElement(item, 'description').text = post['description']
+        ET.SubElement(item, 'pubDate').text = format_datetime(to_datetime(post['published']))
+        ET.SubElement(item, 'guid').text = post['url']
+    write_xml(rss, out_dir / 'rss.xml')
+
+
+def generate_atom(posts, out_dir):
+    def el(parent, tag, text=None, **attrib):
+        e = ET.SubElement(parent, tag, attrib)
+        e.text = text
+        return e
+
+    feed = ET.Element('feed', xmlns=ATOM_NS)
+    el(feed, 'title', default_title)
+    el(feed, 'link', href=domain)
+    el(feed, 'link', rel='self', href=f'{domain}atom.xml')
+    el(feed, 'id', domain)
+    last_updated = max((post['modified'] or post['published'] for post in posts), default=date.today())
+    el(feed, 'updated', to_datetime(last_updated).isoformat())
+    el(el(feed, 'author'), 'name', author)
+    for post in posts:
+        entry = el(feed, 'entry')
+        el(entry, 'title', post['title_raw'])
+        el(entry, 'summary', post['description'])
+        el(entry, 'link', rel='alternate', href=post['url'])
+        el(entry, 'updated', to_datetime(post['modified'] or post['published']).isoformat())
+        el(entry, 'published', to_datetime(post['published']).isoformat())
+        el(entry, 'id', post['url'])
+    write_xml(feed, out_dir / 'atom.xml')

@@ -17,7 +17,7 @@ This repository contains my personal website, which is hosted on [olivi-eh.dev](
 * **`notes/`** — Source markdown files for the posts and pages.
 * **`static/`** — Static assets like CSS, images, and fonts.
 * **`templates/`** — Jinja2 HTML templates used to render the markdown pages.
-* **`static-root/`** — Configuration files meant to live at the root of the site (e.g., `CNAME`, `robots.txt`, `404.html`).
+* **`static-root/`** — Configuration files meant to live at the root of the site (e.g., `CNAME`, `robots.txt`).
 * **`out/`** — The compiled web assets ready for deployment (git ignored).
 
 ## Development and building
@@ -50,8 +50,18 @@ If you just want to run a one-time build to compile the static files:
 uv run build.py
 ```
 
-This clean build will output all static assets directly into the `out/` directory.
+This clean build will output all static assets directly into the `out/` directory. The build fails if any page links to an internal page or asset that doesn't exist.
+
+### Adding images
+
+Before committing new images, convert them to resized WebP files without metadata (including GPS location):
+
+```sh
+uv run optimize_images.py static/images/<post-name>/
+```
+
+This replaces each JPEG/PNG with a `.webp` file and updates references in `notes/`.
 
 ## Automated deployments
 
-Deployments are automated via GitHub Actions ([gh-pages-deploy.yaml](file:///.github/workflows/gh-pages-deploy.yaml)). Any push to the `main` branch compiles the site and pushes the output from the `out/` directory to the `gh-pages` branch, which is then served by GitHub Pages.
+Deployments are automated via GitHub Actions ([gh-pages-deploy.yaml](.github/workflows/gh-pages-deploy.yaml)). Any push to the `main` branch builds the site and deploys the `out/` directory to GitHub Pages.

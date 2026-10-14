@@ -55,7 +55,7 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/). You can al
 
   <div class="resume-card">
     <div class="resume-card-header">
-      <b><i class="fa-solid fa-angle-right me-1"></i><a href="/employment/">See all employment</a></b>
+      <b><i class="fa-regular fa-angle-right me-1"></i><a href="/employment/">See all employment</a></b>
     </div>
   </div>
 </div>
@@ -104,7 +104,7 @@ You can [find me on LinkedIn](https://www.linkedin.com/in/olivi-eh/). You can al
 
   <div class="resume-card">
     <div class="resume-card-header">
-      <b><i class="fa-solid fa-angle-right me-1"></i><a href="/projects/">See all projects</a></b>
+      <b><i class="fa-regular fa-angle-right me-1"></i><a href="/projects/">See all projects</a></b>
     </div>
   </div>
 </div>

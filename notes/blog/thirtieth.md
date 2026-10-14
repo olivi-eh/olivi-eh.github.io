@@ -24,16 +24,16 @@ For the curious, I spent the day of my 30th birthday hiking up Mount Moiwa (藻�
 
 [^*]: If you're somehow unsure what this is referencing, try looking up SARS-CoV-2.
 
-![We tried (and sort of succeeded) in spelling out "30!"](/static/images/thirtieth/japan_30yo.jpg)
+![We tried (and sort of succeeded) in spelling out "30!"](/static/images/thirtieth/japan_30yo.webp)
 {caption: We tried (and sort of succeeded) in spelling out "30!"}
 
-![Views atop Mount Moiwa outside Sapporo](/static/images/thirtieth/japan_mtn.jpg)
+![Views atop Mount Moiwa outside Sapporo](/static/images/thirtieth/japan_mtn.webp)
 {caption: Views atop Mount Moiwa outside Sapporo, which I hiked on my birthday.}
 
-![The Tokyo entertainment district Kabukichō at night](/static/images/thirtieth/japan_kabukicho.jpg)
+![The Tokyo entertainment district Kabukichō at night](/static/images/thirtieth/japan_kabukicho.webp)
 {caption: The Tokyo entertainment district Kabukichō at night.}
 
-![New and old friends at the Nintendo Museum in Kyoto](/static/images/thirtieth/japan_nintendo.jpg)
+![New and old friends at the Nintendo Museum in Kyoto](/static/images/thirtieth/japan_nintendo.webp)
 {caption: New and old friends at the Nintendo Museum in Kyoto.}
 
 ### Hermes watches over me
@@ -58,16 +58,16 @@ Finally, over the following handful of months I'd go on to do four different tri
 
 We'll see what this new year brings in terms of travels, but so far it's looking like it might be just as packed!
 
-![An izakaya just outside of Tokyo](/static/images/thirtieth/japan.jpg)
+![An izakaya just outside of Tokyo](/static/images/thirtieth/japan.webp)
 {caption: An izakaya just outside of Tokyo.}
 
-![The streets of Old Montreal at night](/static/images/thirtieth/mtl.jpg)
+![The streets of Old Montreal at night](/static/images/thirtieth/mtl.webp)
 {caption: The streets of Old Montreal at night.}
 
-![The New York City skyline never cease to amaze me](/static/images/thirtieth/nyc.jpg)
+![The New York City skyline never cease to amaze me](/static/images/thirtieth/nyc.webp)
 {caption: The New York City skyline never cease to amaze me.}
 
-![Area 15, that's the aliens thing right?](/static/images/thirtieth/vegas.jpg)
+![Area 15, that's the aliens thing right?](/static/images/thirtieth/vegas.webp)
 {caption: Area 15, that's the aliens thing right?}
 
 ### Joy in nature's embrace
@@ -80,19 +80,19 @@ Though I mostly rock climb indoors (mostly for convenience and access reasons), 
 
 But that's not to say that I haven't also spent a great chunk of my year climbing indoors. Most weeks I climbed at least two days, and I'm at a point where 5.9s are easy warm-ups, I can climb most 5.10s thrown at me with enough perseverence, and I'm just slightly starting to climb 5.11s. And I am so proud of myself to see that amount of progress over the years!
 
-!["You may be wondering how I put myself in this situation"](/static/images/thirtieth/climbing1.jpg)
+!["You may be wondering how I put myself in this situation"](/static/images/thirtieth/climbing1.webp)
 {caption: "You may be wondering how I put myself in this situation."}
 
-![It's all fun and games until you look down](/static/images/thirtieth/climbing2.jpg)
+![It's all fun and games until you look down](/static/images/thirtieth/climbing2.webp)
 {caption: It's all fun and games until you look down.}
 
-![If you're the strongest climber in the room, you're in the wrong room](/static/images/thirtieth/dc_climbs.jpg)
+![If you're the strongest climber in the room, you're in the wrong room](/static/images/thirtieth/dc_climbs.webp)
 {caption: If you're the strongest climber in the room, you're in the wrong room.}
 
-![Views atop Mount Hakodate at night](/static/images/thirtieth/japan_mtn2.jpg)
+![Views atop Mount Hakodate at night](/static/images/thirtieth/japan_mtn2.webp)
 {caption: Views atop Mount Hakodate at night.}
 
-![Spent time in the mountains of Squamish](/static/images/thirtieth/squamish.jpg)
+![Spent time in the mountains of Squamish](/static/images/thirtieth/squamish.webp)
 {caption: Spent time in the mountains of Squamish.}
 
 ### Live music and other acts*
@@ -115,19 +115,19 @@ Towards the end of summer, I also managed to catch Back to the Future: The Music
 
 [^*]: There's 3 layers of puns in that title. Find them all?
 
-![This photo was entirely my idea, so I'm basically part of the band now!](/static/images/thirtieth/tdh.jpg)
+![This photo was entirely my idea, so I'm basically part of the band now!](/static/images/thirtieth/tdh.webp)
 {caption: This photo was entirely my idea, so I'm basically part of the band now!}
 
-![Tommy being so serious is so out-of-place given how funny he is in person](/static/images/thirtieth/btbam1.jpg)
+![Tommy being so serious is so out-of-place given how funny he is in person](/static/images/thirtieth/btbam1.webp)
 {caption: Tommy being so serious is so out-of-place given how funny he is in person.}
 
-![Is it even a good music show if you're not at the gate?](/static/images/thirtieth/btbam2.jpg)
+![Is it even a good music show if you're not at the gate?](/static/images/thirtieth/btbam2.webp)
 {caption: Is it even a good music show if you're not at the gate?}
 
-![Now if only they'd produce the sequels as musicals as well](/static/images/thirtieth/bttf.jpg)
+![Now if only they'd produce the sequels as musicals as well](/static/images/thirtieth/bttf.webp)
 {caption: Now if only they'd produce the sequels as musicals as well.}
 
-![Finale spectacle of The Killers show](/static/images/thirtieth/killers.jpg)
+![Finale spectacle of The Killers show](/static/images/thirtieth/killers.webp)
 {caption: Finale spectacle of The Killers show.}
 
 ### On the road for work
@@ -148,13 +148,13 @@ Finally, I ended up either presenting at or assisting with 11 different workshop
 
 And although plans for 2026 are not quite done yet, I have the suspicion that travelling for work is going to continue being the norm for our team. Already, I have 4 more workshops in 4 cities to look forward to over the next few weeks (Austin, Sunnyvale, Seattle, and Vancouver). Overall, it's clear to say that I've been enjoying this slight role change!
 
-![A group photo full of software rockstars](/static/images/thirtieth/next.jpg)
+![A group photo full of software rockstars](/static/images/thirtieth/next.webp)
 {caption: A group photo full of software rockstars.}
 
-![Our booth at KubeCon NA in Salt Lake City](/static/images/thirtieth/kubecon.jpg)
+![Our booth at KubeCon NA in Salt Lake City](/static/images/thirtieth/kubecon.webp)
 {caption: Our booth at KubeCon NA in Salt Lake City.}
 
-![Collecting Google Cloud wristbands like they're Infinity Stones](/static/images/thirtieth/bands.jpg)
+![Collecting Google Cloud wristbands like they're Infinity Stones](/static/images/thirtieth/bands.webp)
 {caption: Collecting Google Cloud wristbands like they're Infinity Stones.}
 
 ### Growth loves discomfort
@@ -173,13 +173,13 @@ And lastly, the past year brought on a lot of opportunities for introspective, j
 
 And I'm of course looking forward to what learning and growth the next year brings me.
 
-![My new town, Toronto](/static/images/thirtieth/toronto.jpg)
+![My new town, Toronto](/static/images/thirtieth/toronto.webp)
 {caption: My new town, Toronto.}
 
-![My two furballs seem to be liking their new environment](/static/images/thirtieth/cats.jpg)
+![My two furballs seem to be liking their new environment](/static/images/thirtieth/cats.webp)
 {caption: My two furballs seem to be liking their new environment.}
 
-![Presenting a workshop on agentic development](/static/images/thirtieth/accelerate.jpg)
+![Presenting a workshop on agentic development](/static/images/thirtieth/accelerate.webp)
 {caption: Presenting a workshop on agentic development.}
 
 ### Life's greatest treasure
@@ -196,19 +196,19 @@ This is a short section, but I mostly really wanted to include photos of many of
 
 [^*]: If this is about you, you should know who you are. But if in doubt, the initials are with JL, MP, and NK!
 
-![Soft-launch of my apartment with an Acadian Day gathering](/static/images/thirtieth/acadian_day.jpg)
+![Soft-launch of my apartment with an Acadian Day gathering](/static/images/thirtieth/acadian_day.webp)
 {caption: Soft-launch of my apartment with an Acadian Day gathering.}
 
-![What a lovely crew of people!](/static/images/thirtieth/leannes_farewell.jpg)
+![What a lovely crew of people!](/static/images/thirtieth/leannes_farewell.webp)
 {caption: What a lovely crew of people!}
 
-![Friends wear matching bracelets?](/static/images/thirtieth/fanexpo.jpg)
+![Friends wear matching bracelets?](/static/images/thirtieth/fanexpo.webp)
 {caption: Friends wear matching bracelets?}
 
-![Reunion of my university's CS department](/static/images/thirtieth/mta.jpg)
+![Reunion of my university's CS department](/static/images/thirtieth/mta.webp)
 {caption: Reunion of my university's CS department.}
 
-![Had a great time wandering inside Omega Mart](/static/images/thirtieth/omega.jpg)
+![Had a great time wandering inside Omega Mart](/static/images/thirtieth/omega.webp)
 {caption: Had a great time wandering inside Omega Mart.}
 
 ### Goodbye 30, hello 31!
@@ -219,5 +219,5 @@ As always, if you want to chat about anything I've mentioned or want to catch up
 
 [^*]: But my 32nd birthday sounds like a great opportunity to have a re-run of that experience, don't you think? :)
 
-![Birthday hike to close the year](/static/images/thirtieth/bday_hike.jpg)
+![Birthday hike to close the year](/static/images/thirtieth/bday_hike.webp)
 {caption: Pre-birthday hike near Milton to close the year.}

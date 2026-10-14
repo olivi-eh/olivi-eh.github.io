@@ -7,9 +7,6 @@ template: blog
 length: 1
 ---
 
-<!-- TODO: Publish -->
-<!-- TODO: Post on socials (Bluesky, LinkedIn, Instagram) -->
-
 I get up from bed slightly shivering,<br>
 And yet, isn't it still August?<br>
 Sixteen degrees overnight and I'm pondering,<br>

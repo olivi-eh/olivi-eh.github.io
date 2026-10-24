@@ -3,21 +3,21 @@ name = "olivi-eh-github-io"
 version = "1.0.0"
 description = "Olivier Bourgeois' personal website & blog static site generator"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.15"
 authors = [
     { name = "Olivier Bourgeois" }
 ]
 keywords = ["static-site-generator", "blog", "portfolio", "markdown", "jinja2", "python3"]
 classifiers = [
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
 dependencies = [
     "jinja2>=3.1.6",
-    "markdown>=3.7",
-    "pillow>=11.0",
+    "markdown>=3.11.2",
+    "pillow>=13.0",
 ]
 
 [project.urls]

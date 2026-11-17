@@ -164,11 +164,7 @@ header>nav>ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-
-header>nav>ul>li {
-  float: left;
+  display: flex;
 }
 
 header>nav>ul>li>a {
@@ -176,7 +172,7 @@ header>nav>ul>li>a {
   border-bottom: none;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500;
   padding: 0 10px;
-  display: inline-block;
+  display: block;
   padding-top: 6px;
   padding-bottom: 6px;
 }
@@ -556,7 +552,6 @@ a:hover>.resume-card {
   }
 
   header>nav>ul {
-    display: flex;
     justify-content: space-evenly;
     width: 100%;
   }

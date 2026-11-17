@@ -16,7 +16,7 @@ classifiers = [
 ]
 dependencies = [
     "jinja2>=3.1.6",
-    "markdown>=3.11.2",
+    "markdown>=3.11.3",
     "pillow>=13.0",
 ]
 
